@@ -1,0 +1,8 @@
+[package]
+name = "paxect"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Verbind met jouw core (map: ../core). De package-naam is met streepje:
+paxect-core = { path = "../core" }

@@ -1,0 +1,15 @@
+[package]
+name = "paxect_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "paxect_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+# Houd de PyO3 versie aan die jouw log haalde (0.25.1)
+pyo3 = { version = "0.25.1", features = ["extension-module"] }
+
+# Belangrijk: alias de core-package (met streepje) naar een geldige crate-naam
+paxect_core_rs = { path = "../../core", package = "paxect-core" }

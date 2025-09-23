@@ -1,0 +1,20 @@
+cat > Cargo.toml <<'EOF'
+[package]
+name = "paxect-core"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "PAXECT Core: soundwave-mapping (f = 400 + 50·v) + multi-channel encoding (basis)"
+repository = "https://github.com/your-org/PAXECT-Core"
+
+[lib]
+# De naam van de crate zoals je 'm in code importeert:
+name = "paxect_core_rs"
+crate-type = ["rlib", "cdylib"]
+
+[features]
+aes_secure = []
+autotune = []
+
+[dependencies]
+EOF

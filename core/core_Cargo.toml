@@ -1,0 +1,15 @@
+[package]
+name = "paxect-core"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "paxect_core_rs"
+crate-type = ["rlib", "cdylib"]  # cdylib is handig voor bindings
+
+[features]
+aes_secure = []
+autotune = []
+
+[dependencies]

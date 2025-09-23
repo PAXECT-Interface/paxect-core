@@ -1,0 +1,17 @@
+[package]
+name = "paxect-core"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "PAXECT Core: soundwave-mapping (f = 400 + 50·v) + multi-channel encoding (basis)"
+
+[lib]
+# <- Dit is de crate-naam die je in andere crates importeert
+name = "paxect_core_rs"
+crate-type = ["rlib", "cdylib"]
+
+[features]
+aes_secure = []
+autotune = []
+
+[dependencies]
