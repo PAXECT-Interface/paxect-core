@@ -42,6 +42,15 @@ At least **30 days before** the end date we will publish whether the free period
 - **Privacy & security** — No tracking or cloud dependency; optional AES-based encryption; explicit integrity checks.
 - **Transparency** — Apache-2.0 licensing, public roadmap, compatibility matrix, and benchmarks. **Zero AI.**
 
+- ## Why PAXECT
+
+- **Reliable in heterogeneous environments** — consistent containers across Linux/Windows/macOS/BSD/embedded.
+- **Audit-ready & reproducible** — deterministic processing (bit-identical with same input/config) for compliance and QA.
+- **Fast integration** — stable `.freq` wire format plus plug-and-play plugins (encryption, language bindings, tuning).
+- **Operational confidence** — strict integrity checks (per-frame CRC), fail-hard on truncation/corruption, clear exit behavior.
+- **Privacy-first** — no telemetry or external uploads; optional AES-based confidentiality via plugin (opt-in).
+
+
 
 
 
