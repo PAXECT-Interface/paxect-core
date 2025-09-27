@@ -35,6 +35,8 @@ At least **30 days before** the end date we will publish whether the free period
 - [Disclaimer & Liability](#disclaimer--liability)
 - [Contact](#contact)
 
+
+
 ## Core Values
 - **Deterministic** — Same input + configuration ⇒ bit-identical output (audit/compliance/regression).
 - **Multi-OS & multi-language** — Native support across OS families with broad language bindings.
@@ -42,6 +44,8 @@ At least **30 days before** the end date we will publish whether the free period
 - **Privacy & security** — No tracking or cloud dependency; optional AES-based encryption; explicit integrity checks.
 - **Transparency** — Apache-2.0 licensing, public roadmap, compatibility matrix, and benchmarks. **Zero AI.**
 
+-
+-
 - ## Why PAXECT
 
 - **Reliable in heterogeneous environments** — consistent containers across Linux/Windows/macOS/BSD/embedded.
