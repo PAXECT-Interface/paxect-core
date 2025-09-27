@@ -148,6 +148,104 @@ Bindings available for **Python, JavaScript/Node.js, Go, C/C++, Java, C#, PHP, R
 
 
 
+## Roadmap
+
+### v0.9.0 (pre-release)
+- Deterministic encode/decode; frame I/O + per-frame CRC32; footer v42.
+- Compressors: zstd / LZ4 / zlib; optional delta/mapping.
+- Docs: README, `docs/LabReport.md`, OS matrix.
+- CI (basis): determinism, truncation/corruption, streaming.
+
+### v1.0.0 (stable)
+- OS-matrix breder: Windows CMD smoke, macOS soak; eerste ARM64 build/run.
+- Plugins: AES Secure release; Polyglot (Python/Node.js/Go stable); SelfTune 5-in-1 public (lab-getest).
+- Artefacts: fixed workloads + CSV/JSONL in `benchmarks/`; golden vectors.
+
+### Post-1.0
+- Prebuilt binaries per OS/CPU (gesigneerd waar nodig), SBOM/attestations.
+- Verdere bindings (Java, C#) en integraties (Kafka, S3/Azure, SIEM).
+- Android/iOS native runs; SelfTune-profielen en overhead-budgets.
+- Governance: LTS-schema, compat-matrix per release.
+
+
+
+
+## Community & Governance
+
+- **Issues / Discussions** — Support, Q&A, designvoorstellen, OS-readiness rapporten.
+- **Contributing** — Zie `CONTRIBUTING.md` (workflow, tests, code style, commit conventies).
+- **Code of Conduct** — Zie `CODE_OF_CONDUCT.md`.
+- **Security** — Responsible disclosure in `SECURITY.md` (contact + eventueel PGP).
+
+### Maintainers & rollen (aanbevolen)
+- **Core**: 2–3 maintainers (triage, reviews, releases, docs).
+- **Plugins**: 1–2 per plugin (AES, Polyglot, SelfTune).
+- **Moderation/CI (optioneel)**: 1–2 voor Discussions/CI.
+
+### Good first issues (suggesties)
+- Windows **CMD** smoke (`smoke.cmd`); macOS **soak**; **ARM64** native run.
+- RISC-V optioneel; Android NDK/JNI eerste load.
+
+
+
+
+## Licensing & Trademark
+
+### Free Base Tier (OSS) — first 6 months from 2025-10-01
+- **All features are free** during the launch period (until **2026-04-01**).
+- **OS (official):** Linux x86_64, Windows 10/11 x86_64, macOS x86_64/arm64
+- **Languages (Polyglot):** Python, JavaScript/Node.js, Go
+- **Security:** AES-256 GCM/CTR (basic), scrypt KDF, AAD  
+- Community support; monthly OSS releases
+
+### After the free period
+- We announce ≥30 days in advance which features remain free vs. move to Enterprise/Pro.
+- **PAXECT Core remains open-source and maintained** under Apache-2.0.
+
+### Enterprise/Pro (may apply after the free period)
+- **Performance & Ops:** SelfTune 5-in-1 (guard, overhead, logging, smoothing, auto-learning)
+- **Security & Compliance:** HSM/KMS integratie, FIPS modes, compliance/audit logging
+- **Languages:** Java (JNI), C#/.NET (P/Invoke); possible “enhanced” features for Python/Node/Go
+- **Delivery:** signed builds, SBOM/attestations, LTS maintenance, SLA support
+- **Integrations:** Kafka, S3/Azure Blob, SIEM export (Splunk/ELK), policy hooks
+
+### Legal
+- **License:** Apache License 2.0 (`LICENSE`, `NOTICE`)  
+- **Trademarks:** use of the “PAXECT” name and logo is governed by `TRADEMARKS.md` (no confusing branding).  
+- **Commercial modules:** optional Enterprise/Pro features may be offered under separate terms.
+
+
+
+
+## Privacy & Security
+
+- **Privacy-first:** no telemetry, no external uploads; local by default.
+- **Security scope (Core):** integrity + determinism (per-frame CRC32, strict parsing, fail-hard).
+- **Confidentiality (opt-in):** via AES Secure Plugin (AES-256 GCM/CTR, scrypt KDF, AAD).
+- **Docs:** see `docs/PRIVACY.md` and `SECURITY.md`.
+
+> Verify runs via checksums and footer/flags; store logs/CSV artefacts for audits.
+
+
+
+## Disclaimer & Liability
+
+This software is provided “as is”, without warranty of any kind, express or implied.  
+The owner, maintainers, and contributors shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from the use of this software.  
+See `LICENSE` (Apache-2.0) for details.
+
+
+
+## Contact
+
+Questions or collaboration: **contact@paxect.io**  
+Issues: https://github.com/PAXECT-Interface/PAXECT---Core/issues  
+Discussions: https://github.com/PAXECT-Interface/PAXECT---Core/discussions
+
+
+
+
+
 
 
 
