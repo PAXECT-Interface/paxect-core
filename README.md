@@ -1,48 +1,33 @@
 # PAXECT — Reliable Data Exchange Across Operating Systems and Programming Languages
 
-PAXECT is an open-source solution for deterministic, secure transport, archiving, and processing of technical data (files, streams, logs, telemetry, updates) in complex, multi-platform IT environments.  
-PAXECT enables organizations to safely and reproducibly exchange data between different operating systems (Windows, Linux, macOS, BSD, ARM, embedded, mobile) and programming languages (Python, JavaScript, Rust, Go, Java, C#, PHP, Ruby, and more).
+PAXECT is an open-source platform for deterministic, secure transport and archiving of technical data (files, streams, logs, telemetry, updates) in complex, multi-platform environments. It provides a stable container format **(.freq)**, a **plug-and-play** extension model (encryption, language bindings, performance tuning), and a privacy-first architecture with no telemetry or external data flows.
 
-The platform delivers a robust container format (`.freq`), plug-&-play extensions (encryption, language bindings, performance tuning), and a privacy-first architecture with no telemetry or external data streams.  
-Designed for compliance, scalability, and seamless integration into enterprise workflows, PAXECT offers transparent governance, Apache-2.0 licensing, and a clear roadmap for both OSS and commercial modules.
+PAXECT enables reproducible exchange across operating systems (Windows, Linux, macOS, BSD, ARM/embedded, mobile) and integrates with programming languages including Python, JavaScript/Node.js, Rust, Go, Java, C#, PHP, and Ruby.
 
----
+**Core values**
+- **Deterministic** — Same input + configuration ⇒ bit-identical output (audit/compliance/regression).
+- **Multi-OS & multi-language** — Native support across OS families with broad language bindings.
+- **Extensible** — Plug-and-play modules for encryption, observability, performance, and extra bindings.
+- **Privacy & security** — No tracking or cloud dependency; optional AES-based encryption; explicit integrity checks.
+- **Transparency** — Apache-2.0 licensing, public roadmap, compatibility matrix, and benchmarks. *Zero AI.*
 
-## Core Values
+**Why PAXECT**
+- Reliable exchange and archiving of technical data in heterogeneous environments.  
+- Compliance & auditability via deterministic, reproducible processing steps.  
+- Rapid integration through modular design and broad platform/language support.  
+- Privacy-first approach aligned with modern regulations.
 
-- **Deterministic:** Always bit-identical output for identical input and configuration—essential for audits, compliance, and regression testing.
-- **Multi-OS & Multi-language:** Native support for a wide range of operating systems and programming languages.
-- **Extensible:** Plug-&-play modules for encryption, observability, performance, and additional language bindings.
-- **Privacy & Security:** No tracking, no cloud dependency, full control over your data.
-- **Transparency:** Governance, release process, compatibility matrix, and benchmarks are publicly accessible.
+**Quickstart**  
+See the **Installation & Usage** section for system requirements and first steps.
 
----
+**Governance, Licensing & Community**
+- **License:** Apache License 2.0  
+- **Trademark policy:** see `TRADEMARKS.md`  
+- **Community:** contribute via GitHub (Issues/Discussions); open roadmap
 
-## Why PAXECT?
+**Contact**  
+Questions or collaboration: [CONTACT-EMAIL] or open a GitHub Issue.
 
-Organizations choose PAXECT for:
-- **Reliable exchange and archiving of technical data** in complex, multi-platform environments.
-- **Compliance & auditability** through deterministic and reproducible processing.
-- **Rapid integration** thanks to modular design and broad language/platform support.
-- **Privacy-first approach** that meets modern requirements and regulations.
-
----
-
-## Quickstart
-
-See the **Installation & Usage** section for system requirements, installation instructions, and your first steps.
-
----
-
-## Governance, Licensing & Community
-
-- **License:** Apache License 2.0
-- **Trademark Policy:** See `TRADEMARKS.md` for use of the name and logo.
-- **Community:** Contribute via GitHub, clear code of conduct, open roadmap.
-
-- ## Contact
-
-For questions, support, or collaboration: [CONTACT-EMAIL] or via GitHub Issues.
 
 ---
 
