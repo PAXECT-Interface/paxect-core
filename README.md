@@ -21,5 +21,20 @@ At least **30 days before** the end date we will publish whether the free period
 [![CodeQL](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/codeql.yml/badge.svg)](../../actions)
 [![Discussions](https://img.shields.io/github/discussions/PAXECT-Interface/PAXECT---Core)](../../discussions)
 
+## Table of Contents
+- [Core Values](#core-values)
+- [Why PAXECT](#why-paxect)
+- [Use Cases](#use-cases)
+- [Compatibility](#compatibility)
+- [Installation & Usage (Quickstart)](#installation--usage-quickstart)
+- [Plugins & Extension Points](#plugins--extension-points)
+- [Roadmap](#roadmap)
+- [Community & Governance](#community--governance)
+- [Licensing & Trademark](#licensing--trademark)
+- [Privacy & Security](#privacy--security)
+- [Disclaimer & Liability](#disclaimer--liability)
+- [Contact](#contact)
+
+
 
 
