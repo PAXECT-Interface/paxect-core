@@ -61,4 +61,94 @@ At least **30 days before** the end date we will publish whether the free period
 
 
 
+## Compatibility
+
+### Operating systems (status)
+| OS family               | Status     | Notes                                                    |
+|-------------------------|------------|----------------------------------------------------------|
+| Linux (x86_64)          | Tested     | Ubuntu 20.04/22.04; kernel 6.x; soak/benchmarks complete |
+| Windows 10/11 (x86_64)  | Tested     | PowerShell smoke OK; update payloads bit-identical       |
+| macOS (x86_64/arm64)    | Partial    | Decode OK; full soak planned                             |
+| BSD (Free/Open)         | Partial    | Smoke OK                                                 |
+| Embedded Linux / RTOS   | Concept    | Same API/FFI; hardware runs welcome                      |
+| Android (NDK/JNI)       | OS-ready   | Not yet tested                                           |
+| iOS (C/Swift bridge)    | OS-ready   | Not yet tested                                           |
+
+> Full details and logs: see `docs/LabReport.md`.
+
+### CPU architectures
+- **x86_64**: primary test target  
+- **ARMv7**: smoke via QEMU-chroot OK  
+- **ARM64**: planned (native builds/tests)  
+- **RISC-V**: optional; same flow as ARM
+
+### Languages (via Polyglot)
+Bindings available for **Python, JavaScript/Node.js, Go, C/C++, Java, C#, PHP, Ruby, Rust**.  
+> Availability may vary by edition; see **[Licensing & Trademark](#licensing--trademark)**.
+
+### Container format
+- Stable **`.freq`** (version **42**)  
+- **Frame-based** I/O with per-frame **CRC32**  
+- Fixed **footer/metadata**; strict parsing  
+- **Deterministic decode**, platform/endianness-agnostic
+
+
+
+
+
+## Installation & Usage (Quickstart)
+
+### Prerequisites
+- **OS:** Linux, Windows, macOS (see matrix above)
+- **CPU:** x86_64 tested; ARMv7 smoke OK; ARM64 planned
+- **I/O & storage:** enough disk for inputs + temporary frames
+
+### Install (high level)
+- **Core library:** build/install the platform library (`.so`/`.dll`/`.dylib`)
+- **Bindings (Polyglot):** choose your language binding (Python / Node.js / Go, etc.)
+- **Smoke run:** encode → decode; verify checksums, per-frame CRC, footer (version 42)
+
+### Use (conceptual)
+- **Encode (input → `.freq`):** frame data, optional delta/mapping, compress (zstd/LZ4/zlib), CRC per frame, write footer (v42)
+- **Decode (`.freq` → output):** parse footer, validate CRC, optional decrypt (AES plugin), decompress, reconstruct bytes
+- **Streaming:** stdin/stdout supported; bounded peak memory via frames
+- **Multi-channel:** process multiple channels in parallel with channel isolation
+
+### Failure & exit behavior
+- CRC mismatch, truncation, invalid metadata ⇒ **hard fail** (no partial output)
+- If encryption is enabled: wrong key/tag/AAD ⇒ **strict fail**
+
+### Verification & audit
+- Compare input/output checksums; inspect footer/flags
+- Keep logs/CSV artifacts for benchmarks and regressions (`docs/LabReport.md`)
+
+
+
+
+## Plugins & Extension Points
+
+### Official plugins
+| Plugin                   | Scope                          | Highlights                                        | Repository |
+|--------------------------|--------------------------------|---------------------------------------------------|------------|
+| PAXECT AES Secure Plugin | Confidentiality & authenticity | AES-256 GCM/CTR, scrypt KDF, AAD, strict fail     | https://github.com/PAXECT-Interface/paxect-aes-plugin |
+| PAXECT Polyglot Plugin   | Language bindings              | Python, Node.js, Go, C/C++, Java, C#, PHP, Ruby…  | https://github.com/PAXECT-Interface/paxect-polyglot-plugin |
+| PAXECT SelfTune 5-in-1   | Performance & observability    | Guard, overhead control, logging, smoothing, auto-learning | https://github.com/PAXECT-Interface/paxect-selftune-5in1 |
+
+### Plug-and-play model
+- **Optional & decoupled:** Core werkt zonder plugins; plugins voegen functies toe zonder Core te wijzigen.  
+- **Activation per run:** via config/flag of via de binding-API.  
+- **Determinism unchanged:** containers blijven v42-conform; reproduceerbaarheid blijft intact.  
+- **Overhead:** uit = geen overhead; aan = alleen geselecteerde plugin(s).
+
+### Extension points
+- **Pre-processing hooks:** mapping/delta vóór compressie (deterministisch).  
+- **Container transforms:** encryptie/integriteit op containerniveau (AES-plugin).  
+- **I/O adapters:** extra sources/sinks naast file en stdin/stdout.
+
+
+
+
+
+
+
 
