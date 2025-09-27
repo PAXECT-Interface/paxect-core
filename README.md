@@ -24,6 +24,8 @@ PAXECT enables reproducible exchange across operating systems (Windows, Linux, m
 - [Contact](#contact)
 
 
+
+
 ## Core Values
 - **Deterministic** — Same input + configuration ⇒ bit-identical output (audit/compliance/regression).
 - **Multi-OS & multi-language** — Native support across OS families with broad language bindings.
