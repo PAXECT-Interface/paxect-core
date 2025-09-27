@@ -4,43 +4,42 @@ PAXECT is an open-source platform for deterministic, secure transport and archiv
 
 PAXECT enables reproducible exchange across operating systems (Windows, Linux, macOS, BSD, ARM/embedded, mobile) and integrates with programming languages including Python, JavaScript/Node.js, Rust, Go, Java, C#, PHP, and Ruby.
 
-**Core values**
+## Core Values
 - **Deterministic** — Same input + configuration ⇒ bit-identical output (audit/compliance/regression).
 - **Multi-OS & multi-language** — Native support across OS families with broad language bindings.
 - **Extensible** — Plug-and-play modules for encryption, observability, performance, and extra bindings.
 - **Privacy & security** — No tracking or cloud dependency; optional AES-based encryption; explicit integrity checks.
-- **Transparency** — Apache-2.0 licensing, public roadmap, compatibility matrix, and benchmarks. *Zero AI.*
+- **Transparency** — Apache-2.0 licensing, public roadmap, compatibility matrix, and benchmarks. **Zero AI.**
 
-**Why PAXECT**
+## Why PAXECT
 - Reliable exchange and archiving of technical data in heterogeneous environments.  
 - Compliance & auditability via deterministic, reproducible processing steps.  
 - Rapid integration through modular design and broad platform/language support.  
 - Privacy-first approach aligned with modern regulations.
 
-**Quickstart**  
+## Quickstart
 See the **Installation & Usage** section for system requirements and first steps.
 
-**Governance, Licensing & Community**
+## Governance, Licensing & Community
 - **License:** Apache License 2.0  
 - **Trademark policy:** see `TRADEMARKS.md`  
 - **Community:** contribute via GitHub (Issues/Discussions); open roadmap
 
-**Contact**  
+## Contact
 Questions or collaboration: [CONTACT-EMAIL] or open a GitHub Issue.
 
+## Table of Contents
+- [Core Values](#core-values)
+- [Why PAXECT](#why-paxect)
+- [Quickstart](#quickstart)
+- [Use Cases](#use-cases)
+- [Compatibility](#compatibility)
+- [Installation & Usage (Quickstart)](#installation--usage-quickstart)
+- [Plugins & Extension Points](#plugins--extension-points)
+- [Roadmap](#roadmap)
+- [Community & Governance](#community--governance)
+- [Licensing & Trademark](#licensing--trademark)
+- [Privacy & Security](#privacy--security)
+- [Disclaimer & Liability](#disclaimer--liability)
+- [Contact](#contact)
 
----
-
-## Index
-1. Use Cases
-2. Compatibility
-3. Installation & Usage (Quickstart)
-4. Plugins & Extension Points
-5. Roadmap
-6. Community & Governance
-7. Licensing & Trademark
-8. Privacy & Security
-9. Disclaimer & Liability
-10. Contact
-
-*Scroll down for details and professional sections!*
