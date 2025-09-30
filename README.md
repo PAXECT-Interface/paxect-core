@@ -1,16 +1,16 @@
-# PAXECT — Betrouwbare data-uitwisseling over besturingssystemen en programmeertalen
+# PAXECT — Reliable Data Exchange Across Operating Systems and Programming Languages
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Build](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/ci.yml/badge.svg)](../../actions)
 [![CodeQL](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/codeql.yml/badge.svg)](../../actions)
 [![Discussions](https://img.shields.io/github/discussions/PAXECT-Interface/PAXECT---Core)](../../discussions)
 
-PAXECT is een open-source platform voor **deterministisch** en **veilig** transport/archivering van technische data
-(bestanden, streams, logs, telemetrie, updates) in multi-platform omgevingen. Het levert een stabiel containerformaat
-**`.freq`**, een **plug-and-play** extensiemodel (encryptie, taal-bindings, performance-tuning) en een **privacy-first**
-architectuur (geen telemetry, geen externe datastromen). **Zero AI.**
+PAXECT is an open-source platform for **deterministic** and **secure** transport/archiving of technical data
+(files, streams, logs, telemetry, updates) in multi-platform environments. It delivers a stable container format
+**`.freq`**, a **plug-and-play** extension model (encryption, language bindings, performance tuning), and a **privacy-first**
+architecture (no telemetry, no external data flows). **Zero AI.**
 
-> **Lanceringsperiode (gratis)**: alle features (incl. Enterprise/Pro) zijn gratis t/m **2026-04-01**.  
-> De Core blijft daarna open-source (Apache-2.0) en onderhouden.
+> **Launch period (free):** All features (including Enterprise/Pro) are free until **2026-04-01**.  
+> The Core will remain open-source (Apache-2.0) and maintained thereafter.
 
 ---Use Cases
 
