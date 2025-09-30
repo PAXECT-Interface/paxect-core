@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="0 0 1800 1400" aria-label="PAXECT — Key Features (orange block v2)">
+  <defs>
+    <style>
+      .h1 { font: 800 48px 'system-ui','Inter','Segoe UI',Roboto,Arial,sans-serif; fill:#FFFFFF; }
+      .h2 { font: 800 34px 'system-ui','Inter','Segoe UI',Roboto,Arial,sans-serif; fill:#FFFFFF; }
+      .p  { font: 500 22px 'system-ui','Inter','Segoe UI',Roboto,Arial,sans-serif; fill:#FFFFFF; }
+      .mono { font: 700 20px 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace; fill:#FFFFFF; }
+      .small { font: 600 20px 'system-ui','Inter','Segoe UI',Roboto,Arial,sans-serif; fill:#FFFFFF; }
+      .cell { font: 600 20px 'system-ui','Inter','Segoe UI',Roboto,Arial,sans-serif; fill:#FFFFFF; }
+    </style>
+  </defs>
+<rect x="0" y="0" width="1800" height="1400" fill="#F97316"/>
+<text x="100" y="120" class="h1" text-anchor="start">Key Features</text>
+<text x="140" y="170" class="p" text-anchor="start">• Deterministic — same input + configuration ⇒ bit-identical output (audit/compliance/regression).</text>
+<text x="140" y="206" class="p" text-anchor="start">• Multi-OS &amp; polyglot — Windows, Linux, macOS; bindings for Python, Node.js, Go (more via plugins).</text>
+<text x="140" y="242" class="p" text-anchor="start">• Integrity first — frame I/O with CRC32 per frame and strict parsing (fail-hard on errors).</text>
+<text x="140" y="278" class="p" text-anchor="start">• Extensible — encryption, bindings, and tuning as optional plugins (no changes to Core).</text>
+<text x="140" y="314" class="p" text-anchor="start">• Privacy by default — local execution; no tracking/telemetry.</text>
+<rect x="100" y="360" width="1600" height="2" fill="#FFFFFF" fill-opacity="0.35"/>
+<text x="100" y="420" class="h2" text-anchor="start">Support Matrix (base model)</text>
+<rect x="100" y="450" width="1600" height="56" fill="#FFFFFF" fill-opacity="0.16" rx="8" ry="8"/>
+<rect x="320" y="450" width="2" height="224" fill="#FFFFFF" fill-opacity="0.25"/>
+<rect x="1220" y="450" width="2" height="224" fill="#FFFFFF" fill-opacity="0.25"/>
+<text x="116" y="486.0" class="small" text-anchor="start">Domain</text>
+<text x="336" y="486.0" class="small" text-anchor="start">Official (OSS)</text>
+<text x="1236" y="486.0" class="small" text-anchor="start">Notes / Full matrix</text>
+<text x="116" y="540.0" class="cell" text-anchor="start">OS</text>
+<text x="336" y="540.0" class="cell" text-anchor="start">Linux x86_64 · Windows 10/11 x86_64 · macOS x86_64/arm64</text>
+<text x="1236" y="540.0" class="cell" text-anchor="start">See docs/LabReport.md</text>
+<text x="116" y="596.0" class="cell" text-anchor="start">Languages</text>
+<text x="336" y="596.0" class="cell" text-anchor="start">Python · JavaScript/Node.js · Go</text>
+<text x="1236" y="596.0" class="cell" text-anchor="start">More via Polyglot plugin</text>
+<text x="116" y="652.0" class="cell" text-anchor="start">CPU</text>
+<text x="336" y="652.0" class="cell" text-anchor="start">x86_64 (tested) · ARMv7 (smoke) · ARM64 (planned)</text>
+<text x="1236" y="652.0" class="cell" text-anchor="start">RISC-V optional</text>
+<rect x="100" y="714" width="1600" height="2" fill="#FFFFFF" fill-opacity="0.35"/>
+<text x="100" y="774" class="mono" text-anchor="start">Container: .freq (v42) · CRC32 per frame · fixed footer/metadata · deterministic decode.</text>
+<text x="100" y="854" class="h2" text-anchor="start">Quick Start</text>
+<text x="120" y="904" class="p" text-anchor="start">1) Install Core for your OS/CPU (.so/.dll/.dylib).</text>
+<text x="120" y="938" class="p" text-anchor="start">2) Choose a binding (Python / Node.js / Go via Polyglot).</text>
+<text x="120" y="972" class="p" text-anchor="start">3) Smoke-run: encode → decode; verify CRC/footer (v42).</text>
+<text x="120" y="1006" class="p" text-anchor="start">   → See Installation &amp; Usage below and docs/LabReport.md.</text>
+</svg>
