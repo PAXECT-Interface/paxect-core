@@ -4,11 +4,6 @@
 [![CodeQL](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/codeql.yml/badge.svg)](../../actions)
 [![Discussions](https://img.shields.io/github/discussions/PAXECT-Interface/PAXECT---Core)](../../discussions)
 
-
-
-> **Launch period (free):** All features (including Enterprise/Pro) are free until **2026-04-01**.  
-> The Core will remain open-source (Apache-2.0) and maintained thereafter.
-
 ---Use Cases
 
     Quantum computing: Transfer simulation results between quantum and classical nodes
