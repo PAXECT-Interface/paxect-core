@@ -12,13 +12,10 @@
     Big Data / HPC: Fast checkpointing and large-scale data migration
     Hybrid Systems: Seamless communication across heterogeneous architectures
 
+![PAXECT Architecture](paxect_architecture_brand_v18.svg)
 
-## Key Features
-- **Deterministic** — same input + configuration ⇒ bit-identical output (audit/compliance/regression).
-- **Multi-OS & polyglot** — Windows, Linux, macOS; bindings for Python, Node.js, Go (more via plugins).
-- **Integrity first** — frame I/O with **CRC32 per frame** and strict parsing (fail-hard on errors).
-- **Extensible** — encryption, bindings, and tuning as optional plugins (no changes to Core).
-- **Privacy by default** — local execution; no tracking/telemetry.
+
+
 
 ---
 
