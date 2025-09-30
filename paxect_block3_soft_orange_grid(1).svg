@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <rect width="100%" height="100%" fill="#FDBA74"/>
+  <text x="80" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif"
+        font-size="42" font-weight="700" fill="#1F2937">Privacy &amp; Data Handling</text>
+  <rect x="80" y="98" width="1440" height="2" fill="#eab308" opacity="0.45"/>
+<rect x="80.0" y="170" rx="18" ry="18" width="464.0" height="380" fill="#FFE3C1" stroke="#eab308" stroke-opacity="0.35"/>
+<text x="104.0" y="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" font-weight="700" fill="#1F2937">Privacy &amp; Locality</text>
+<rect x="104.0" y="234" width="416.0" height="2" fill="#eab308" opacity="0.35"/>
+<text x="104.0" y="270" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Local-only execution; no outbound requests</text>
+<text x="104.0" y="300" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• No telemetry, no PII collection</text>
+<text x="104.0" y="330" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Outputs only what you choose (.freq/files)</text>
+<text x="104.0" y="360" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Logging is opt-in and stored locally</text>
+<rect x="568.0" y="170" rx="18" ry="18" width="464.0" height="380" fill="#FFE3C1" stroke="#eab308" stroke-opacity="0.35"/>
+<text x="592.0" y="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" font-weight="700" fill="#1F2937">Data Handling</text>
+<rect x="592.0" y="234" width="416.0" height="2" fill="#eab308" opacity="0.35"/>
+<text x="592.0" y="270" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Encrypt sensitive data with AES plugin</text>
+<text x="592.0" y="300" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Keys/passphrases stay with you</text>
+<text x="592.0" y="330" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• scrypt KDF; rotation possible</text>
+<text x="592.0" y="360" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Offline-first; internet not required</text>
+<rect x="1056.0" y="170" rx="18" ry="18" width="464.0" height="380" fill="#FFE3C1" stroke="#eab308" stroke-opacity="0.35"/>
+<text x="1080.0" y="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" font-weight="700" fill="#1F2937">Sharing &amp; Open Source</text>
+<rect x="1080.0" y="234" width="416.0" height="2" fill="#eab308" opacity="0.35"/>
+<text x="1080.0" y="270" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Link uses your SMB/NFS/cloud drive</text>
+<text x="1080.0" y="300" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• PAXECT never uploads by itself</text>
+<text x="1080.0" y="330" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Apache-2.0 Core; auditable</text>
+<text x="1080.0" y="360" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Launch offer: Enterprise free period</text>
+
+</svg>
