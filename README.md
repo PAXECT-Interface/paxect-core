@@ -12,7 +12,14 @@ architectuur (geen telemetry, geen externe datastromen). **Zero AI.**
 > **Lanceringsperiode (gratis)**: alle features (incl. Enterprise/Pro) zijn gratis t/m **2026-04-01**.  
 > De Core blijft daarna open-source (Apache-2.0) en onderhouden.
 
----
+---Use Cases
+
+    Quantum computing: Transfer simulation results between quantum and classical nodes
+    AI/ML pipelines: Rapid and secure exchange of tensors, arrays, and models
+    Embedded & IoT: Efficient for low-memory devices and robotics
+    Big Data / HPC: Fast checkpointing and large-scale data migration
+    Hybrid Systems: Seamless communication across heterogeneous architectures
+
 
 ## Kerneigenschappen
 - **Deterministisch** — zelfde input + configuratie ⇒ bit-identieke output (audit/compliance/regressie).
