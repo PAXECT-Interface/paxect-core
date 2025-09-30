@@ -74,16 +74,21 @@ architectuur (geen telemetry, geen externe datastromen). **Zero AI.**
 - **Bijdragen & Gedragscode:** `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`. **Security:** `SECURITY.md`.  
 - **Privacy:** geen telemetry of externe uploads; lokaal by default. Zie `docs/PRIVACY.md`.
 
--
--
--
 
-# Data Policy
+
+
+
+
+
+## Data Policy
 
 PAXECT hanteert een maximale data- en tekstgrootte per run (standaard 512 MB, aanpasbaar via env-var).
 Dit garandeert stabiliteit en voorspelbare prestaties.
 Zie: [PAXECT Data Policy](./PAXECT-Data-Policy.md)
 -
+
+
+
 -     # PAXECT Data Policy
 
 PAXECT hanteert een duidelijk beleid voor maximale data- en tekstgrootte per run. Dit garandeert stabiele, voorspelbare prestaties en voorkomt misbruik, net als bij toonaangevende systemen als Kafka, MQTT en gRPC.
