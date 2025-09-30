@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1400" viewBox="0 0 1600 1400">
+  <rect width="100%" height="100%" fill="#FDBA74"/>
+  <text x="80" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif"
+        font-size="56" font-weight="700" fill="#1F2937">Quick Start — Encode → Decode → Verify</text>
+  <rect x="80" y="106" width="1440" height="3" fill="#eab308" opacity="0.55"/>
+<rect x="80" y="176" rx="18" ry="18" width="1440" height="244" fill="#FFE3C1" stroke="#eab308" stroke-opacity="0.35"/>
+<text x="106" y="236" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="34" font-weight="700" fill="#1F2937">Bash (Linux/macOS)</text>
+<rect x="106" y="246" width="1388" height="2" fill="#eab308" opacity="0.35"/>
+<text x="106" y="268" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" fill="#1F2937">• encode:  python3 paxect_core.py encode -i sample.bin -o sample.freq</text>
+<text x="106" y="304" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" fill="#1F2937">• decode:  python3 paxect_core.py decode -i sample.freq -o sample.out.bin</text>
+<text x="106" y="340" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" fill="#1F2937">• verify:  cmp -s sample.bin sample.out.bin  →  OK / Mismatch</text>
+<text x="106" y="376" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" fill="#1F2937">• Tip: use a real file (100MB+) to test throughput</text>
+<rect x="80" y="436" rx="18" ry="18" width="1440" height="244" fill="#FFE3C1" stroke="#eab308" stroke-opacity="0.35"/>
+<text x="106" y="496" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="34" font-weight="700" fill="#1F2937">PowerShell (Windows)</text>
+<rect x="106" y="506" width="1388" height="2" fill="#eab308" opacity="0.35"/>
+<text x="106" y="528" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" fill="#1F2937">• encode:  python .\paxect_core.py encode -i .\sample.bin -o .\sample.freq</text>
+<text x="106" y="564" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" fill="#1F2937">• decode:  python .\paxect_core.py decode -i .\sample.freq -o .\sample.out.bin</text>
+<text x="106" y="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" fill="#1F2937">• verify:  fc.exe /b sample.bin sample.out.bin</text>
+<text x="106" y="636" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" fill="#1F2937">• Paths: prefix with .\ and run from repo root</text>
+<rect x="80" y="696" rx="18" ry="18" width="1440" height="244" fill="#FFE3C1" stroke="#eab308" stroke-opacity="0.35"/>
+<text x="106" y="756" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="34" font-weight="700" fill="#1F2937">Optional — Link Bridge</text>
+<rect x="106" y="766" width="1388" height="2" fill="#eab308" opacity="0.35"/>
+<text x="106" y="788" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" fill="#1F2937">• run watcher:  python3 paxect_link_plugin.py</text>
+<text x="106" y="824" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" fill="#1F2937">• inbox/: non-.freq → becomes .freq</text>
+<text x="106" y="860" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" fill="#1F2937">• outbox/: .freq → decodes to files</text>
+<text x="106" y="896" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" fill="#1F2937">• Works with SMB/NFS/cloud drives; combine with AES for confidentiality</text>
+
+</svg>
