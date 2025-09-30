@@ -1,4 +1,4 @@
-![PAXECT Block 1 — Orange Midgray](paxect_block1_orange_midgray_SAFE.svg)
+![PAXECT Block 2 — Soft Orange](paxect_block2_soft_orange.svg)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Build](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/ci.yml/badge.svg)](../../actions)
 [![CodeQL](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/codeql.yml/badge.svg)](../../actions)
