@@ -76,7 +76,9 @@ architectuur (geen telemetry, geen externe datastromen). **Zero AI.**
 
 -
 -
--## Data Policy
+-
+
+# Data Policy
 
 PAXECT hanteert een maximale data- en tekstgrootte per run (standaard 512 MB, aanpasbaar via env-var).
 Dit garandeert stabiliteit en voorspelbare prestaties.
