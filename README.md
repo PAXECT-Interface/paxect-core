@@ -36,6 +36,7 @@
 ![PAXECT Block 5 — Soft Orange Bars](paxect_block5_soft_orange_bars(1).svg)
 ![PAXECT Block 6 — Soft Orange Bands v2](paxect_block6_soft_orange_bands_v2.svg)
 ![PAXECT Block 7 — Soft Orange Bands v2](paxect_block7_soft_orange_bands_v2.svg)
+![PAXECT Block 8 — Soft Orange](paxect_block8_soft_orange.svg)
 
 
 
