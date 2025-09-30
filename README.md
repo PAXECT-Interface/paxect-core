@@ -3,6 +3,7 @@
 [![Build](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/ci.yml/badge.svg)](../../actions)
 [![CodeQL](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/codeql.yml/badge.svg)](../../actions)
 [![Discussions](https://img.shields.io/github/discussions/PAXECT-Interface/PAXECT---Core)](../../discussions)
+![PAXECT Block 1 — Soft Orange Big Sentences](paxect_block1_soft_orange_BIG_SENTENCES(1).svg)
 ![PAXECT Block 2 — Soft Orange](paxect_block2_soft_orange(1).svg)
 ---Use Cases
 
