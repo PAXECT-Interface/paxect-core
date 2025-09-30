@@ -33,7 +33,7 @@
 
 **Plug-and-play:** Core draait zonder plugins; per run inschakelen via config/flag of binding-API. Determinisme blijft gelijk.
 ![PAXECT Block 4 — Soft Orange Grid](paxect_block4_soft_orange_grid(1).svg)
-
+![PAXECT Block 5 — Soft Orange Bars](paxect_block5_soft_orange_bars(1).svg)
 
 
 
