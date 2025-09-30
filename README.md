@@ -21,31 +21,31 @@ architecture (no telemetry, no external data flows). **Zero AI.**
     Hybrid Systems: Seamless communication across heterogeneous architectures
 
 
-## Kerneigenschappen
-- **Deterministisch** — zelfde input + configuratie ⇒ bit-identieke output (audit/compliance/regressie).
-- **Multi-OS & polyglot** — Windows, Linux, macOS; bindings voor Python, Node.js, Go (meer via plugins).
-- **Integriteit eerst** — frame-I/O met **CRC32 per frame** en strikte parsing (fail-hard bij fouten).
-- **Uitbreidbaar** — encryptie, bindings en tuning als optionele plugins (zonder wijzigingen in Core).
-- **Privacy by default** — lokale uitvoering; geen tracking/telemetry.
+## Key Features
+- **Deterministic** — same input + configuration ⇒ bit-identical output (audit/compliance/regression).
+- **Multi-OS & polyglot** — Windows, Linux, macOS; bindings for Python, Node.js, Go (more via plugins).
+- **Integrity first** — frame I/O with **CRC32 per frame** and strict parsing (fail-hard on errors).
+- **Extensible** — encryption, bindings, and tuning as optional plugins (no changes to Core).
+- **Privacy by default** — local execution; no tracking/telemetry.
 
 ---
 
-## Supportmatrix (basismodel)
-| Domein       | Officieel (OSS)                                       | Notities / Volledige matrix |
-|--------------|--------------------------------------------------------|-----------------------------|
-| **OS**       | Linux x86_64 · Windows 10/11 x86_64 · macOS x86_64/arm64 | Zie `docs/LabReport.md`     |
-| **Talen**    | Python · JavaScript/Node.js · Go                       | Extra via Polyglot-plugin   |
-| **CPU**      | x86_64 (getest) · ARMv7 (smoke) · ARM64 (gepland)      | RISC-V optioneel            |
+## Support Matrix (base model)
+| Domain        | Official (OSS)                                         | Notes / Full matrix         |
+|---------------|--------------------------------------------------------|-----------------------------|
+| **OS**        | Linux x86_64 · Windows 10/11 x86_64 · macOS x86_64/arm64 | See `docs/LabReport.md`     |
+| **Languages** | Python · JavaScript/Node.js · Go                       | More via Polyglot plugin    |
+| **CPU**       | x86_64 (tested) · ARMv7 (smoke) · ARM64 (planned)      | RISC-V optional             |
 
-**Container:** `.freq` (v42) · CRC32 per frame · vaste footer/metadata · deterministische decode.
+**Container:** `.freq` (v42) · CRC32 per frame · fixed footer/metadata · deterministic decode.
 
 ---
 
-## Snel starten
-1. **Installeer Core** voor jouw OS/CPU (`.so/.dll/.dylib`).  
-2. **Kies een binding** (Python / Node.js / Go via Polyglot).  
-3. **Smoke-run:** encode → decode; verifieer CRC/footer (v42).  
-   → Zie **Installatie & Gebruik** hieronder en `docs/LabReport.md`.
+## Quick Start
+1. **Install Core** for your OS/CPU (`.so/.dll/.dylib`).  
+2. **Choose a binding** (Python / Node.js / Go via Polyglot).  
+3. **Smoke-run:** encode → decode; verify CRC/footer (v42).  
+   → See **Installation & Usage** below and `docs/LabReport.md`.
 
 ---
 
