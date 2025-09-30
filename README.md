@@ -58,7 +58,7 @@ architecture (no telemetry, no external data flows). **Zero AI.**
 
 **Plug-and-play:** Core draait zonder plugins; per run inschakelen via config/flag of binding-API. Determinisme blijft gelijk.
 
-![PAXECT Architecture](paxect_architecture_brand_v13.svg)
+![PAXECT Architecture](paxect_architecture_brand_v18.svg)
 
 
 
