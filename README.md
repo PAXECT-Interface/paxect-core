@@ -14,7 +14,7 @@
     Hybrid Systems: Seamless communication across heterogeneous architectures
 
 ![PAXECT Architecture](paxect_architecture_brand_v18.svg)
-
+![PAXECT Block 3 — Soft Orange Grid](paxect_block3_soft_orange_grid(1).svg)
 
 
 
