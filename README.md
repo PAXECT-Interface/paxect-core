@@ -1,4 +1,4 @@
-
+![PAXECT Block 1 — Soft Orange Big Sentences](paxect_block1_soft_orange_BIG_SENTENCES(1).svg)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Build](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/ci.yml/badge.svg)](../../actions)
 [![CodeQL](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/codeql.yml/badge.svg)](../../actions)
