@@ -63,10 +63,6 @@ architecture (no telemetry, no external data flows). **Zero AI.**
 
 
 
-<p align="center">
-  <img src="docs/paxect_readme_orange_block_v2.svg" alt="PAXECT — Key Features" width="1100">
-</p>
-
 ---
 
 ## Installatie & Gebruik (Quickstart)
