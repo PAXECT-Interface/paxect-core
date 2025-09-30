@@ -1,31 +1,31 @@
 # PAXECT Data Policy
 
-PAXECT hanteert een duidelijk beleid voor maximale data- en tekstgrootte per run. Dit garandeert stabiele, voorspelbare prestaties en voorkomt misbruik, net als bij toonaangevende systemen als Kafka, MQTT en gRPC.
+PAXECT enforces a clear policy for maximum data and text size per run. This ensures stable, predictable performance and prevents misuse, in line with industry standards such as Kafka, MQTT, and gRPC.
 
-## 1. Technisch limiet
+## 1. Technical Limit
 
-- **Default limiet:** maximaal **512 MB** per run of opdracht.
-- **Aanpasbaar:** Stel een custom limiet in via een environment variable:
+- **Default limit:** Maximum **512 MB** per run or operation.
+- **Configurable:** Set a custom limit via environment variable:
   ```bash
-  export PAXECT_MAX_INPUT_MB=8192  # Voor max 8 GB
+  export PAXECT_MAX_INPUT_MB=8192  # For up to 8 GB
   ```
-- **Foutmelding bij overschrijding:**  
+- **Error message when exceeded:**  
   ```
   ❌ Input size exceeds PAXECT policy limit (default 512 MB). Use PAXECT_MAX_INPUT_MB to adjust.
   ```
 
-## 2. Documentatiebeleid
+## 2. Documentation Policy
 
-- Dit limiet geldt per opdracht, plugin of brug.
-- Voor grotere datasets: gebruik chunking, streaming, of bestandsuitwisseling.
-- Sommige plugins (bijv. Polyglot, AES) kunnen een eigen limiet hanteren; zie de betreffende documentatie.
+- This limit applies per operation, plugin, or bridge.
+- For larger datasets, use chunking, streaming, or file transfer.
+- Some plugins (e.g., Polyglot, AES) may have their own limits; see their respective documentation.
 
-## 3. Positionering als feature
+## 3. Positioned as a Feature
 
-PAXECT kiest bewust voor een limiet, net als andere professionele data-frameworks. Dit is géén beperking, maar een garantie voor betrouwbaarheid, veiligheid en voorspelbare performance.
+PAXECT intentionally implements a data size limit, just like other professional data frameworks. This is not a restriction, but a guarantee of reliability, security, and predictable performance.
 
-> _“PAXECT garandeert stabiele prestaties tot 512 MB per run. Voor enterprise workloads is de limiet eenvoudig aanpasbaar.”_
+> _“PAXECT guarantees stable performance up to 512 MB per run. For enterprise workloads, the limit is easily adjustable.”_
 
 ---
 
-**Vragen of verzoeken? Mail ons of open een GitHub issue!**
+**Questions or requests? Contact us or open a GitHub issue!**
