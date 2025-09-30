@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <rect width="100%" height="100%" fill="#FDBA74"/>
+  <text x="80" y="80" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif"
+        font-size="42" font-weight="700" fill="#1F2937">SelfTune 5‑in‑1 (Zero‑AI autotune)</text>
+  <rect x="80" y="98" width="1440" height="2" fill="#eab308" opacity="0.45"/>
+<rect x="80.0" y="170" rx="18" ry="18" width="464.0" height="380" fill="#FFE3C1" stroke="#eab308" stroke-opacity="0.35"/>
+<text x="104.0" y="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" font-weight="700" fill="#1F2937">Deterministic Tuning</text>
+<rect x="104.0" y="234" width="416.0" height="2" fill="#eab308" opacity="0.35"/>
+<text x="104.0" y="270" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Rule-based, Zero-AI autotune</text>
+<text x="104.0" y="300" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Adjusts buffers &amp; pacing safely</text>
+<text x="104.0" y="330" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Batch/concurrency within bounds</text>
+<text x="104.0" y="360" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Never changes your bytes</text>
+<rect x="568.0" y="170" rx="18" ry="18" width="464.0" height="380" fill="#FFE3C1" stroke="#eab308" stroke-opacity="0.35"/>
+<text x="592.0" y="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" font-weight="700" fill="#1F2937">Stability &amp; Control</text>
+<rect x="592.0" y="234" width="416.0" height="2" fill="#eab308" opacity="0.35"/>
+<text x="592.0" y="270" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Guardrails prevent overload</text>
+<text x="592.0" y="300" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Overhead control: CPU/RAM/I/O</text>
+<text x="592.0" y="330" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Backpressure &amp; rate-limiting</text>
+<text x="592.0" y="360" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Jitter smoothing for latency</text>
+<rect x="1056.0" y="170" rx="18" ry="18" width="464.0" height="380" fill="#FFE3C1" stroke="#eab308" stroke-opacity="0.35"/>
+<text x="1080.0" y="210" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="30" font-weight="700" fill="#1F2937">Light Observability</text>
+<rect x="1080.0" y="234" width="416.0" height="2" fill="#eab308" opacity="0.35"/>
+<text x="1080.0" y="270" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Local counters &amp; timers (opt-in)</text>
+<text x="1080.0" y="300" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Minimal footprints</text>
+<text x="1080.0" y="330" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Predictable throughput</text>
+<text x="1080.0" y="360" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" fill="#1F2937">• Enterprise-ready behavior</text>
+
+</svg>
