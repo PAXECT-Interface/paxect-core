@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="100%" height="100%" fill="#FFB84D"/>
+  <text x="80" y="110" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="36" font-weight="700" fill="#111827">PAXECT — Deterministic, Cross-OS, Cross-Language Data Container</text>
+
+<text x="80" y="166" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" font-weight="normal" fill="#111827">Deterministic .freq container for files, streams, logs &amp; telemetry — with soundwave</text>
+<text x="80" y="198" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" font-weight="normal" fill="#111827">framing and multi-channel lanes (parallel data paths with per-channel ordering),</text>
+<text x="80" y="230" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" font-weight="normal" fill="#111827">CRC32-per-frame integrity, AES-256 (plugin), SelfTune 5‑in‑1 (Zero‑AI autotune),</text>
+<text x="80" y="262" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" font-weight="normal" fill="#111827">Polyglot bindings, and a simple Link bridge for cross‑OS exchange.</text>
+<text x="80" y="294" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" font-weight="normal" fill="#111827">Zero AI. Privacy by default.</text>
+<rect x="80" y="336" width="1240" height="2" fill="#f59e0b" opacity="0.6"/>
+<text x="80" y="364" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" font-weight="normal" fill="#111827">OS: Windows 10/11 (x86_64), Linux (x86_64), macOS (Intel &amp; Apple Silicon);</text>
+<text x="80" y="396" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" font-weight="normal" fill="#111827">best‑effort: FreeBSD/OpenBSD; edge: ARMv7 (smoke); planned: ARM64; optional: RISC‑V.</text>
+<rect x="80" y="438" width="1240" height="2" fill="#f59e0b" opacity="0.6"/>
+<text x="80" y="466" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" font-weight="normal" fill="#111827">Languages: Official Python • Node.js • Go — via the Polyglot bridge (stdin/stdout/CLI):</text>
+<text x="80" y="498" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" font-weight="normal" fill="#111827">Rust, Java, C#, C/C++, Swift, Kotlin, Ruby, PHP, R, Julia, MATLAB, Bash/PowerShell</text>
+<text x="80" y="530" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans','Liberation Sans',sans-serif" font-size="22" font-weight="normal" fill="#111827">(any language that can spawn a process and read/write stdin/stdout).</text>
+</svg>
