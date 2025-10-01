@@ -35,9 +35,9 @@
 
 ![PAXECT Block 5 — Soft Orange Bars](paxect_block5_soft_orange_bars(1).svg)
 ![PAXECT Block 6 — Soft Orange Bands v2](paxect_block6_soft_orange_bands_v2.svg)
-![PAXECT Block 7 — Soft Orange Bands v2](paxect_block7_soft_orange_bands_v2.svg)
-![PAXECT Block 8 — Soft Orange](paxect_block8_soft_orange.svg)
 ![PAXECT Roadmap EN — Orange Bars (Fit)](paxect_roadmap_EN_orange_bars_fit.svg)
+![PAXECT Block 8 — Soft Orange](paxect_block8_soft_orange.svg)
+![PAXECT Block 7 — Soft Orange Bands v2](paxect_block7_soft_orange_bands_v2.svg)
 ![PAXECT Block 11 EN — Boxes Orange v5 CTA Fix](paxect_block11_EN_boxes_orange_v5_cta_fix(1).svg)
 
 
