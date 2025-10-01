@@ -55,6 +55,26 @@ Plain, verifiable wording. Roadmap described as plan/intent (no hard dates). Pri
 **Where we fit (no buzzwords):**  
 Reproducible packaging and exchange across OS/languages; integrity with optional confidentiality; parallel multi-channel flows; zero telemetry; Zero-AI autotuning for latency stability.
 Path to Paid
+# 13) Path to Paid
+
+PAXECT is built to stay **free and open-source at its core**.  
+At the same time, we recognize the need for a sustainable model to fund long-term maintenance and enterprise adoption.
+
+## Principles
+- **Core stays free forever** — no lock-in, no hidden fees.  
+- **Volunteers and researchers**: always free access to source, builds, and discussions.  
+- **Transparency**: clear dates, no surprises.  
+- **Fairness**: individuals stay free; organizations that rely on enterprise features contribute financially.  
+
+## Timeline
+- Until **2026-04-01**: all enterprise modules remain free  
+  *(extended Polyglot bridges, managed Link services, compliance packs)*.  
+- From 2026 onwards: commercial subscriptions, consultancy, and long-term support (LTS) builds will be offered.  
+
+## Why this matters
+- **Motivation**: volunteers know their work has impact and will remain accessible.  
+- **Stability**: enterprises get predictable guarantees and funded maintenance.  
+- **Sustainability**: ensures continuous evolution without compromising openness.  
 
 
 
