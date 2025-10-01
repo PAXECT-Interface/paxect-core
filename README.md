@@ -4,7 +4,7 @@
 [![CodeQL](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/codeql.yml/badge.svg)](../../actions)
 [![Discussions](https://img.shields.io/github/discussions/PAXECT-Interface/PAXECT---Core)](../../discussions)
 ![PAXECT Block 1 — Soft Orange Big Sentences](paxect_block1_soft_orange_BIG_SENTENCES(1).svg)
-
+![PAXECT Block 2 EN — Why Orange Bars](paxect_block2_EN_why_orange_bars.svg)
 ---Use Cases
 
     Quantum computing: Transfer simulation results between quantum and classical nodes
