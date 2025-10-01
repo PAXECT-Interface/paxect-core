@@ -16,22 +16,20 @@
 ![PAXECT Architecture](paxect_architecture_brand_v18.svg)
 ![PAXECT Block 3 — Soft Orange Grid](paxect_block3_soft_orange_grid(1).svg)
 
+## Plugins (official)
+
+| Plugin               | Scope                           | Highlights                                                                                   | Repo |
+|----------------------|----------------------------------|----------------------------------------------------------------------------------------------|------|
+| **AES Secure**       | Confidentiality & integrity      | AES-256 GCM/CTR, scrypt KDF, AAD; strict **fail-stop** on mismatch                           | https://github.com/PAXECT-Interface/paxect-aes-plugin |
+| **Polyglot**         | Language bindings                | Python, Node.js, Go; identical deterministic pipeline across runtimes                        | https://github.com/PAXECT-Interface/paxect-polyglot-plugin |
+| **SelfTune 5-in-1**  | Performance & observability      | Zero-AI autotune: guardrails, overhead control, rate-limiting/backpressure, jitter smoothing, lightweight observability | https://github.com/PAXECT-Interface/paxect-selftune-5in1 |
+| **Link (Inbox/Outbox Bridge)** | Cross-OS file exchange        | Shared-folder bridge; auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files; zero server | https://github.com/PAXECT-Interface/paxect-link-plugin |
+
+**Plug-and-play:** Core runs without plugins. Enable per run via config/flag or through the binding API. Deterministic behavior remains identical.
 
 
 ---
 
-
-
----
-
-## Plugins (officieel)
-| Plugin              | Scope                          | Highlights                                               | Repo |
-|---------------------|--------------------------------|----------------------------------------------------------|------|
-| **AES Secure**      | Vertrouwelijkheid & integriteit| AES-256 GCM/CTR, scrypt KDF, AAD, strikt falen           | https://github.com/PAXECT-Interface/paxect-aes-plugin |
-| **Polyglot**        | Taal-bindings                  | Python, Node.js, Go; extra talen via enterprise          | https://github.com/PAXECT-Interface/paxect-polyglot-plugin |
-| **SelfTune 5-in-1** | Performance & observability    | Guard, overhead-controle, logging, smoothing, auto-learning | https://github.com/PAXECT-Interface/paxect-selftune-5in1 |
-
-**Plug-and-play:** Core draait zonder plugins; per run inschakelen via config/flag of binding-API. Determinisme blijft gelijk.
 
 ![PAXECT Block 5 — Soft Orange Bars](paxect_block5_soft_orange_bars(1).svg)
 ![PAXECT Block 6 — Soft Orange Bands v2](paxect_block6_soft_orange_bands_v2.svg)
