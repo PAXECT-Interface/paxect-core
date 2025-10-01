@@ -40,9 +40,10 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 - **Fairness**: individuals stay free; organizations that rely on enterprise features contribute financially.  
 
 ## Timeline
-- Until **2026-04-01**: all enterprise modules remain free  
-  *(extended Polyglot bridges, managed Link services, compliance packs)*.  
-- From 2026 onwards: commercial subscriptions, consultancy, and long-term support (LTS) builds will be offered.  
+- **Initial phase**: all modules, including enterprise, are free for the first **6 months**.  
+- **30 days before renewal**: a decision will be made whether the free enterprise phase is extended for another 6 months.  
+- **Core/baseline model**: always free with updates. The exact definition of this baseline model is still under discussion.  
+ 
 
 ## Why this matters
 - **Motivation**: volunteers know their work has impact and will remain accessible.  
