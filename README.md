@@ -15,7 +15,7 @@
 
 ![PAXECT Architecture](paxect_architecture_brand_v18.svg)
 ![PAXECT Block 3 — Soft Orange Grid](paxect_block3_soft_orange_grid(1).svg)
-
+![PAXECT Block 5 — Soft Orange Bars](paxect_block5_soft_orange_bars(1).svg)
 ## Plugins (official)
 
 | Plugin               | Scope                           | Highlights                                                                                   | Repo |
@@ -26,12 +26,6 @@
 | **Link (Inbox/Outbox Bridge)** | Cross-OS file exchange        | Shared-folder bridge; auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files; zero server | https://github.com/PAXECT-Interface/paxect-link-plugin |
 
 **Plug-and-play:** Core runs without plugins. Enable per run via config/flag or through the binding API. Deterministic behavior remains identical.
-
-
----
-
-
-![PAXECT Block 5 — Soft Orange Bars](paxect_block5_soft_orange_bars(1).svg)
 ![PAXECT Block 6 — Soft Orange Bands v2](paxect_block6_soft_orange_bands_v2.svg)
 ![PAXECT Roadmap EN — Orange Bars (Fit)](paxect_roadmap_EN_orange_bars_fit.svg)
 # 13) Path to Paid
