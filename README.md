@@ -32,7 +32,7 @@
 | **SelfTune 5-in-1** | Performance & observability    | Guard, overhead-controle, logging, smoothing, auto-learning | https://github.com/PAXECT-Interface/paxect-selftune-5in1 |
 
 **Plug-and-play:** Core draait zonder plugins; per run inschakelen via config/flag of binding-API. Determinisme blijft gelijk.
-![PAXECT Block 4 — Soft Orange Grid](paxect_block4_soft_orange_grid(1).svg)
+
 ![PAXECT Block 5 — Soft Orange Bars](paxect_block5_soft_orange_bars(1).svg)
 ![PAXECT Block 6 — Soft Orange Bands v2](paxect_block6_soft_orange_bands_v2.svg)
 ![PAXECT Block 7 — Soft Orange Bands v2](paxect_block7_soft_orange_bands_v2.svg)
