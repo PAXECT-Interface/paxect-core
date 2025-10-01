@@ -56,25 +56,6 @@ Plain, verifiable wording. Roadmap described as plan/intent (no hard dates). Pri
 Reproducible packaging and exchange across OS/languages; integrity with optional confidentiality; parallel multi-channel flows; zero telemetry; Zero-AI autotuning for latency stability.
 Path to Paid
 
-PAXECT Core and all official plugins are free and open-source (Apache-2.0 / MIT dual license).
-
-For organizations that need enterprise stability, regulatory packs, or advanced modules, we provide a clear transition:
-
-Core remains free forever – no hidden costs.
-
-Enterprise modules (e.g. extended language bridges, managed Link services) are free until 2026-04-01.
-
-After that date, paid subscriptions and consultancy options will be introduced.
-
-Community contributors keep free access to development builds, tests, and discussions.
-
-This model ensures:
-
-Transparency – no surprises, clear timelines.
-
-Sustainability – long-term funding for maintenance.
-
-Fairness – individuals and volunteers stay free, enterprise users pay only when they require guarantees.
 
 
 
