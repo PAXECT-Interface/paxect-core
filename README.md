@@ -35,26 +35,6 @@
 ![PAXECT Block 6 — Soft Orange Bands v2](paxect_block6_soft_orange_bands_v2.svg)
 ![PAXECT Roadmap EN — Orange Bars (Fit)](paxect_roadmap_EN_orange_bars_fit.svg)
 ![PAXECT Block 7 — Soft Orange Bands v2](paxect_block7_soft_orange_bands_v2.svg)
-![PAXECT Block 8 — Soft Orange](paxect_block8_soft_orange.svg)
-![PAXECT Block 11 EN — Boxes Orange v5 CTA Fix](paxect_block11_EN_boxes_orange_v5_cta_fix(1).svg)
-## SEO & Discoverability
-
-**What we are (short):**  
-Deterministic cross-OS data container (`.freq`) with CRC32-per-frame integrity, optional AES-256, SelfTune (Zero-AI) for stable latency, Polyglot bindings, and a simple Link bridge. Local-only. No telemetry.
-
-**Quick navigation:** [WHY PAXECT](#why-paxect) · [Quick Start](#quick-start) · [Plugins](#plugins)
-
-**Badges (suggested):** License · CI · CodeQL · Discussions
-
-**Accessibility & clarity:**  
-High-contrast text, concise headings, descriptive alt on any embedded images. No tracking pixels. No external scripts.
-
-**Tone & claims:**  
-Plain, verifiable wording. Roadmap described as plan/intent (no hard dates). Privacy-by-default and determinism stated factually.
-
-**Where we fit (no buzzwords):**  
-Reproducible packaging and exchange across OS/languages; integrity with optional confidentiality; parallel multi-channel flows; zero telemetry; Zero-AI autotuning for latency stability.
-Path to Paid
 # 13) Path to Paid
 
 PAXECT is built to stay **free and open-source at its core**.  
@@ -75,6 +55,27 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 - **Motivation**: volunteers know their work has impact and will remain accessible.  
 - **Stability**: enterprises get predictable guarantees and funded maintenance.  
 - **Sustainability**: ensures continuous evolution without compromising openness.  
+
+![PAXECT Block 8 — Soft Orange](paxect_block8_soft_orange.svg)
+![PAXECT Block 11 EN — Boxes Orange v5 CTA Fix](paxect_block11_EN_boxes_orange_v5_cta_fix(1).svg)
+## SEO & Discoverability
+
+**What we are (short):**  
+Deterministic cross-OS data container (`.freq`) with CRC32-per-frame integrity, optional AES-256, SelfTune (Zero-AI) for stable latency, Polyglot bindings, and a simple Link bridge. Local-only. No telemetry.
+
+**Quick navigation:** [WHY PAXECT](#why-paxect) · [Quick Start](#quick-start) · [Plugins](#plugins)
+
+**Badges (suggested):** License · CI · CodeQL · Discussions
+
+**Accessibility & clarity:**  
+High-contrast text, concise headings, descriptive alt on any embedded images. No tracking pixels. No external scripts.
+
+**Tone & claims:**  
+Plain, verifiable wording. Roadmap described as plan/intent (no hard dates). Privacy-by-default and determinism stated factually.
+
+**Where we fit (no buzzwords):**  
+Reproducible packaging and exchange across OS/languages; integrity with optional confidentiality; parallel multi-channel flows; zero telemetry; Zero-AI autotuning for latency stability.
+Path to Paid
 
 
 
