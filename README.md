@@ -71,6 +71,10 @@ Plain, verifiable wording. Roadmap described as plan/intent (no hard dates). Pri
 **Where we fit (no buzzwords):**  
 Reproducible packaging and exchange across OS/languages; integrity with optional confidentiality; parallel multi-channel flows; zero telemetry; Zero-AI autotuning for latency stability.
 Path to Paid
+### Keywords & Topics
+
+PAXECT Core — deterministic multi-channel **.freq v42** data container with **CRC32 integrity**, **AES-GCM/CTR security**, **cross-OS polyglot bridges**, and **Zero-AI SelfTune**.  
+Keywords: paxect, freq42, deterministic, reproducible, data-container, wire-format, crc32, checksum, encryption, aes-256, aes-gcm, aes-ctr, selftune, autotune, zero-ai, zstandard, compression, streaming, cross-os, cross-language, polyglot, language-bindings, os-bridge, file-watcher, inbox-outbox, link-bridge, audit-compliance, privacy-by-default, edge-computing, iot, system-integration.
 
 
 
