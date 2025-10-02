@@ -78,9 +78,12 @@ Local-only. No telemetry.
 - Parallel multi-channel flows  
 - Zero telemetry  
 - Zero-AI autotuning for latency stability  
-- Path to Paid
+- Path to Paid  
 
-**Zero-AI?**  
+---
+
+### Zero-AI (all-round)
+
 PAXECT does not use AI/ML for optimization.  
 All autotuning (SelfTune 5-in-1) is rules-based, deterministic, and fully reproducible.  
 This makes the system transparent, auditable, and privacy-first by design.
@@ -92,7 +95,13 @@ This makes the system transparent, auditable, and privacy-first by design.
 **PAXECT Core** — deterministic multi-channel **.freq v42** container with **CRC32 integrity**, **AES-GCM/CTR security**, **cross-OS polyglot bridges**, and **Zero-AI SelfTune**.
 
 **Keywords:**  
-paxect, freq42, deterministic, reproducible, data-container, wire-format, crc32, checksum, encryption, aes-256, aes-gcm, aes-ctr, selftune, autotune, zero-ai, zstandard, compression, streaming, cross-os, cross-language, polyglot, language-bindings, os-bridge, file-watcher, inbox-outbox, link-bridge, audit-compliance, privacy-by-default, edge-computing, iot, system-integration
+- paxect, freq42, deterministic, reproducible, data-container, wire-format  
+- crc32, checksum, encryption, aes-256, aes-gcm, aes-ctr  
+- selftune, autotune, zero-ai, zstandard, compression, streaming  
+- cross-os, cross-language, polyglot, language-bindings, os-bridge  
+- file-watcher, inbox-outbox, link-bridge  
+- audit-compliance, privacy-by-default, edge-computing, iot, system-integration
+
 
 
 
