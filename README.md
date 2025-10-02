@@ -24,13 +24,6 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 - Also tested: Rust, Java, C#, C/C++, Swift, Kotlin, Ruby, PHP, R, Julia, MATLAB, Bash/PowerShell  
 - Any language that can spawn a process and read/write stdin/stdout
 
-
-
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Build](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/ci.yml/badge.svg)](../../actions)
-[![CodeQL](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/codeql.yml/badge.svg)](../../actions)
-[![Discussions](https://img.shields.io/github/discussions/PAXECT-Interface/PAXECT---Core)](../../discussions)
-![PAXECT Block 1 — Soft Orange Big Sentences](paxect_block1_soft_orange_BIG_SENTENCES(1).svg)
 ![PAXECT Block 2 EN — Why Orange Bars (Fit)](paxect_block2_EN_why_orange_bars_fit.svg)
 ---Use Cases
 
