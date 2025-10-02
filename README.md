@@ -59,7 +59,8 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 Deterministic cross-OS data container (.freq v42) with CRC32-per-frame integrity, optional AES-256/AES-GCM, SelfTune (Zero-AI) for latency stability, Polyglot bindings, and a simple Link bridge.  
 Local-only. No telemetry.
 
-**Quick navigation:** WHY PAXECT · Quick Start · Plugins  
+**Quick navigation:**  
+[WHY PAXECT](#1-why-paxect) · [Quick Start](#2-quick-start) · [Plugins](#plugins-official)  
 
 **Badges (suggested):** License · CI · CodeQL · Discussions  
 
@@ -94,27 +95,25 @@ This makes the system transparent, auditable, and privacy-first by design.
 
 **PAXECT Core** — deterministic multi-channel **.freq v42** container with **CRC32 integrity**, **AES-GCM/CTR security**, **cross-OS polyglot bridges**, and **Zero-AI SelfTune**.
 
-**Keywords:**  
+*These keywords improve discoverability on GitHub and search engines:*  
+
 - paxect, freq42, deterministic, reproducible, data-container, wire-format  
 - crc32, checksum, encryption, aes-256, aes-gcm, aes-ctr  
 - selftune, autotune, zero-ai, zstandard, compression, streaming  
 - cross-os, cross-language, polyglot, language-bindings, os-bridge  
 - file-watcher, inbox-outbox, link-bridge  
-- audit-compliance, privacy-by-default, edge-computing, iot, system-integration
-
-
-
-
-
-
+- audit-compliance, privacy-by-default, edge-computing, iot, system-integration  
 
 ---
 
+### Contact
 
----
+📧 contact@paxect.io  
+🐞 [Issues](https://github.com/PAXECT-Interface/PAXECT---Core/issues)  
+💬 [Discussions](https://github.com/PAXECT-Interface/PAXECT---Core/discussions)  
 
-## Contact
-**contact@paxect.io** · Issues: https://github.com/PAXECT-Interface/PAXECT---Core/issues · Discussions: https://github.com/PAXECT-Interface/PAXECT---Core/discussions
+*For security-related issues, please use responsible disclosure channels.*
+
 
 
 
