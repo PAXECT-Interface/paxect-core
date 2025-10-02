@@ -56,28 +56,38 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 ## SEO & Discoverability
 
 **What we are (short):**  
-Deterministic cross-OS data container (`.freq`) with CRC32-per-frame integrity, optional AES-256, SelfTune (Zero-AI) for stable latency, Polyglot bindings, and a simple Link bridge. Local-only. No telemetry.
+Deterministic cross-OS data container (.freq v42) with CRC32-per-frame integrity, optional AES-256/AES-GCM, SelfTune (Zero-AI) for latency stability, Polyglot bindings, and a simple Link bridge.  
+Local-only. No telemetry.
 
-**Quick navigation:** [WHY PAXECT](#why-paxect) · [Quick Start](#quick-start) · [Plugins](#plugins)
+**Quick navigation:** WHY PAXECT · Quick Start · Plugins  
 
-**Badges (suggested):** License · CI · CodeQL · Discussions
+**Badges (suggested):** License · CI · CodeQL · Discussions  
 
 **Accessibility & clarity:**  
-High-contrast text, concise headings, descriptive alt on any embedded images. No tracking pixels. No external scripts.
+- High-contrast text, concise headings, descriptive alt text  
+- No tracking pixels, no external scripts  
 
 **Tone & claims:**  
-Plain, verifiable wording. Roadmap described as plan/intent (no hard dates). Privacy-by-default and determinism stated factually.
+- Plain, verifiable wording  
+- Roadmap = intent (no hard dates)  
+- Privacy-by-default and determinism stated factually  
 
 **Where we fit (no buzzwords):**  
-Reproducible packaging and exchange across OS/languages; integrity with optional confidentiality; parallel multi-channel flows; zero telemetry; Zero-AI autotuning for latency stability.
-Path to Paid
+- Reproducible packaging & exchange across OS/languages  
+- Integrity with optional confidentiality  
+- Parallel multi-channel flows  
+- Zero telemetry  
+- Zero-AI autotuning for latency stability  
+- Path to Paid
+
+---
+
 ### Keywords & Topics
 
-PAXECT Core — deterministic multi-channel **.freq v42** data container with **CRC32 integrity**, **AES-GCM/CTR security**, **cross-OS polyglot bridges**, and **Zero-AI SelfTune**.  
-Keywords: paxect, freq42, deterministic, reproducible, data-container, wire-format, crc32, checksum, encryption, aes-256, aes-gcm, aes-ctr, selftune, autotune, zero-ai, zstandard, compression, streaming, cross-os, cross-language, polyglot, language-bindings, os-bridge, file-watcher, inbox-outbox, link-bridge, audit-compliance, privacy-by-default, edge-computing, iot, system-integration.
+**PAXECT Core** — deterministic multi-channel **.freq v42** container with **CRC32 integrity**, **AES-GCM/CTR security**, **cross-OS polyglot bridges**, and **Zero-AI SelfTune**.
 
-
-
+**Keywords:**  
+paxect, freq42, deterministic, reproducible, data-container, wire-format, crc32, checksum, encryption, aes-256, aes-gcm, aes-ctr, selftune, autotune, zero-ai, zstandard, compression, streaming, cross-os, cross-language, polyglot, language-bindings, os-bridge, file-watcher, inbox-outbox, link-bridge, audit-compliance, privacy-by-default, edge-computing, iot, system-integration
 
 
 
