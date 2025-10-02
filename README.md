@@ -3,6 +3,8 @@
 **Secure interoperability for the modern world:**  
 PAXECT is a deterministic, cross-platform data container that combines strong encryption (AES-GCM/CTR, CRC32), polyglot bridging, and privacy-by-default.  
 Designed for reproducibility and audit-compliance, PAXECT enables seamless, secure data exchange across languages, platforms, and environments—from edge to cloud.
+
+*No AI heuristics, just stable, predictable, and verifiable data handling.*
 ## Supported Platforms & Languages
 
 **Operating Systems:**  
@@ -17,7 +19,7 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 - Also tested: Rust, Java, C#, C/C++, Swift, Kotlin, Ruby, PHP, R, Julia, MATLAB, Bash/PowerShell  
 - Any language that can spawn a process and read/write stdin/stdout
 
-*No AI heuristics, just stable, predictable, and verifiable data handling.*
+
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Build](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/ci.yml/badge.svg)](../../actions)
