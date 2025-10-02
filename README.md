@@ -80,6 +80,11 @@ Local-only. No telemetry.
 - Zero-AI autotuning for latency stability  
 - Path to Paid
 
+**Zero-AI?**  
+PAXECT does not use AI/ML for optimization.  
+All autotuning (SelfTune 5-in-1) is rules-based, deterministic, and fully reproducible.  
+This makes the system transparent, auditable, and privacy-first by design.
+
 ---
 
 ### Keywords & Topics
