@@ -59,8 +59,8 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 Deterministic cross-OS data container (.freq v42) with CRC32-per-frame integrity, optional AES-256/AES-GCM, SelfTune (Zero-AI) for latency stability, Polyglot bindings, and a simple Link bridge.  
 Local-only. No telemetry.
 
-**Quick navigation:**  
-[WHY PAXECT](#1-why-paxect) · [Quick Start](#2-quick-start) · [Plugins](#plugins-official)  
+ Quick navigation: [WHY PAXECT](#1-why-paxect) · [Quick Start](#2-quick-start) · [Plugins](#plugins-official)
+
 
 **Badges (suggested):** License · CI · CodeQL · Discussions  
 
