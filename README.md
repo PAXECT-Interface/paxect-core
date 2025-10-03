@@ -118,6 +118,16 @@ All autotuning (SelfTune 5-in-1) is rules-based, deterministic, and fully reprod
 This makes the system transparent, auditable, and privacy-first by design.
 
 ---
+### Contact
+
+📧 contact@paxect.io  
+🐞 [Issues](https://github.com/PAXECT-Interface/PAXECT---Core/issues)  
+💬 [Discussions](https://github.com/PAXECT-Interface/PAXECT---Core/discussions)  
+
+*For security-related issues, please use responsible disclosure channels.*
+
+
+
 
 ### Keywords & Topics
 
@@ -177,13 +187,7 @@ Behavior: on exceed → hard-fail, no partial output; Link inherits the same pol
 Optional: run Link watcher and drop files into inbox/ for auto package/extract.
 ---
 
-### Contact
 
-📧 contact@paxect.io  
-🐞 [Issues](https://github.com/PAXECT-Interface/PAXECT---Core/issues)  
-💬 [Discussions](https://github.com/PAXECT-Interface/PAXECT---Core/discussions)  
-
-*For security-related issues, please use responsible disclosure channels.*
 
 
 
