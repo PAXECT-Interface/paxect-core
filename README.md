@@ -34,9 +34,9 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 ![PAXECT Block 2](docs/paxect_block2_EN_why_orange_bars_fit.svg)
 
 
-![PAXECT Architecture](paxect_architecture_brand_v18.svg)
-![PAXECT Block 3 — Soft Orange Grid](paxect_block3_soft_orange_grid(1).svg)
-![PAXECT Block 5 — Soft Orange Bars](paxect_block5_soft_orange_bars(1).svg)
+![PAXECT Architecture](docs/paxect_architecture_brand_v18.svg)
+![PAXECT Block 3 — Soft Orange Grid](docs/paxect_block3_soft_orange_grid(1).svg)
+![PAXECT Block 5 — Soft Orange Bars](docs/paxect_block5_soft_orange_bars(1).svg)
 ## Plugins (official)
 
 | Plugin               | Scope                           | Highlights                                                                                   | Repo |
