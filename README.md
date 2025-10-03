@@ -32,13 +32,7 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 - Any language that can spawn a process and read/write stdin/stdout
 
 ![PAXECT Block 2 EN — Why Orange Bars (Fit)](paxect_block2_EN_why_orange_bars_fit.svg)
----Use Cases
 
-    Quantum computing: Transfer simulation results between quantum and classical nodes
-    AI/ML pipelines: Rapid and secure exchange of tensors, arrays, and models
-    Embedded & IoT: Efficient for low-memory devices and robotics
-    Big Data / HPC: Fast checkpointing and large-scale data migration
-    Hybrid Systems: Seamless communication across heterogeneous architectures
 
 ![PAXECT Architecture](paxect_architecture_brand_v18.svg)
 ![PAXECT Block 3 — Soft Orange Grid](paxect_block3_soft_orange_grid(1).svg)
