@@ -32,7 +32,15 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 - Any language that can spawn a process and read/write stdin/stdout
 
 ![PAXECT Block 2 EN — Why Orange Bars (Fit)](paxect_block2_EN_why_orange_bars_fit.svg)
+Bit-identical runs across OS/languages (audit, compliance, regression).
 
+Soundwave multi-channel: parallel lanes with per-channel ordering (no reordering).
+
+Operationally simple: Core runs locally; Link uses SMB/NFS/cloud (inbox/outbox).
+
+Risk-free extensibility: Plugins (AES, SelfTune, Polyglot, Link) without Core changes.
+
+Privacy by default: local execution, no telemetry, Zero-AI.
 
 ![PAXECT Architecture](paxect_architecture_brand_v18.svg)
 ![PAXECT Block 3 — Soft Orange Grid](paxect_block3_soft_orange_grid(1).svg)
