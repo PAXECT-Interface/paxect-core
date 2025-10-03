@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
 
 
@@ -74,7 +74,7 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 ![PAXECT Block 7 — Soft Orange Bands v2](docs/paxect_block7_soft_orange_bands_v2.svg)
 
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
 
 
@@ -134,26 +134,26 @@ This makes the system transparent, auditable, and privacy-first by design.
 
 ---
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
 
 
 ---
 
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
 
 ---
