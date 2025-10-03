@@ -7,7 +7,7 @@
 
 
 
-[![GitHub Stars](https://img.shields.io/github/stars/PAXECTLab/PAXECT---Core/style=flat)](../../stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/style=flat)](../../stargazers)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Build](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/ci.yml/badge.svg)](../../actions)
 [![CodeQL](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/codeql.yml/badge.svg)](../../actions)
