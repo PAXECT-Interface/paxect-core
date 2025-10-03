@@ -209,6 +209,48 @@ Configurable: PAXECT_MAX_INPUT_MB (e.g., 8192 for 8 GB).
 
 Behavior: on exceed → hard-fail, no partial output; Link inherits the same policy.
 
+Security & Privacy
+
+Integrity: CRC32 per frame; strict parser; fail-stop on mismatch.
+
+Confidentiality/Authenticity: via AES-256 GCM (recommended) or CTR + AAD/HMAC.
+
+Privacy: local-only; no telemetry; logging is opt-in and minimal.
+
+Support & Compatibility
+
+OS: Windows 10/11, Linux, macOS.
+
+Shells: CMD/PowerShell/Bash; CI friendly.
+
+Languages: Python • Node.js • Go (more via Polyglot/stdin-stdout).
+
+CPU: x86_64 (tested), ARMv7 (smoke), ARM64 (planned), RISC-V (optional).
+
+Roadmap (transparent)
+
+Principles: SemVer 1.x; determinism first; no silent changes.
+
+Aims for 1.0: ARM64 builds (where feasible), AES plugin GA, Polyglot stable, SelfTune public, Link stable.
+
+Post-1.0 (intent): signed binaries, SBOM/attestations, templates (Kafka/S3/SIEM), LTS; PQC plugins exploration.
+
+Note: plan/intent, not a promise; priorities may shift with feedback/tests.
+
+License, Community & Contact
+
+License: Apache-2.0 (LICENSE, NOTICE, DISCLAIMER.md).
+
+Trademarks: “PAXECT” + logo (TRADEMARKS.md).
+
+Contributing: see CONTRIBUTING.md, CODE_OF_CONDUCT.md.
+
+Security: responsible disclosure (SECURITY.md).
+
+Community: Discussions & Issues; transparent changelogs/roadmap.
+
+
+Determinism: reproducible pipelines for audit/compliance.
 Optional: run Link watcher and drop files into inbox/ for auto package/extract.
 ---
 
