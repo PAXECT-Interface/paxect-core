@@ -133,6 +133,9 @@ This makes the system transparent, auditable, and privacy-first by design.
 
 
 ---
+<p align="center">
+  <img src="ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+</p>
 
 
 
@@ -142,7 +145,6 @@ This makes the system transparent, auditable, and privacy-first by design.
 
 
 
----
 ### Keywords & Topics
 
 **PAXECT Core** — deterministic multi-channel **.freq v42** container with **CRC32 integrity**, **AES-GCM/CTR security**, **cross-OS polyglot bridges**, and **Zero-AI SelfTune**.
