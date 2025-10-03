@@ -47,8 +47,8 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 | **Link (Inbox/Outbox Bridge)** | Cross-OS file exchange        | Shared-folder bridge; auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files; zero server | https://github.com/PAXECT-Interface/paxect-link-plugin |
 
 **Plug-and-play:** Core runs without plugins. Enable per run via config/flag or through the binding API. Deterministic behavior remains identical.
-![PAXECT Block 6 — Soft Orange Bands v2](paxect_block6_soft_orange_bands_v2.svg)
-![PAXECT Roadmap EN — Orange Bars (Fit)](paxect_roadmap_EN_orange_bars_fit.svg)
+![PAXECT Block 6 — Soft Orange Bands v2](docs/paxect_block6_soft_orange_bands_v2.svg)
+![PAXECT Roadmap EN — Orange Bars (Fit)](docs/paxect_roadmap_EN_orange_bars_fit.svg)
 # 13) Path to Paid
 
 PAXECT is built to stay **free and open-source at its core**.  
@@ -71,7 +71,7 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 - **Stability**: enterprises get predictable guarantees and funded maintenance.  
 - **Sustainability**: ensures continuous evolution without compromising openness.  
 
-![PAXECT Block 7 — Soft Orange Bands v2](paxect_block7_soft_orange_bands_v2.svg)
+![PAXECT Block 7 — Soft Orange Bands v2](docs/paxect_block7_soft_orange_bands_v2.svg)
 
 <p align="center">
   <img src="ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
@@ -79,8 +79,8 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 
 
 
-![PAXECT Block 8 — Soft Orange](paxect_block8_soft_orange.svg)
-![PAXECT Block 11 EN — Boxes Orange v5 CTA Fix](paxect_block11_EN_boxes_orange_v5_cta_fix(1).svg)
+![PAXECT Block 8 — Soft Orange](docs/paxect_block8_soft_orange.svg)
+![PAXECT Block 11 EN — Boxes Orange v5 CTA Fix](docs/paxect_block11_EN_boxes_orange_v5_cta_fix(1).svg)
 ## SEO & Discoverability
 
 **What we are (short):**  
