@@ -160,104 +160,82 @@ This makes the system transparent, auditable, and privacy-first by design.
 
 
 
-### Keywords & Topics
+## Keywords & Topics
 
-**PAXECT Core** — deterministic multi-channel **.freq v42** container with **CRC32 integrity**, **AES-GCM/CTR security**, **cross-OS polyglot bridges**, and **Zero-AI SelfTune**.
+**PAXECT Core** — deterministic multi-channel **.freq v42** container with **CRC32** integrity, **AES-GCM/CTR** security, cross-OS **Polyglot** bridges, and **Zero-AI SelfTune**.
 
-*These keywords improve discoverability on GitHub and search engines:*  
+These keywords improve discoverability on GitHub and search engines:
 
-- paxect, freq42, deterministic, reproducible, data-container, wire-format  
-- crc32, checksum, encryption, aes-256, aes-gcm, aes-ctr  
-- selftune, autotune, zero-ai, zstandard, compression, streaming  
-- cross-os, cross-language, polyglot, language-bindings, os-bridge  
-- file-watcher, inbox-outbox, link-bridge  
-- audit-compliance, privacy-by-default, edge-computing, iot, system-integration
-- Bit-identical runs across OS/languages (audit, compliance, regression).
+- **Core/Format:** paxect, freq42, deterministic, reproducible, data-container, wire-format
+- **Integrity & Security:** crc32, checksum, encryption, aes-256, aes-gcm, aes-ctr
+- **Performance/Runtime:** selftune, zero-ai, autotune, zstandard, compression, streaming
+- **Interoperability:** cross-os, cross-language, polyglot, language-bindings, os-bridge
+- **Exchange/Pipelines:** file-watcher, inbox-outbox, link-bridge
+- **Compliance/Deployment:** audit-compliance, privacy-by-default, edge-computing, iot, system-integration
 
-Soundwave multi-channel: parallel lanes with per-channel ordering (no reordering).
+## Why PAXECT (recap)
 
-Operationally simple: Core runs locally; Link uses SMB/NFS/cloud (inbox/outbox).
+- Bit-identical runs across OS/languages (audit, compliance, regression)
+- Soundwave multi-channel: parallel lanes with per-channel ordering (no reordering)
+- Operationally simple: Core runs locally; Link uses SMB/NFS/cloud (inbox/outbox)
+- Risk-free extensibility: plugins (AES, SelfTune, Polyglot, Link) without Core changes
+- Privacy by default: local execution, no telemetry, Zero-AI
 
-Risk-free extensibility: Plugins (AES, SelfTune, Polyglot, Link) without Core changes.
+## Use Cases (examples)
 
-Privacy by default: local execution, no telemetry, Zero-AI.
-Use Cases (examples)
+- Quantum/Research: package circuits/results/logs reproducibly; share via Link + AES
+- AI/ML: tensors/datasets/models as `.freq`; deterministic; optional encryption
+- Edge/Robotics/Automotive: stable multi-stream logging + firmware artifacts, cross-OS
+- HPC/Big Data: large files + live streams in parallel; integrity guaranteed
+- Media/Telemetry: many concurrent channels without head-of-line blocking
 
-Quantum/Research: package circuits/results/logs reproducibly; share securely via Link + AES.
+## Plugins (overview)
 
-AI/ML: tensors/datasets/models as .freq; deterministic; optional encryption.
+- **AES Secure:** AES-256 GCM/CTR, scrypt KDF, AAD; fail-stop on mismatch
+- **Polyglot:** Python/Node.js/Go; same deterministic pipeline across runtimes
+- **SelfTune 5-in-1:** guardrails, overhead control, rate-limiting/backpressure, smoothing, light observability
+- **Link (Inbox/Outbox):** shared-folder bridge; auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files; zero server
 
-Edge/Robotics/Automotive: stable multi-stream logging and firmware artifacts, cross-OS.
+## Quick Start
 
-HPC/Big Data: large files + live streams in parallel; integrity guaranteed.
+- Encode → Decode → Verify in two commands (Bash/PowerShell)
+- Output is bit-identical to input (`cmp` or `fc /b`)
+- Optional: run Link watcher and drop files into `inbox/` for auto package/extract
 
-Media/Telemetry: many concurrent channels without head-of-line blocking.
-Plugins (overview)
+## Data Policy
 
-AES Secure: AES-256 GCM/CTR, scrypt KDF, AAD; fail-stop on mismatch.
+- Default limit: **512 MB per operation** (predictable performance; DoS-resistant)
+- Configurable: `PAXECT_MAX_INPUT_MB` (e.g., 8192 for 8 GB)
+- On exceed → **hard-fail**, no partial output; Link inherits same policy
 
-Polyglot: Python/Node.js/Go; same deterministic pipeline across runtimes.
+## Security & Privacy
 
-SelfTune 5-in-1: guardrails, overhead control, rate-limiting/backpressure, smoothing, light observability.
+- Integrity: CRC32 per frame; strict parser; **fail-stop** on mismatch
+- Confidentiality/Authenticity: **AES-256 GCM** (recommended) or **CTR + AAD/HMAC**
+- Privacy: local-only; **no telemetry**; logging is opt-in and minimal
 
-Link (Inbox/Outbox): shared-folder bridge; auto-encode non-.freq → .freq, auto-decode .freq → files; zero server.
-Quick Start
+## Support & Compatibility
 
-Encode → Decode → Verify in two commands (Bash/PowerShell).
+- **OS:** Windows 10/11, Linux, macOS
+- **Shells:** CMD/PowerShell/Bash; CI-friendly
+- **Languages:** Python • Node.js • Go (more via Polyglot/stdin-stdout)
+- **CPU:** x86_64 (tested), ARMv7 (smoke), ARM64 (planned), RISC-V (optional)
 
-Output is bit-identical to input (use cmp/fc /b to verify).
+## Roadmap (transparent)
 
-Data Policy
+- **Principles:** SemVer 1.x; determinism first; no silent changes
+- **Aims for 1.0:** ARM64 builds (where feasible), AES plugin GA, Polyglot stable, SelfTune public, Link stable
+- **Post-1.0 (intent):** signed binaries, SBOM/attestations, templates (Kafka/S3/SIEM), LTS; PQC plugins exploration  
+- *Note:* plan/intent, not a promise; priorities may shift with feedback/tests
 
-Default limit: 512 MB per operation (predictable performance; DoS-resistant).
+## License, Community & Contact
 
-Configurable: PAXECT_MAX_INPUT_MB (e.g., 8192 for 8 GB).
+- **License:** Apache-2.0 (`LICENSE`, `NOTICE`, `DISCLAIMER.md`)
+- **Trademarks:** “PAXECT” + logo (`TRADEMARKS.md`)
+- **Contributing:** `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`
+- **Security:** responsible disclosure (`SECURITY.md`)
+- **Community:** Discussions & Issues; transparent changelogs/roadmap
 
-Behavior: on exceed → hard-fail, no partial output; Link inherits the same policy.
-
-Security & Privacy
-
-Integrity: CRC32 per frame; strict parser; fail-stop on mismatch.
-
-Confidentiality/Authenticity: via AES-256 GCM (recommended) or CTR + AAD/HMAC.
-
-Privacy: local-only; no telemetry; logging is opt-in and minimal.
-
-Support & Compatibility
-
-OS: Windows 10/11, Linux, macOS.
-
-Shells: CMD/PowerShell/Bash; CI friendly.
-
-Languages: Python • Node.js • Go (more via Polyglot/stdin-stdout).
-
-CPU: x86_64 (tested), ARMv7 (smoke), ARM64 (planned), RISC-V (optional).
-
-Roadmap (transparent)
-
-Principles: SemVer 1.x; determinism first; no silent changes.
-
-Aims for 1.0: ARM64 builds (where feasible), AES plugin GA, Polyglot stable, SelfTune public, Link stable.
-
-Post-1.0 (intent): signed binaries, SBOM/attestations, templates (Kafka/S3/SIEM), LTS; PQC plugins exploration.
-
-Note: plan/intent, not a promise; priorities may shift with feedback/tests.
-
-License, Community & Contact
-
-License: Apache-2.0 (LICENSE, NOTICE, DISCLAIMER.md).
-
-Trademarks: “PAXECT” + logo (TRADEMARKS.md).
-
-Contributing: see CONTRIBUTING.md, CODE_OF_CONDUCT.md.
-
-Security: responsible disclosure (SECURITY.md).
-
-Community: Discussions & Issues; transparent changelogs/roadmap.
-
-
-Determinism: reproducible pipelines for audit/compliance.
-Optional: run Link watcher and drop files into inbox/ for auto package/extract.
 ---
 
 
