@@ -138,8 +138,51 @@ This makes the system transparent, auditable, and privacy-first by design.
 - selftune, autotune, zero-ai, zstandard, compression, streaming  
 - cross-os, cross-language, polyglot, language-bindings, os-bridge  
 - file-watcher, inbox-outbox, link-bridge  
-- audit-compliance, privacy-by-default, edge-computing, iot, system-integration  
+- audit-compliance, privacy-by-default, edge-computing, iot, system-integration
+- Bit-identical runs across OS/languages (audit, compliance, regression).
 
+Soundwave multi-channel: parallel lanes with per-channel ordering (no reordering).
+
+Operationally simple: Core runs locally; Link uses SMB/NFS/cloud (inbox/outbox).
+
+Risk-free extensibility: Plugins (AES, SelfTune, Polyglot, Link) without Core changes.
+
+Privacy by default: local execution, no telemetry, Zero-AI.
+Use Cases (examples)
+
+Quantum/Research: package circuits/results/logs reproducibly; share securely via Link + AES.
+
+AI/ML: tensors/datasets/models as .freq; deterministic; optional encryption.
+
+Edge/Robotics/Automotive: stable multi-stream logging and firmware artifacts, cross-OS.
+
+HPC/Big Data: large files + live streams in parallel; integrity guaranteed.
+
+Media/Telemetry: many concurrent channels without head-of-line blocking.
+Plugins (overview)
+
+AES Secure: AES-256 GCM/CTR, scrypt KDF, AAD; fail-stop on mismatch.
+
+Polyglot: Python/Node.js/Go; same deterministic pipeline across runtimes.
+
+SelfTune 5-in-1: guardrails, overhead control, rate-limiting/backpressure, smoothing, light observability.
+
+Link (Inbox/Outbox): shared-folder bridge; auto-encode non-.freq → .freq, auto-decode .freq → files; zero server.
+Quick Start
+
+Encode → Decode → Verify in two commands (Bash/PowerShell).
+
+Output is bit-identical to input (use cmp/fc /b to verify).
+
+Data Policy
+
+Default limit: 512 MB per operation (predictable performance; DoS-resistant).
+
+Configurable: PAXECT_MAX_INPUT_MB (e.g., 8192 for 8 GB).
+
+Behavior: on exceed → hard-fail, no partial output; Link inherits the same policy.
+
+Optional: run Link watcher and drop files into inbox/ for auto package/extract.
 ---
 
 ### Contact
