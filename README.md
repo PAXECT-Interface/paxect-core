@@ -2,6 +2,8 @@
   <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
 
+[![GitHub Stars](https://img.shields.io/github/stars/OWNER/REPO?style=flat)](../../stargazers)
+
 
 
 
