@@ -172,7 +172,7 @@ These keywords improve discoverability on GitHub and search engines:
 - **Interoperability:** cross-os, cross-language, polyglot, language-bindings, os-bridge
 - **Exchange/Pipelines:** file-watcher, inbox-outbox, link-bridge
 - **Compliance/Deployment:** audit-compliance, privacy-by-default, edge-computing, iot, system-integration
----
+--
 ## Why PAXECT (recap)
 
 - Bit-identical runs across OS/languages (audit, compliance, regression)
