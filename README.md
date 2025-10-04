@@ -47,8 +47,8 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 | **Link (Inbox/Outbox Bridge)** | Cross-OS file exchange        | Shared-folder bridge; auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files; zero server | https://github.com/PAXECT-Interface/paxect-link-plugin |
 
 **Plug-and-play:** Core runs without plugins. Enable per run via config/flag or through the binding API. Deterministic behavior remains identical.
-⭐ **Like PAXECT?** Please [star the repo](../../stargazers) — it helps others discover it.
 
+⭐ **Like PAXECT?** Please [star the repo](../../stargazers) — it helps others discover it.
 ![PAXECT Block 6 — Soft Orange Bands v2](docs/paxect_block6_soft_orange_bands_v2.svg)
 ![PAXECT Roadmap EN — Orange Bars (Fit)](docs/paxect_roadmap_EN_orange_bars_fit.svg)
 # 13) Path to Paid
