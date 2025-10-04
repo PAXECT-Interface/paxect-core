@@ -130,6 +130,13 @@ All autotuning (SelfTune 5-in-1) is rules-based, deterministic, and fully reprod
 This makes the system transparent, auditable, and privacy-first by design.
 
 ---
+## Governance & Ownership
+- **Ownership:** All PAXECT products and trademarks (PAXECT™ name + logo) remain the property of the Owner.
+- **License:** Source code is Apache-2.0; trademark rights are **not** granted by the code license.
+- **Core decisions:** Architectural decisions and **final merges** for Core and brand-sensitive repos require **Owner approval**.
+- **Contributions:** PRs are welcome and reviewed by maintainers; merges follow CODEOWNERS + branch protection.
+- **Naming/branding:** Do not use the PAXECT name/logo for derived projects without written permission; see `TRADEMARKS.md`.
+---
 ### Contact
 
 📧 contact@paxect.io  
