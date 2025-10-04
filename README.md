@@ -11,7 +11,7 @@
 [![Discussions](https://img.shields.io/badge/Discuss-join-blue)](../../discussions)
 [![Security](https://img.shields.io/badge/Security-responsible%20disclosure-informational)](./SECURITY.md)
 
-➡️ Bugs/Features → [Issues](../../issues) · Questions/Ideas → [Discussions](../../discussions)
+ Bugs/Features → [Issues](../../issues) · Questions/Ideas → [Discussions](../../discussions)
 
 
 
@@ -53,8 +53,8 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 
 **Plug-and-play:** Core runs without plugins. Enable per run via config/flag or through the binding API. Deterministic behavior remains identical.
 
-➡️ Have a bug or feature request? Please open an **Issue**.  
-❓ General questions or ideas? Use **Discussions › Q&A**. We convert strong ideas to Issues so they can ship.
+ Have a bug or feature request? Please open an **Issue**.  
+ General questions or ideas? Use **Discussions › Q&A**. We convert strong ideas to Issues so they can ship.
 
 
 ⭐ If PAXECT helped you, please consider a star — it helps others discover the project and supports the maintainers.
