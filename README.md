@@ -161,8 +161,21 @@ This makes the system transparent, auditable, and privacy-first by design.
 
 ---
 
+<p align="center">
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+</p>
 
+---
+<p align="center">
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+</p>
 
+---
+<p align="center">
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+</p>
+
+---
 ## Keywords & Topics
 
 **PAXECT Core** — deterministic multi-channel **.freq v42** container with **CRC32** integrity, **AES-GCM/CTR** security, cross-OS **Polyglot** bridges, and **Zero-AI SelfTune**.
