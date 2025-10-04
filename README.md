@@ -5,10 +5,12 @@
 
 [![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](../../stargazers)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
-[![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](../../actions) 
+[![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](../../actions)
 [![CodeQL](https://img.shields.io/badge/CodeQL-active-lightgrey.svg)](../../actions)
-[![Discussions](https://img.shields.io/badge/Discuss-join-blue)](../../discussions)
 [![Issues](https://img.shields.io/badge/Issues-open-blue)](../../issues)
+[![Discussions](https://img.shields.io/badge/Discuss-join-blue)](../../discussions)
+[![Security](https://img.shields.io/badge/Security-responsible%20disclosure-informational)](./SECURITY.md)
+
 
 
 ## PAXECT Core
@@ -49,7 +51,8 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 
 **Plug-and-play:** Core runs without plugins. Enable per run via config/flag or through the binding API. Deterministic behavior remains identical.
 
-⭐ **Like PAXECT?** Please [star the repo](../../stargazers) — it helps others discover it.
+⭐ If PAXECT helped you, please consider a star — it helps others discover the project and supports the maintainers.
+
 ![PAXECT Block 6 — Soft Orange Bands v2](docs/paxect_block6_soft_orange_bands_v2.svg)
 ![PAXECT Roadmap EN — Orange Bars (Fit)](docs/paxect_roadmap_EN_orange_bars_fit.svg)
 # 13) Path to Paid
