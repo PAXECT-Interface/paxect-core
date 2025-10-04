@@ -3,12 +3,13 @@
 </p>
 
 
+[![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](../../stargazers)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
+[![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](../../actions) 
+[![CodeQL](https://img.shields.io/badge/CodeQL-active-lightgrey.svg)](../../actions)
+[![Discussions](https://img.shields.io/badge/Discuss-join-blue)](../../discussions)
+[![Issues](https://img.shields.io/badge/Issues-open-blue)](../../issues)
 
-[![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](https://github.com/PAXECT-Interface/PAXECT---Core/stargazers)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Build](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/ci.yml/badge.svg)](../../actions)
-[![CodeQL](https://github.com/PAXECT-Interface/PAXECT---Core/actions/workflows/codeql.yml/badge.svg)](../../actions)
-[![Discussions](https://img.shields.io/github/discussions/PAXECT-Interface/PAXECT---Core)](../../discussions)
 
 ## PAXECT Core
 
