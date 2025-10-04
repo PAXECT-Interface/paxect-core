@@ -51,6 +51,10 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 
 **Plug-and-play:** Core runs without plugins. Enable per run via config/flag or through the binding API. Deterministic behavior remains identical.
 
+➡️ Have a bug or feature request? Please open an **Issue**.  
+❓ General questions or ideas? Use **Discussions › Q&A**. We convert strong ideas to Issues so they can ship.
+
+
 ⭐ If PAXECT helped you, please consider a star — it helps others discover the project and supports the maintainers.
 
 ![PAXECT Block 6 — Soft Orange Bands v2](docs/paxect_block6_soft_orange_bands_v2.svg)
