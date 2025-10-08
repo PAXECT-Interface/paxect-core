@@ -34,6 +34,8 @@ They run identically on **Linux**, **macOS**, **Windows (WSL / PowerShell)**,
 Run any demo:
 ```bash
 python3 scripts/demos/XX_demo_name.py
+---
+
 
 
 python3 scripts/demos/00_env_check.py
