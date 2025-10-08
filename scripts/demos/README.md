@@ -41,6 +41,24 @@ bash scripts/demos/01_quickstart_smoke.sh
 python3 scripts/demos/10_universal_core_only.py
 
 
+---
+
+## Run & Requirements
+
+Each demo prints its own progress, status, and SHA-256 summary.  
+Temporary files are automatically cleaned up under `/tmp`.
+
+**Requirements**
+- Python 3.12 or later  
+- `paxect_core` module importable  
+- Optional: `paxect` CLI in PATH  
+- Dependencies: `zstandard`, `psutil`
+
+**Notes**
+- All output is in **English** for international readability.  
+- Every container is verified via **CRC32 + SHA-256** for integrity.  
+- For automated cross-OS transfers and watchers, see **PAXECT-Link**.  
+- For CI, run **Demo #09** (full) or **#10** (core-only) on a 3-OS matrix to prove deterministic behavior.
 
 
 
