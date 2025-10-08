@@ -31,7 +31,7 @@ All demos are written in **pure Python 3.12+** and require **no shell scripts**.
 They run identically on **Linux**, **macOS**, **Windows (WSL / PowerShell)**,  
 **Android (Termux)**, and **iOS (Pyto)**.
 
-Run any demo:
+Run a demo
 ```bash
 python3 scripts/demos/XX_demo_name.py
 
