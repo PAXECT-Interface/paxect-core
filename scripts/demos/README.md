@@ -30,8 +30,30 @@ to verify **bit-identical round-trips** and **cross-OS reproducibility**.
 All demos are written in **pure Python 3.12+** and require **no shell scripts**.  
 They run identically on **Linux**, **macOS**, **Windows (WSL / PowerShell)**,  
 **Android (Termux)**, and **iOS (Pyto)**.
+---
 
+Each demo prints its own status, progress, and SHA-256 summary.
+Large demos automatically clean up temporary files under the system temp folder.
 
+🧩 Requirements
+
+Python 3.12 or later
+
+paxect_core module importable
+
+Optional: paxect CLI in PATH (for CLI comparison)
+
+No extra dependencies required
+
+🌍 Notes
+
+All output is in English for international readability.
+
+Every container is verified via CRC32 + SHA-256.
+
+For automation and real transfers, see PAXECT-Link.
+
+For CI, run demo #09 on a 3-OS matrix to prove cross-platform determinism.
 
 
 
