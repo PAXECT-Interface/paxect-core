@@ -1,4 +1,4 @@
-# 🧪 PAXECT Core — Demo Suite (International · Cross-OS)
+#  PAXECT Core — Demo Suite (International · Cross-OS)
 
 All demo scripts below are **self-contained**, **safe to run**, and fully **deterministic**.  
 They showcase **PAXECT Core** and connected plugins under real-world conditions across  
@@ -9,7 +9,7 @@ to verify **bit-identical round-trips** and **cross-OS reproducibility**.
 
 ---
 
-## 🧭 Demo Overview
+##  Demo Overview
 
 | # | Script | Purpose / Proof |
 |:-:|:--|:--|
@@ -26,7 +26,7 @@ to verify **bit-identical round-trips** and **cross-OS reproducibility**.
 
 ---
 
-## ▶️ How to Run (Cross-Platform)
+##  How to Run (Cross-Platform)
 
 All demos are written in **pure Python 3.12+** and require **no shell scripts**.  
 They run identically on **Linux**, **macOS**, **Windows (WSL / PowerShell)**,  
@@ -47,7 +47,7 @@ Large demos automatically clean up temporary files under the system temp folder.
 
 
 
-🧩 Requirements
+ Requirements
 
 Python 3.12 or later
 
@@ -58,7 +58,7 @@ Optional: paxect CLI in PATH (for CLI comparison)
 No extra dependencies required
 
 
-🌍 Notes
+ Notes
 
 All output is in English for international readability.
 
