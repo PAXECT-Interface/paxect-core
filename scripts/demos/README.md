@@ -24,7 +24,6 @@ to verify **bit-identical round-trips** and **cross-OS reproducibility**.
 | 08 | `08_industry_robotics_bridge.py` | Multi-hop industry bridge (EDGE → OT → ROS → Linux) — no hash drift, E2E OK. |
 | 09 | `09_universal_total.py` | Full 3-in-1 universal demo — runs identically on Linux · macOS · Windows · Android · iOS. |
 
----
 ## ▶️ How to Run (Cross-Platform)
 
 All demos are written in **pure Python 3.12+** and require **no shell scripts**.  
@@ -33,12 +32,14 @@ They run identically on **Linux**, **macOS**, **Windows (WSL / PowerShell)**,
 
 Run any demo / Examples:
 
-<pre><code>python3 scripts/demos/XX_demo_name.py
+~~~bash
+python3 scripts/demos/XX_demo_name.py
 # Examples:
 python3 scripts/demos/00_env_check.py
 python3 scripts/demos/01_quickstart_roundtrip.py
 python3 scripts/demos/09_universal_total.py
-</code></pre>
+~~~
+
 
 
 
