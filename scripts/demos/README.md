@@ -43,3 +43,20 @@ python3 scripts/demos/XX_demo_name.py
 
 
 
+🧩 Requirements
+
+Python 3.12 or later
+
+paxect_core module importable
+
+Optional: paxect CLI in PATH (for CLI comparison)
+
+No extra dependencies required
+
+
+
+
+
+
+
+
