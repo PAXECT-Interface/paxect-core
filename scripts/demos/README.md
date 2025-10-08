@@ -34,13 +34,7 @@ They run identically on **Linux**, **macOS**, **Windows (WSL / PowerShell)**,
 Run any demo:
 ```bash
 python3 scripts/demos/XX_demo_name.py
----
 
-
-
-python3 scripts/demos/00_env_check.py
-python3 scripts/demos/01_quickstart_roundtrip.py
-python3 scripts/demos/09_universal_total.py
 
 
 
