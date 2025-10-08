@@ -44,7 +44,7 @@ paxect_core module importable
 Optional: paxect CLI in PATH (for CLI comparison)
 
 No extra dependencies required
-
+---
 🌍 Notes
 
 All output is in English for international readability.
