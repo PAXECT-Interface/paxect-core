@@ -228,6 +228,7 @@ These keywords improve discoverability on GitHub and search engines:
 - **SelfTune 5-in-1:** guardrails, overhead control, rate-limiting/backpressure, smoothing, light observability
 - **Link (Inbox/Outbox):** shared-folder bridge; auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files; zero server
 
+---
 
 ### ✅ Launch Summary — October 2025
 **Status:** Production-Hardened · Multi-OS Verified · Ready for Audit  
@@ -236,7 +237,7 @@ Core deterministic behavior confirmed (CRC32 + SHA-256).
 Plugins (AES, Polyglot, SelfTune, Link) verified compatible with PAXECT Core v42.  
 Zero-AI verified: all tuning purely deterministic, no heuristics or telemetry.
 
-
+---
 ## Quick Start
 
 - Encode → Decode → Verify in two commands (Bash/PowerShell)
