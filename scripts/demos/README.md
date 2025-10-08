@@ -56,6 +56,15 @@ For automation and real transfers, see PAXECT-Link.
 For CI, run demo #09 on a 3-OS matrix to prove cross-platform determinism.
 
 
+## ▶️ How to Run (Cross-Platform)
+
+All demos are written in **pure Python 3.12+** and require **no shell scripts**.  
+They run identically on **Linux**, **macOS**, **Windows (WSL / PowerShell)**,  
+**Android (Termux)**, and **iOS (Pyto)**.
+
+Run any demo:
+```bash
+python3 scripts/demos/XX_demo_name.py
 python3 scripts/demos/00_env_check.py
 python3 scripts/demos/01_quickstart_roundtrip.py
 python3 scripts/demos/09_universal_total.py
