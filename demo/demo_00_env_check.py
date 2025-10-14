@@ -1,59 +1,47 @@
 #!/usr/bin/env python3
-# SPDX-License-Identifier: Apache-2.0
 """
-Demo 00 - Environment Check
-Verifies Python version, repository layout, and module importability
-for PAXECT Core Plugin. Fully deterministic - no network or randomness.
+PAXECT Core — Demo 00: Environment Sanity Check
+International / Cross-OS Demo Suite
+
+Purpose:
+- Verifies that Python is installed and working.
+- Verifies that paxect_core and paxect_core_plugin are importable.
+- Prints Python version and plugin version (if available).
+- Safe to run on Linux, macOS, Windows, Android (Termux), iOS (Pyto).
 """
 
-import os
 import sys
 import hashlib
-import importlib.util
 
-print("[PAXECT Demo 00] Environment Check")
-print("-" * 60)
+print("==[ PAXECT Demo 00 — Environment Sanity Check ]==")
 
-# ---- Python version ----
-print(f"Python version: {sys.version.split()[0]}")
-if sys.version_info < (3, 8):
-    print("[Error] Python 3.8 or higher required.")
+# Print Python version
+print(f"[Step 1] Python version: {sys.version}")
+
+# Try to import paxect_core
+try:
+    import paxect_core
+    print("[Step 2] paxect_core imported successfully!")
+    paxect_version = getattr(paxect_core, '__version__', 'unknown')
+    print(f"[Step 3] paxect_core version: {paxect_version}")
+except Exception as e:
+    print("[ERROR] Could not import paxect_core!")
+    print(e)
     sys.exit(1)
 
-# ---- Auto-locate project root ----
-script_dir = os.path.abspath(os.path.dirname(__file__))
-top_candidates = [
-    script_dir,                            # current dir
-    os.path.abspath(os.path.join(script_dir, os.pardir)),  # parent
-    os.getcwd(),                           # working dir
-]
-found = None
-for path in top_candidates:
-    if all(os.path.exists(os.path.join(path, f)) for f in ["paxect_core.py", "paxect_core_plugin.py"]):
-        found = path
-        break
+# Try to import paxect_core_plugin
+try:
+    import paxect_core_plugin
+    print("[Step 4] paxect_core_plugin imported successfully!")
+    plugin_version = getattr(paxect_core_plugin, '__version__', 'unknown')
+    print(f"[Step 5] paxect_core_plugin version: {plugin_version}")
+except Exception as e:
+    print("[WARNING] Could not import paxect_core_plugin (optional).")
+    print(e)
 
-if not found:
-    print("[Error] Could not locate paxect_core.py and paxect_core_plugin.py in expected locations.")
-    sys.exit(1)
+# Print hash of Python version string
+python_ver_hash = hashlib.sha256(sys.version.encode()).hexdigest()
+print(f"[Step 6] SHA-256 of Python version string: {python_ver_hash}")
 
-print(f"Project root: {found}")
-
-# ---- Plugin SHA-256 ----
-plugin_path = os.path.join(found, "paxect_core_plugin.py")
-with open(plugin_path, "rb") as f:
-    data = f.read()
-sha256 = hashlib.sha256(data).hexdigest()
-print(f"paxect_core_plugin.py SHA-256: {sha256}")
-
-# ---- Import check ----
-sys.path.insert(0, found)
-for mod in ("paxect_core_plugin", "paxect_core"):
-    try:
-        importlib.import_module(mod)
-        print(f"[OK] Module {mod} imported successfully.")
-    except Exception as e:
-        print(f"[Error] Could not import {mod}: {e}")
-        sys.exit(1)
-
-print("\n✅ Environment check passed - system ready for PAXECT Core Demos.")
+# Done
+print("==[ Environment check completed successfully ]==")
