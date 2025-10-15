@@ -66,27 +66,33 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 
 ![PAXECT Block 6 — Soft Orange Bands v2](docs/paxect_block6_soft_orange_bands_v2.svg)
 ![PAXECT Roadmap EN — Orange Bars (Fit)](docs/paxect_roadmap_EN_orange_bars_fit.svg)
+  
+
 # 13) Path to Paid
 
-PAXECT is built to stay **free and open-source at its core**.  
+**PAXECT** is built to stay free and open-source at its core.  
 At the same time, we recognize the need for a sustainable model to fund long-term maintenance and enterprise adoption.
 
-## Principles
+### Principles
+
 - **Core stays free forever** — no lock-in, no hidden fees.  
 - **Volunteers and researchers**: always free access to source, builds, and discussions.  
 - **Transparency**: clear dates, no surprises.  
-- **Fairness**: individuals stay free; organizations that rely on enterprise features contribute financially.  
+- **Fairness**: individuals stay free; organizations that rely on enterprise features contribute financially.
 
-## Timeline
-- **Initial phase**: all modules, including enterprise, are free for the first **6 months**.  
-- **30 days before renewal**: a decision will be made whether the free enterprise phase is extended for another 6 months.  
-- **Core/baseline model**: always free with updates. The exact definition of this baseline model is still under discussion.  
- 
+### Timeline
 
-## Why this matters
-- **Motivation**: volunteers know their work has impact and will remain accessible.  
-- **Stability**: enterprises get predictable guarantees and funded maintenance.  
-- **Sustainability**: ensures continuous evolution without compromising openness.  
+- **Launch phase:** starting from the official **PAXECT product release date**, all modules — including enterprise — will be free for **6 months**.  
+- This free enterprise period applies **globally**, not per individual user or download.  
+- **30 days before renewal:** a decision will be made whether the free enterprise phase is extended for another 6 months.  
+- **Core/baseline model:** always free with updates. The exact definition of this baseline model is still under discussion.
+
+### Why This Matters
+
+- **Motivation:** volunteers know their work has impact and will remain accessible.  
+- **Stability:** enterprises get predictable guarantees and funded maintenance.  
+- **Sustainability:** ensures continuous evolution without compromising openness.
+
 
 ![PAXECT Block 7 — Soft Orange Bands v2](docs/paxect_block7_soft_orange_bands_v2.svg)
 
