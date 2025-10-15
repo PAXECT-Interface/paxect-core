@@ -13,6 +13,19 @@
 
  Bugs/Features → [Issues](../../issues) · Questions/Ideas → [Discussions](../../discussions)
 
+>  **PAXECT Core v0.9.0-blueprint**  
+> Deterministic, cross-platform container engine — powering all PAXECT modules.  
+
+**PAXECT Core** delivers a self-contained, offline-safe codec and container system  
+for reproducible data integrity and multi-channel streaming.  
+Tested across **Linux, macOS, and Windows**, the Core provides  
+bit-identical encode/decode behavior, automated validation,  
+and enterprise-grade reliability.
+
+ See also:  
+- [Demo Suite](demos/README.md) — 10 deterministic cross-OS examples  
+- [Test Framework](README_TESTS.md) — validation, coverage, and CI integration  
+- [Security & Compliance](SECURITY.md) — conduct, license, and data policy
 
 
 ## PAXECT Core
