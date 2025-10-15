@@ -53,7 +53,7 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 |----------------------|----------------------------------|----------------------------------------------------------------------------------------------|------|
 | **AES Secure**       | Confidentiality & integrity      | AES-256 GCM/CTR, scrypt KDF, AAD; strict **fail-stop** on mismatch                           | https://github.com/PAXECT-Interface/paxect-aes-plugin |
 | **Polyglot**         | Language bindings                | Python, Node.js, Go; identical deterministic pipeline across runtimes                        | https://github.com/PAXECT-Interface/paxect-polyglot-plugin |
-| **SelfTune 5-in-1**  | Performance & observability      | Zero-AI autotune: guardrails, overhead control, rate-limiting/backpressure, jitter smoothing, lightweight observability | https://github.com/PAXECT-Interface/paxect-selftune-5in1 |
+| **SelfTune 5-in-1**  | Performance & observability      | No-AI autotune: guardrails, overhead control, rate-limiting/backpressure, jitter smoothing, lightweight observability | https://github.com/PAXECT-Interface/paxect-selftune-5in1 |
 | **Link (Inbox/Outbox Bridge)** | Cross-OS file exchange        | Shared-folder bridge; auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files; zero server | https://github.com/PAXECT-Interface/paxect-link-plugin |
 
 **Plug-and-play:** Core runs without plugins. Enable per run via config/flag or through the binding API. Deterministic behavior remains identical.
@@ -101,7 +101,7 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 ## SEO & Discoverability
 
 **What we are (short):**  
-Deterministic cross-OS data container (.freq v42) with CRC32-per-frame integrity, optional AES-256/AES-GCM, SelfTune (Zero-AI) for latency stability, Polyglot bindings, and a simple Link bridge.  
+Deterministic cross-OS data container (.freq v42) with CRC32-per-frame integrity, optional AES-256/AES-GCM, SelfTune (No-AI) for latency stability, Polyglot bindings, and a simple Link bridge.  
 Local-only. No telemetry.
 
  Quick navigation: [WHY PAXECT](#1-why-paxect) · [Quick Start](#2-quick-start) · [Plugins](#plugins-official)
@@ -122,17 +122,26 @@ Local-only. No telemetry.
 - Reproducible packaging & exchange across OS/languages  
 - Integrity with optional confidentiality  
 - Parallel multi-channel flows  
-- Zero telemetry  
-- Zero-AI autotuning for latency stability  
+- No telemetry  
+- No-AI autotuning for latency stability  
 - Path to Paid  
 
 ---
 
-### Zero-AI (all-round)
+## Sponsorships & Enterprise Support
 
-PAXECT does not use AI/ML for optimization.  
-All autotuning (SelfTune 5-in-1) is rules-based, deterministic, and fully reproducible.  
-This makes the system transparent, auditable, and privacy-first by design.
+PAXECT SelfTune is maintained as a verified plug-and-play enterprise module.  
+Sponsorships enable continuous validation, reproducibility testing, and deterministic compliance across Linux, Windows, and macOS platforms.
+
+
+ **Enterprise Sponsorship Options**
+- Infrastructure validation and cross-platform QA  
+- CI/CD and performance compliance testing  
+- Integration and OEM partnerships  
+
+ **How to get involved**
+- [Become a GitHub Sponsor](https://github.com/sponsors/PAXECT-Interface)  
+- For enterprise or OEM inquiries: **enterprise@paxect.com**
 
 ---
 ## Governance & Ownership
