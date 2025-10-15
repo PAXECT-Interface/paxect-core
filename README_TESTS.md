@@ -182,8 +182,10 @@ chmod +x coverage_run.sh
 ```
 ### 10. License
 
-###All test utilities and scripts are released under the same license as the core engine:
+All test utilities and scripts are released under the same license as the core engine:
 **Apache 2.0** — © 2025 PAXECT Systems. All rights reserved.
+```
+
 ---
 
 ## 🧩 Enterprise Test Environment (Quick Setup)
