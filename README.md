@@ -160,7 +160,7 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 
 *For security-related issues, please use responsible disclosure channels.*
 
--
+---
 Copyright © 2025 PAXECT Interface · Licensed under Apache 2.0
 Deterministic autotuning solutions for enterprise automation and runtime optimization.
 
