@@ -13,19 +13,7 @@
 
  Bugs/Features → [Issues](../../issues) · Questions/Ideas → [Discussions](../../discussions)
 
->  **PAXECT Core v0.9.0-blueprint**  
-> Deterministic, cross-platform container engine — powering all PAXECT modules.  
 
-**PAXECT Core** delivers a self-contained, offline-safe codec and container system  
-for reproducible data integrity and multi-channel streaming.  
-Tested across **Linux, macOS, and Windows**, the Core provides  
-bit-identical encode/decode behavior, automated validation,  
-and enterprise-grade reliability.
-
- See also:  
-- [Demo Suite](demos/README.md) — 10 deterministic cross-OS examples  
-- [Test Framework](README_TESTS.md) — validation, coverage, and CI integration  
-- [Security & Compliance](SECURITY.md) — conduct, license, and data policy
 
 
 ## PAXECT Core
@@ -48,6 +36,10 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 - Official: Python, Node.js, Go  
 - Also tested: Rust, Java, C#, C/C++, Swift, Kotlin, Ruby, PHP, R, Julia, MATLAB, Bash/PowerShell  
 - Any language that can spawn a process and read/write stdin/stdout
+- 
+- [Demo Suite](demos/README.md) — 10 deterministic cross-OS examples  
+- [Test Framework](README_TESTS.md) — validation, coverage, and CI integration  
+- [Security & Compliance](SECURITY.md) — conduct, license, and data policy
 
 ![PAXECT Block 2](docs/paxect_block2_EN_why_orange_bars_fit.svg)
 
