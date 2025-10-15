@@ -11,7 +11,7 @@
 [![Discussions](https://img.shields.io/badge/Discuss-join-blue)](../../discussions)
 [![Security](https://img.shields.io/badge/Security-responsible%20disclosure-informational)](./SECURITY.md)
 
- Bugs/Features → [Issues](../../issues) · Questions/Ideas → [Discussions](../../discussions)
+
 
 
 
