@@ -15,5 +15,5 @@ All contributions must remain deterministic, platform-agnostic, and free of exte
 1. Fork this repository.
 2. Clone your fork locally:
    ```bash
-   git clone https://github.com/PAXECT-Interface/paxect---Core.git
-   cd paxect---Core
+   git clone https://github.com/PAXECT-Interface/PAXECT---Core.git
+   cd PAXECT---Core
