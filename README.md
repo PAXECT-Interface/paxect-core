@@ -19,7 +19,7 @@
 ## PAXECT Core
 
 **Secure interoperability for the modern world:**  
-PAXECT is a deterministic, cross-platform data container that combines strong encryption (AES-GCM/CTR, CRC32), polyglot bridging, and privacy-by-default.  
+PAXECT is a deterministic, cross-platform data container that combines strong encryption (AEAD Hybrid-GCM/CTR, CRC32), polyglot bridging, and privacy-by-default.  
 Designed for reproducibility and audit-compliance, PAXECT enables seamless, secure data exchange across languages, platforms, and environments—from edge to cloud.
 
 *No AI heuristics, just stable, predictable, and verifiable data handling.*
@@ -110,7 +110,7 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 ## SEO & Discoverability
 
 **What we are (short):**  
-Deterministic cross-OS data container (.freq v42) with CRC32-per-frame integrity, optional AES-256/AES-GCM, SelfTune (No-AI) for latency stability, Polyglot bindings, and a simple Link bridge.  
+Deterministic cross-OS data container (.freq v42) with CRC32-per-frame integrity, optional  AEAD Hybrid/AES-256/AES-GCM, SelfTune (No-AI) for latency stability, Polyglot bindings, and a simple Link bridge.  
 Local-only. No telemetry.
 
  Quick navigation: [WHY PAXECT](#1-why-paxect) · [Quick Start](#2-quick-start) · [Plugins](#plugins-official)
@@ -221,12 +221,12 @@ Copyright © 2025 PAXECT
 ---
 ## Keywords & Topics
 
-**PAXECT Core** — deterministic multi-channel **.freq v42** container with **CRC32** integrity, **AES-GCM/CTR** security, cross-OS **Polyglot** bridges, and **Zero-AI SelfTune**.
+**PAXECT Core** — deterministic multi-channel **.freq v42** container with **CRC32** integrity, **AEAD Hybrid/AES-GCM/CTR** security, cross-OS **Polyglot** bridges, and **No-AI SelfTune**.
 
 These keywords improve discoverability on GitHub and search engines:
 
 - **Core/Format:** paxect, freq42, deterministic, reproducible, data-container, wire-format
-- **Integrity & Security:** crc32, checksum, encryption, aes-256, aes-gcm, aes-ctr
+- **Integrity & Security:** crc32, checksum, encryption, aes-256, aes-gcm, aes-ctr, AEAD Hybrid
 - **Performance/Runtime:** selftune, zero-ai, autotune, zstandard, compression, streaming
 - **Interoperability:** cross-os, cross-language, polyglot, language-bindings, os-bridge
 - **Exchange/Pipelines:** file-watcher, inbox-outbox, link-bridge
@@ -237,12 +237,12 @@ These keywords improve discoverability on GitHub and search engines:
 - Bit-identical runs across OS/languages (audit, compliance, regression)
 - Soundwave multi-channel: parallel lanes with per-channel ordering (no reordering)
 - Operationally simple: Core runs locally; Link uses SMB/NFS/cloud (inbox/outbox)
-- Risk-free extensibility: plugins (AES, SelfTune, Polyglot, Link) without Core changes
-- Privacy by default: local execution, no telemetry, Zero-AI
+- Risk-free extensibility: plugins (AEAD Hybrid, SelfTune, Polyglot, Link) without Core changes
+- Privacy by default: local execution, no telemetry, No-AI
 
 ## Use Cases (examples)
 
-- Quantum/Research: package circuits/results/logs reproducibly; share via Link + AES
+- Quantum/Research: package circuits/results/logs reproducibly; share via Link + AEAD Hybrid
 - AI/ML: tensors/datasets/models as `.freq`; deterministic; optional encryption
 - Edge/Robotics/Automotive: stable multi-stream logging + firmware artifacts, cross-OS
 - HPC/Big Data: large files + live streams in parallel; integrity guaranteed
@@ -250,7 +250,7 @@ These keywords improve discoverability on GitHub and search engines:
 
 ## Plugins (overview)
 
-- **AES Secure:** AES-256 GCM/CTR, scrypt KDF, AAD; fail-stop on mismatch
+- **AEAD Hybrid:** AEAD Hybrid  AES-256 GCM/CTR, scrypt KDF, AAD; fail-stop on mismatch
 - **Polyglot:** Python/Node.js/Go; same deterministic pipeline across runtimes
 - **SelfTune 5-in-1:** guardrails, overhead control, rate-limiting/backpressure, smoothing, light observability
 - **Link (Inbox/Outbox):** shared-folder bridge; auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files; zero server
@@ -271,7 +271,7 @@ These keywords improve discoverability on GitHub and search engines:
 ## Security & Privacy
 
 - Integrity: CRC32 per frame; strict parser; **fail-stop** on mismatch
-- Confidentiality/Authenticity: **AES-256 GCM** (recommended) or **CTR + AAD/HMAC**
+- Confidentiality/Authenticity: ** AEAD Hybrid/AES-256 GCM** (recommended) or **CTR + AAD/HMAC**
 - Privacy: local-only; **no telemetry**; logging is opt-in and minimal
 
 ## Support & Compatibility
@@ -284,7 +284,7 @@ These keywords improve discoverability on GitHub and search engines:
 ## Roadmap (transparent)
 
 - **Principles:** SemVer 1.x; determinism first; no silent changes
-- **Aims for 1.0:** ARM64 builds (where feasible), AES plugin GA, Polyglot stable, SelfTune public, Link stable
+- **Aims for 1.0:** ARM64 builds (where feasible), AEAD Hybrid plugin GA, Polyglot stable, SelfTune public, Link stable
 - **Post-1.0 (intent):** signed binaries, SBOM/attestations, templates (Kafka/S3/SIEM), LTS; PQC plugins exploration  
 - *Note:* plan/intent, not a promise; priorities may shift with feedback/tests
 
@@ -303,14 +303,14 @@ These keywords improve discoverability on GitHub and search engines:
 **Status:** Production-Hardened · Multi-OS Verified · Ready for Audit  
 All 10 demos verified on Linux, macOS, and Windows.  
 Core deterministic behavior confirmed (CRC32 + SHA-256).  
-Plugins (AES, Polyglot, SelfTune, Link) verified compatible with PAXECT Core v42.  
+Plugins (AEAD Hybrid, Polyglot, SelfTune, Link) verified compatible with PAXECT Core v42.  
 Zero-AI verified: all tuning purely deterministic, no heuristics or telemetry.
 
 ---
 
 ## Keywords
 
-paxect, freq42, deterministic, reproducible, data-container, wire-format, crc32, checksum, encryption, aes-256, aes-gcm, aes-ctr, selftune, zero-ai, autotune, zstandard, compression, streaming, cross-os, cross-language, polyglot, language-bindings, os-bridge, file-watcher, inbox-outbox, link-bridge, audit-compliance, privacy-by-default, edge-computing, iot, system-integration, quantum, hpc, big data, media, telemetry, secure file transfer, open source, privacy-first, no telemetry
+paxect, freq42, deterministic, reproducible, data-container, wire-format, crc32, checksum, encryption, aes-256, aes-gcm, aes-ctr,AEAD, selftune, zero-ai, autotune, zstandard, compression, streaming, cross-os, cross-language, polyglot, language-bindings, os-bridge, file-watcher, inbox-outbox, link-bridge, audit-compliance, privacy-by-default, edge-computing, iot, system-integration, quantum, hpc, big data, media, telemetry, secure file transfer, open source, privacy-first, no telemetry
 
 ---
 
