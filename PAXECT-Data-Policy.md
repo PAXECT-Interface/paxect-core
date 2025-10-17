@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+</p>
+
 # PAXECT Data Policy
 
 PAXECT enforces a clear policy for maximum data and text size per run. This ensures stable, predictable performance and prevents misuse, in line with industry standards such as Kafka, MQTT, and gRPC.
@@ -29,3 +33,7 @@ PAXECT intentionally implements a data size limit, just like other professional 
 ---
 
 **Questions or requests? Contact us or open a GitHub issue!**
+
+<p align="center">
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+</p>
