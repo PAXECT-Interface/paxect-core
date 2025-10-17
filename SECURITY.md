@@ -2,6 +2,13 @@
   <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
 
+[![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](../../stargazers)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
+[![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](../../actions)
+[![CodeQL](https://img.shields.io/badge/CodeQL-active-lightgrey.svg)](../../actions)
+[![Issues](https://img.shields.io/badge/Issues-open-blue)](../../issues)
+[![Discussions](https://img.shields.io/badge/Discuss-join-blue)](../../discussions)
+[![Security](https://img.shields.io/badge/Security-responsible%20disclosure-informational)](./SECURITY.md)
 
 # Security Policy
 
