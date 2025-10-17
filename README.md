@@ -20,7 +20,7 @@
 **Deterministic data container for modern systems:**
 PAXECT Core is a cross-platform, reproducible **`.freq` v42** container with **CRC32 per frame + SHA-256 footer** integrity,plug-and-play with zero dependencies and no vendor lock-in. **streaming Zstandard**, **multi-channel (1–8)** I/O, and full **stdin/stdout** support. Built for **offline**, auditable pipelines and **byte-identical** outcomes across OSes, 
 
-It pairs cleanly with the wider PAXECT Core Totaal  ecosystem: **AEAD Hybrid** (optional encryption), **Link** (inbox/outbox relay), **Polyglot** (language bridges), and **SelfTune** (runtime guardrails). **Zero telemetry.**
+It pairs cleanly with the wider PAXECT-Core Complete  ecosystem: **AEAD Hybrid** (optional encryption), **Link** (inbox/outbox relay), **Polyglot** (language bridges), and **SelfTune** (runtime guardrails). **Zero telemetry.**
 
 *No AI heuristics, just stable, predictable, and verifiable data handling.*
 
