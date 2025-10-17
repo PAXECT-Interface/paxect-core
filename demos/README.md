@@ -181,7 +181,5 @@ For validation, integration help, or CI assistance:
 
 ```
 
-Wil je dat ik ook meteen een **mini “Badges” blok** erboven zet (CI status, License, CodeQL) voor extra trust/SEO?
-```
 
 
