@@ -165,21 +165,28 @@ Each `.freq` container includes:
 Results reproduced across **Linux, macOS, Windows** (bit-identical outputs).
 
 This suite serves as the **official validation harness** for PAXECT Core.
-
 ---
 
-## 📜 License
-
-Apache 2.0 — see [LICENSE](../LICENSE).
-
----
 
 ## 📫 Support
 
 For validation, integration help, or CI assistance:
 📧 **[PAXECT-Team@outlook.com](mailto:PAXECT-Team@outlook.com)**
 
-```
+
+
+
+---
+
+##  License
+
+All test utilities and scripts are released under the same license as the core engine:
+**Apache 2.0 License** — © 2025 PAXECT Systems. All rights reserved.
+
+
+
+
+
 
 
 
