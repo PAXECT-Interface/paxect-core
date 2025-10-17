@@ -14,7 +14,7 @@
 
 ---
 
-# 🧠 **PAXECT Core — Test and Quality Validation**
+#  **PAXECT Core — Test and Quality Validation**
 
 This document provides a detailed overview of the testing, validation, and reproducibility framework for the
 **PAXECT Core Production Plugin** — the deterministic container engine powering all PAXECT components.
