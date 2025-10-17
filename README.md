@@ -47,14 +47,17 @@ Designed for reproducibility and audit-compliance, PAXECT enables seamless, secu
 ![PAXECT Architecture](docs/paxect_architecture_brand_v18.svg)
 ![PAXECT Block 3 — Soft Orange Grid](docs/paxect_block3_soft_orange_grid(1).svg)
 ![PAXECT Block 5 — Soft Orange Bars](docs/paxect_block5_soft_orange_bars(1).svg)
+
 ## Plugins (official)
 
-| Plugin               | Scope                           | Highlights                                                                                   | Repo |
-|----------------------|----------------------------------|----------------------------------------------------------------------------------------------|------|
-| **AEAD Hybrid**       | Confidentiality & integrity      | AES-256 GCM/CTR, scrypt KDF, AAD; strict **fail-stop** on mismatch                           | https://github.com/PAXECT-Interface/paxect-aead-hybrid-plugin |
-| **Polyglot**         | Language bindings                | Python, Node.js, Go; identical deterministic pipeline across runtimes                        | https://github.com/PAXECT-Interface/paxect-polyglot-plugin |
-| **SelfTune 5-in-1**  | Performance & observability      | No-AI autotune: guardrails, overhead control, rate-limiting/backpressure, jitter smoothing, lightweight observability | https://github.com/PAXECT-Interface/paxect-selftune-plugin |
-| **Link (Inbox/Outbox Bridge)** | Cross-OS file exchange        | Shared-folder bridge; auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files; zero server | https://github.com/PAXECT-Interface/paxect-link-plugin |
+
+| Plugin                         | Scope                           | Highlights                                                                           | Repo                                                                                                                           |
+| ------------------------------ | ------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Core**                       | Deterministic container         | `.freq` v42 · multi-channel · CRC32+SHA-256 · cross-OS · offline · no-AI             | [https://github.com/PAXECT-Interface/paxect---core.git](https://github.com/PAXECT-Interface/paxect---core.git)                             |
+| **AEAD Hybrid**                | Confidentiality & integrity     | Hybrid AES-GCM/ChaCha20-Poly1305 — fast, zero-dep, cross-OS                          | [https://github.com/PAXECT-Interface/paxect-aead-hybrid-plugin](https://github.com/PAXECT-Interface/paxect-aead-hybrid-plugin) |
+| **Polyglot**                   | Language bindings               | Python · Node.js · Go — identical deterministic pipeline                             | [https://github.com/PAXECT-Interface/paxect-polyglot-plugin](https://github.com/PAXECT-Interface/paxect-polyglot-plugin)       |
+| **SelfTune 5-in-1**            | Runtime control & observability | No-AI guardrails, overhead caps, backpressure, jitter smoothing, lightweight metrics | [https://github.com/PAXECT-Interface/paxect-selftune-plugin](https://github.com/PAXECT-Interface/paxect-selftune-plugin)       |
+| **Link (Inbox/Outbox Bridge)** | Cross-OS file exchange          | Shared-folder relay: auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files  | [https://github.com/PAXECT-Interface/paxect-link-plugin](https://github.com/PAXECT-Interface/paxect-link-plugin)    
 
 **Plug-and-play:** Core runs without plugins. Enable per run via config/flag or through the binding API. Deterministic behavior remains identical.
 
