@@ -202,13 +202,15 @@ All test utilities and scripts are released under the same license as the core e
 ---
 
 
-p align="center">
+<p align="center">
   <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
 
 
 
 ---
+
+
 
 
 ## 🧩 Enterprise Test Environment (Quick Setup)
