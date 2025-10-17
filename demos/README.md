@@ -177,7 +177,7 @@ Apache 2.0 — see [LICENSE](../LICENSE).
 ## 📫 Support
 
 For validation, integration help, or CI assistance:
-📧 **[contact@paxect.io](mailto:contact@paxect.io)**
+📧 **[PAXECT-Team@outlook.com](mailto:PAXECT-Team@outlook.com)**
 
 ```
 
