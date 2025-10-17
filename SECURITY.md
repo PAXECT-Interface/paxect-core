@@ -43,7 +43,8 @@ If you discover a security vulnerability, please report it **privately**:
 - Avoid testing on production systems.  
 - No social engineering, spam, or denial-of-service testing.
 
--
-- <p align="center">
+--
+
+ <p align="center">
   <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
