@@ -341,7 +341,7 @@ echo "=== Test run completed successfully ==="
 chmod +x coverage_run.sh
 ```
 
- — © 2025 PAXECT Systems. All rights reserved.
+ © 2025 PAXECT Systems. All rights reserved.
 
 ---
 
