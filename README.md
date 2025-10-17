@@ -143,8 +143,8 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 
 📧 contact@PAXECT-Team@outlook.com  
 
-🐞 [Issues](https://github.com/PAXECT-Interface/PAXECT---Core/issues)  
-💬 [Discussions](https://github.com/PAXECT-Interface/PAXECT---Core/discussions)  
+ [Issues](https://github.com/PAXECT-Interface/PAXECT---Core/issues)  
+ [Discussions](https://github.com/PAXECT-Interface/PAXECT---Core/discussions)  
 
 *For security-related issues, please use responsible disclosure channels.*
 
