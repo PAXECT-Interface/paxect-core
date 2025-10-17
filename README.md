@@ -112,33 +112,7 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 
 ![PAXECT Block 8 — Soft Orange](docs/paxect_block8_soft_orange.svg)
 ![PAXECT Block 11 EN — Boxes Orange v5 CTA Fix](docs/paxect_block11_EN_boxes_orange_v5_cta_fix(1).svg)
-## SEO & Discoverability
 
-**What we are (short):**  
-Deterministic cross-OS data container (.freq v42) with CRC32-per-frame integrity, optional  AEAD Hybrid/AES-256/AES-GCM, SelfTune (No-AI) for latency stability, Polyglot bindings, and a simple Link bridge.  
-Local-only. No telemetry.
-
- Quick navigation: [WHY PAXECT](#1-why-paxect) · [Quick Start](#2-quick-start) · [Plugins](#plugins-official)
-
-
-**Badges (suggested):** License · CI · CodeQL · Discussions  
-
-**Accessibility & clarity:**  
-- High-contrast text, concise headings, descriptive alt text  
-- No tracking pixels, no external scripts  
-
-**Tone & claims:**  
-- Plain, verifiable wording  
-- Roadmap = intent (no hard dates)  
-- Privacy-by-default and determinism stated factually  
-
-**Where we fit (no buzzwords):**  
-- Reproducible packaging & exchange across OS/languages  
-- Integrity with optional confidentiality  
-- Parallel multi-channel flows  
-- No telemetry  
-- No-AI autotuning for latency stability  
-- Path to Paid  
 
 ---
 
