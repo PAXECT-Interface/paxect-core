@@ -13,10 +13,9 @@
 > 💬 *Validated demo collection for deterministic verification, reproducibility, and cross-OS integrity.*  
 > Each demo is self-contained, safe to run, and deterministic across **Linux**, **macOS**, **Windows**, **Android (Termux)**, and **iOS (Pyto)**.
 
----
 
-### 🔗 Navigation
-← [Back to PAXECT Core Overview](../README.md) · [Report Issue](https://github.com/PAXECT-Interface/PAXECT---Core/issues) · [License](../LICENSE)
+
+
 
 ---
 
