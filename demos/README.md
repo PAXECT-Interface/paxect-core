@@ -16,7 +16,7 @@
 ---
 
 ### 🔗 Navigation
-← [Back to PAXECT Core Overview](../README.md) · [Report Issue](https://github.com/paxect/paxect-core/issues) · [License](../LICENSE)
+← [Back to PAXECT Core Overview](../README.md) · [Report Issue](https://github.com/PAXECT-Interface/PAXECT---Core/issues) · [License](../LICENSE)
 
 ---
 
