@@ -15,15 +15,20 @@
 
 
 
-
 ## PAXECT Core
 
-**Secure interoperability for the modern world:**  
-PAXECT is a deterministic, cross-platform data container that combines strong encryption (AEAD Hybrid-GCM/CTR, CRC32), polyglot bridging, and privacy-by-default.  
-Designed for reproducibility and audit-compliance, PAXECT enables seamless, secure data exchange across languages, platforms, and environments—from edge to cloud.
+**Deterministic data container for modern systems:**
+PAXECT Core is a cross-platform, reproducible **`.freq` v42** container with **CRC32 per frame + SHA-256 footer** integrity, **streaming Zstandard**, **multi-channel (1–8)** I/O, and full **stdin/stdout** support. Built for **offline**, auditable pipelines and **byte-identical** outcomes across OSes.
+
+It pairs cleanly with the wider ecosystem: **AEAD Hybrid** (optional encryption), **Link** (inbox/outbox relay), **Polyglot** (language bridges), and **SelfTune** (runtime guardrails). **Zero telemetry.**
 
 *No AI heuristics, just stable, predictable, and verifiable data handling.*
+
 ## Supported Platforms & Languages
+
+**Operating systems:** Linux (Ubuntu, Debian, Fedora), macOS 13+, Windows 10/11, Android (Termux), iOS (Pyto), FreeBSD/OpenBSD (experimental).
+**Languages:** Official: Python. Via CLI/Polyglot: Node.js, Go. Also tested: Rust, Java, C/C++, C#, Swift, Kotlin, PHP, Ruby, R, Julia, MATLAB, Bash, PowerShell.
+
 
 **Operating Systems:**  
 - Windows 10/11 (x86_64)  
