@@ -76,7 +76,7 @@ It pairs cleanly with the wider PAXECT-Core Complete  ecosystem: **AEAD Hybrid**
 ![PAXECT Roadmap EN — Orange Bars (Fit)](docs/paxect_roadmap_EN_orange_bars_fit.svg)
   
 
-# 13) Path to Paid
+#  Path to Paid
 
 **PAXECT** is built to stay free and open-source at its core.  
 At the same time, we recognize the need for a sustainable model to fund long-term maintenance and enterprise adoption.
