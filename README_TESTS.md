@@ -341,10 +341,7 @@ echo "=== Test run completed successfully ==="
 chmod +x coverage_run.sh
 ```
 
-###  License
-
-All test utilities and scripts are released under the same license as the core engine:
-**Apache 2.0** — © 2025 PAXECT Systems. All rights reserved.
+ — © 2025 PAXECT Systems. All rights reserved.
 
 ---
 
