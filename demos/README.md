@@ -8,7 +8,7 @@
 [![Python](https://img.shields.io/badge/Python-3.12+-informational)](#)
 
 ---
-# 🧠 PAXECT Core — Enterprise Demo Suite (Deterministic · CRC32+SHA-256 · Cross-OS · Offline)
+#  PAXECT Core — Enterprise Demo Suite (Deterministic · CRC32+SHA-256 · Cross-OS · Offline)
 
 > 💬 *Validated demo collection for deterministic verification, reproducibility, and cross-OS integrity.*  
 > Each demo is self-contained, safe to run, and deterministic across **Linux**, **macOS**, **Windows**, **Android (Termux)**, and **iOS (Pyto)**.
@@ -19,7 +19,7 @@
 
 ---
 
-## ⚙️ Purpose
+##  Purpose
 This suite validates the **PAXECT Core** engine:
 
 - Determinism (identical output per run)
@@ -32,7 +32,7 @@ Each demo prints progress, SHA-256 hashes, exit codes, and a validation summary.
 
 ---
 
-## 🚀 Quick Setup
+##  Quick Setup
 
 ```bash
 # Clone the PAXECT Core repository
@@ -51,7 +51,7 @@ python -m pip install zstandard psutil
 
 ---
 
-## 🧩 Demo Overview
+##  Demo Overview
 
 |  #  | Script                        | Description / Proof                                                                |
 | :-: | :---------------------------- | :--------------------------------------------------------------------------------- |
@@ -69,7 +69,7 @@ python -m pip install zstandard psutil
 
 ---
 
-## 💻 Run Any Demo
+##  Run Any Demo
 
 ```bash
 python 00_env_check.py
@@ -93,7 +93,7 @@ Each script:
 
 ---
 
-## 🧱 Run the Full Suite (Automation)
+##  Run the Full Suite (Automation)
 
 ### 🐧 Linux / macOS (Bash)
 
@@ -131,7 +131,7 @@ foreach ($d in $Demos) {
 
 ---
 
-## 💡 Individual vs Full Suite
+##  Individual vs Full Suite
 
 | Mode                | When to Use                               | User       | Benefits                                    |
 | ------------------- | ----------------------------------------- | ---------- | ------------------------------------------- |
@@ -146,7 +146,7 @@ foreach ($d in $Demos) {
 
 ---
 
-## 🧾 Verification Model {#verification-model}
+##  Verification Model {#verification-model}
 
 Each `.freq` container includes:
 
@@ -158,7 +158,7 @@ Each `.freq` container includes:
 
 ---
 
-## 🏁 Validation Status
+##  Validation Status
 
 ✅ All 10 demos verified successfully on **Ubuntu 24.04 LTS (x86_64)** with **Python 3.12.3 / GCC 13.3.0**.
 Results reproduced across **Linux, macOS, Windows** (bit-identical outputs).
@@ -167,7 +167,7 @@ This suite serves as the **official validation harness** for PAXECT Core.
 ---
 
 
-## 📫 Support
+##  Support
 
 For validation, integration help, or CI assistance:
 📧 **[PAXECT-Team@outlook.com](mailto:PAXECT-Team@outlook.com)**
