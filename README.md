@@ -140,7 +140,10 @@ Any change to expected bytes (CRC/SHA/size) must be documented in the changelog 
 Build status (optional)
 
 
-
+---
+<p align="center">
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+</p>
 ---
 
 #  Path to Paid
@@ -171,9 +174,7 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 
 ![PAXECT Block 7 — Soft Orange Bands v2](docs/paxect_block7_soft_orange_bands_v2.svg)
 
-<p align="center">
-  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
-</p>
+
 
 
 
