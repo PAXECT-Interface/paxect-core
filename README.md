@@ -76,6 +76,7 @@ Update — The internal "aes" plugin has been removed. Use the public "AEAD Hybr
 ![PAXECT Block 6 — Soft Orange Bands v2](docs/paxect_block6_soft_orange_bands_v2.svg)
 ![PAXECT Roadmap EN — Orange Bars (Fit)](docs/paxect_roadmap_EN_orange_bars_fit.svg)
 
+
 ## Canonical Test Vectors — Core
 
 **Purpose**
@@ -94,10 +95,7 @@ Update — The internal "aes" plugin has been removed. Use the public "AEAD Hybr
 ### Quick validation (no dependencies)
 
 #### Vector 01 — Core (CRC32, SHA-256, size)
-
-
-
-
+```bash
 python - <<'PY'
 import json, zlib, hashlib, pathlib
 v = json.loads(pathlib.Path("tests/vectors/vector_01_core_basic.json").read_text())
@@ -107,11 +105,11 @@ assert hashlib.sha256(o).hexdigest() == v["expected_output"]["sha256"]
 assert len(o) == v["expected_output"]["file_size_bytes"]
 print("Vector 01: OK")
 PY
+````
 
----
 #### Vector 99 — Core Complete (enable if final artifact is present)
 
-
+```bash
 python - <<'PY'
 import json, hashlib, pathlib
 v = json.loads(pathlib.Path("tests/vectors/vector_99_core_complete.json").read_text())
@@ -122,22 +120,33 @@ h2 = hashlib.sha256(final).hexdigest()
 assert h1 == v["expected_output"]["core_sha256"] == h2 == v["expected_output"]["final_sha256"]
 print("Vector 99: OK")
 PY
+```
 
 ---
-#### Schema reference
+
+### Schema reference
 
 Add this at the top of each vector file:
 
+```json
 { "$schema": "../../tests/schema/paxect-vector.schema.json", ... }
+```
 
----
-Change policy
+### Change policy
 
-Vector files and artifacts change only on format-relevant updates.
+* Vector files and artifacts change only on format-relevant updates.
+* Any change to expected bytes (CRC/SHA/size) must be documented in the changelog and reviewed.
 
-Any change to expected bytes (CRC/SHA/size) must be documented in the changelog and reviewed.
+### Build status (optional)
 
-Build status (optional)
+[![Vector Checks](https://github.com/<YOUR_ORG>/<YOUR_REPO>/actions/workflows/vectors.yml/badge.svg?branch=main)](https://github.com/<YOUR_ORG>/<YOUR_REPO>/actions/workflows/vectors.yml)
+
+```
+
+
+
+
+
 
 
 ---
