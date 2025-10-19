@@ -94,6 +94,10 @@ Update — The internal "aes" plugin has been removed. Use the public "AEAD Hybr
 ### Quick validation (no dependencies)
 
 #### Vector 01 — Core (CRC32, SHA-256, size)
+
+
+
+
 ```bash
 python - <<'PY'
 import json, zlib, hashlib, pathlib
@@ -105,19 +109,6 @@ assert len(o) == v["expected_output"]["file_size_bytes"]
 print("Vector 01: OK")
 PY
 
-
-
-
-
-
-
-
-
-
-
-
-
----
 
 
 
