@@ -9,7 +9,7 @@ It explains what is open source today, and what may become part of future enterp
 ## Scope
 The **open-source core** will always remain free and Apache-2.0 licensed:
 - PAXECT-Core (deterministic runtime)
-- AES-Hybrid plugin (secure AEAD bridge)
+- AEAD-Hybrid plugin (secure AEAD bridge)
 - Polyglot plugin (cross-language data flow)
 - SelfTune plugin (adaptive control logic)
 - Link plugin (relay + policy layer)
