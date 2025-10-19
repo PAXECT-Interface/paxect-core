@@ -109,6 +109,8 @@ print("Vector 01: OK")
 PY
 
 ---
+Vector 99 — Core Complete (enable if final artifact is present)
+
 
 python - <<'PY'
 import json, hashlib, pathlib
