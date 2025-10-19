@@ -307,7 +307,7 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 
 
 ![PAXECT Block 8 — Soft Orange](docs/paxect_block8_soft_orange.svg)
-![PAXECT Block 11 EN — Boxes Orange v5 CTA Fix](docs/paxect_block11_EN_boxes_orange_v5_cta_fix(1).svg)
+
 
 
 ---
