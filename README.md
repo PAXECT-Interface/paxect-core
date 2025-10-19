@@ -24,7 +24,7 @@ It pairs cleanly with the wider PAXECT-Core Complete  ecosystem: **AEAD Hybrid**
 
 *No AI heuristics, just stable, predictable, and verifiable data handling.*
 
-Update — "aes" removed — use "AEAD Hybrid". Screenshots referencing "aes" are outdated ;Highlights Plugin **AEAD Hybrid** Hybrid AES-GCM/ChaCha20-Poly1305 — fast, zero-dep, cross-OS. 
+Update — "aes" removed — use "AEAD Hybrid". Screenshots referencing "aes" are outdated; Highlights Plugin **AEAD Hybrid** ,Hybrid AES-GCM/ChaCha20-Poly1305 — fast, zero-dep, cross-OS. 
 
 ## Supported Platforms & Languages
 
