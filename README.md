@@ -98,7 +98,6 @@ Update — The internal "aes" plugin has been removed. Use the public "AEAD Hybr
 
 
 
-```bash
 python - <<'PY'
 import json, zlib, hashlib, pathlib
 v = json.loads(pathlib.Path("tests/vectors/vector_01_core_basic.json").read_text())
@@ -109,8 +108,18 @@ assert len(o) == v["expected_output"]["file_size_bytes"]
 print("Vector 01: OK")
 PY
 
+---
 
-
+python - <<'PY'
+import json, hashlib, pathlib
+v = json.loads(pathlib.Path("tests/vectors/vector_99_core_complete.json").read_text())
+core  = pathlib.Path("tests/artifacts/core_vector01_output.bin").read_bytes()
+final = pathlib.Path("tests/artifacts/final_after_aead.bin").read_bytes()  # optional artifact
+h1 = hashlib.sha256(core).hexdigest()
+h2 = hashlib.sha256(final).hexdigest()
+assert h1 == v["expected_output"]["core_sha256"] == h2 == v["expected_output"]["final_sha256"]
+print("Vector 99: OK")
+PY
 
 
 
