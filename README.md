@@ -52,27 +52,17 @@ Update — The internal "aes" plugin has been removed. Use the public "AEAD Hybr
 
 ![PAXECT Architecture](docs/paxect_architecture_brand_v18.svg)
 
-Perfect 💪 — hier is de **definitieve, kant-en-klare `README.md`**
-voor jouw repo **`paxect-core-complete/`**, helemaal klaar voor GitHub-publicatie.
-Alles wat je hebt gebouwd (Core, AEAD Hybrid, Polyglot, SelfTune, Link, demos 1-10)
-zit erin, plus installatie-instructies, badges, en enterprise-uitleg.
 
----
-
-````markdown
 # PAXECT Core Complete
 
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
-![License](https://img.shields.io/badge/license-Apache--2.0-green)
-![Status](https://img.shields.io/badge/tests-passing-brightgreen)
-![OS](https://img.shields.io/badge/platform-Linux%20|%20macOS%20|%20Windows%20|%20BSD%20|%20Android%20|%20iOS-lightgrey)
+
 
 **Deterministic, offline-first runtime for secure, reproducible data pipelines.**  
 Cross-platform, self-tuning, and fully auditable — built for real-world enterprise and open-source innovation.
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 **PAXECT Core Complete** is the reference implementation of the PAXECT ecosystem.  
 It unifies the verified modules — Core, AEAD Hybrid, Polyglot, SelfTune, and Link —  
@@ -88,7 +78,7 @@ into one reproducible, cross-OS runtime with **10 integrated demos** and full ob
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Requirements
 - **Python 3.9 – 3.12** (recommended 3.11+)
@@ -152,7 +142,7 @@ paxect-core-complete/
 
 ---
 
-## 🧩 Modules
+##  Modules
 
 | Module                           | Purpose                                           |
 | -------------------------------- | ------------------------------------------------- |
@@ -185,7 +175,7 @@ All demos produce structured JSON output under `/tmp/`.
 
 ---
 
-## 🧱 Testing & Verification
+##  Testing & Verification
 
 Internal `pytest` and smoke-test suites are maintained locally.
 End-users can rely on the integrated demo suite (01–10) for verification.
