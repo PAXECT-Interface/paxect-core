@@ -94,7 +94,7 @@ Update — The internal "aes" plugin has been removed. Use the public "AEAD Hybr
 
 
 **Quick validation (no dependencies)**
-```bash
+bash
 # Vector 01 — Core (CRC32, SHA-256, size)
 python - <<'PY'
 import json, zlib, hashlib, pathlib
