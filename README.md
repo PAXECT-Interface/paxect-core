@@ -77,82 +77,9 @@ Update — The internal "aes" plugin has been removed. Use the public "AEAD Hybr
 ![PAXECT Roadmap EN — Orange Bars (Fit)](docs/paxect_roadmap_EN_orange_bars_fit.svg)
 
 
-## Canonical Test Vectors — Core
-
-**Purpose**
-- Guarantee deterministic, bit-identical containers across OS/architectures.
-- Catch regressions early (headers, ordering, endianness).
-- Provide auditors/integrators with a reproducible, machine-checkable reference.
-
-**Directory layout**
-- `tests/vectors/vector_01_core_basic.json` — canonical Core vector (CRC32/SHA-256/size)
-- `tests/vectors/vector_99_core_complete.json` — end-to-end: Core → (plugins) → Core, must be bit-identical
-- `tests/schema/paxect-vector.schema.json` — JSON Schema for linting vectors
-- `tests/artifacts/` — frozen reference artifacts (e.g., `core_vector01_output.bin`)
-
----
-
-### Quick validation (no dependencies)
-
-#### Vector 01 — Core (CRC32, SHA-256, size)
-```bash
-python - <<'PY'
-import json, zlib, hashlib, pathlib
-v = json.loads(pathlib.Path("tests/vectors/vector_01_core_basic.json").read_text())
-o = pathlib.Path("tests/artifacts/core_vector01_output.bin").read_bytes()
-assert zlib.crc32(o) == int(v["expected_output"]["crc32"], 16)
-assert hashlib.sha256(o).hexdigest() == v["expected_output"]["sha256"]
-assert len(o) == v["expected_output"]["file_size_bytes"]
-print("Vector 01: OK")
-PY
-````
-
-#### Vector 99 — Core Complete (enable if final artifact is present)
-
-```bash
-python - <<'PY'
-import json, hashlib, pathlib
-v = json.loads(pathlib.Path("tests/vectors/vector_99_core_complete.json").read_text())
-core  = pathlib.Path("tests/artifacts/core_vector01_output.bin").read_bytes()
-final = pathlib.Path("tests/artifacts/final_after_aead.bin").read_bytes()  # optional artifact
-h1 = hashlib.sha256(core).hexdigest()
-h2 = hashlib.sha256(final).hexdigest()
-assert h1 == v["expected_output"]["core_sha256"] == h2 == v["expected_output"]["final_sha256"]
-print("Vector 99: OK")
-PY
-```
-
----
-
-### Schema reference
-
-Add this at the top of each vector file:
-
-```json
-{ "$schema": "../../tests/schema/paxect-vector.schema.json", ... }
-```
-
-### Change policy
-
-* Vector files and artifacts change only on format-relevant updates.
-* Any change to expected bytes (CRC/SHA/size) must be documented in the changelog and reviewed.
-
-### Build status (optional)
-
-[![Vector Checks](https://github.com/<YOUR_ORG>/<YOUR_REPO>/actions/workflows/vectors.yml/badge.svg?branch=main)](https://github.com/<YOUR_ORG>/<YOUR_REPO>/actions/workflows/vectors.yml)
 
 
 
-
-
-
-
-
-
----
-<p align="center">
-  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
-</p>
 
 
 #  Path to Paid
