@@ -75,8 +75,8 @@ Update — The internal "aes" plugin has been removed. Use the public "AEAD Hybr
 
 ![PAXECT Block 6 — Soft Orange Bands v2](docs/paxect_block6_soft_orange_bands_v2.svg)
 ![PAXECT Roadmap EN — Orange Bars (Fit)](docs/paxect_roadmap_EN_orange_bars_fit.svg)
- 
- ## Canonical Test Vectors — Core
+
+## Canonical Test Vectors — Core
 
 **Purpose**
 - Guarantee deterministic, bit-identical containers across OS/architectures.
@@ -89,20 +89,19 @@ Update — The internal "aes" plugin has been removed. Use the public "AEAD Hybr
 - `tests/schema/paxect-vector.schema.json` — JSON Schema for linting vectors
 - `tests/artifacts/` — frozen reference artifacts (e.g., `core_vector01_output.bin`)
 
+---
 
+### Quick validation (no dependencies)
 
-
-
-**Quick validation (no dependencies)**
-bash
-# Vector 01 — Core (CRC32, SHA-256, size)
+#### Vector 01 — Core (CRC32, SHA-256, size)
+```bash
 python - <<'PY'
 import json, zlib, hashlib, pathlib
-v=json.loads(pathlib.Path("tests/vectors/vector_01_core_basic.json").read_text())
-o=pathlib.Path("tests/artifacts/core_vector01_output.bin").read_bytes()
-assert zlib.crc32(o)==int(v["expected_output"]["crc32"],16)
-assert hashlib.sha256(o).hexdigest()==v["expected_output"]["sha256"]
-assert len(o)==v["expected_output"]["file_size_bytes"]
+v = json.loads(pathlib.Path("tests/vectors/vector_01_core_basic.json").read_text())
+o = pathlib.Path("tests/artifacts/core_vector01_output.bin").read_bytes()
+assert zlib.crc32(o) == int(v["expected_output"]["crc32"], 16)
+assert hashlib.sha256(o).hexdigest() == v["expected_output"]["sha256"]
+assert len(o) == v["expected_output"]["file_size_bytes"]
 print("Vector 01: OK")
 PY
 
@@ -112,18 +111,14 @@ PY
 
 
 
+
+
+
+
+
+
 ---
 
- # Vector 99 — Core Complete (enable if final artifact is present)
-python - <<'PY'
-import json, hashlib, pathlib
-v=json.loads(pathlib.Path("tests/vectors/vector_99_core_complete.json").read_text())
-core=pathlib.Path("tests/artifacts/core_vector01_output.bin").read_bytes()
-final=pathlib.Path("tests/artifacts/final_after_aead.bin").read_bytes()  # optional artifact
-h1=hashlib.sha256(core).hexdigest(); h2=hashlib.sha256(final).hexdigest()
-assert h1==v["expected_output"]["core_sha256"]==h2==v["expected_output"]["final_sha256"]
-print("Vector 99: OK")
-PY
 
 
 
