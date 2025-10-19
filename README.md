@@ -24,7 +24,7 @@ It pairs cleanly with the wider PAXECT-Core Complete  ecosystem: **AEAD Hybrid**
 
 *No AI heuristics, just stable, predictable, and verifiable data handling.*
 
-Update — plugin status: the internal plugin "aes" has been replaced by the public plugin "aead hybrid". "aes" ; any screenshots or references to "aes" are outdated. Please use "aead".
+Update — plugin status: the internal plugin "aes" has been replaced by the public plugin "aead hybrid", any screenshots or references to "aes" are outdated. Please use "aead".
 
 ## Supported Platforms & Languages
 
