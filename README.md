@@ -244,7 +244,7 @@ In short: updates arrive when they are ready — verified, deterministic, and te
 
 
 ![PAXECT Block 3 — Soft Orange Grid](docs/paxect_block3_soft_orange_grid(1).svg)
-![PAXECT Block 5 — Soft Orange Bars](docs/paxect_block5_soft_orange_bars(1).svg)
+
 
 ## Plugins (official)
 
