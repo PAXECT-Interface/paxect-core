@@ -141,7 +141,7 @@ Add this at the top of each vector file:
 
 [![Vector Checks](https://github.com/<YOUR_ORG>/<YOUR_REPO>/actions/workflows/vectors.yml/badge.svg?branch=main)](https://github.com/<YOUR_ORG>/<YOUR_REPO>/actions/workflows/vectors.yml)
 
-```
+
 
 
 
