@@ -109,7 +109,7 @@ print("Vector 01: OK")
 PY
 
 ---
-Vector 99 — Core Complete (enable if final artifact is present)
+#### Vector 99 — Core Complete (enable if final artifact is present)
 
 
 python - <<'PY'
@@ -123,9 +123,21 @@ assert h1 == v["expected_output"]["core_sha256"] == h2 == v["expected_output"]["
 print("Vector 99: OK")
 PY
 
+---
+#### Schema reference
 
+Add this at the top of each vector file:
 
+{ "$schema": "../../tests/schema/paxect-vector.schema.json", ... }
 
+---
+Change policy
+
+Vector files and artifacts change only on format-relevant updates.
+
+Any change to expected bytes (CRC/SHA/size) must be documented in the changelog and reviewed.
+
+Build status (optional)
 
 
 
