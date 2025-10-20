@@ -134,7 +134,7 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 
  **How to get involved**
 - [Become a GitHub Sponsor](https://github.com/sponsors/PAXECT-Interface)  
-- For enterprise or OEM inquiries: **enterprise@PAXECT-Team@outlook.com**
+- For enterprise or OEM inquiries: PAXECT-Team@outlook.com
 
 ---
 ## Governance & Ownership
