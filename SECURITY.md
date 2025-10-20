@@ -50,7 +50,7 @@ If you discover a security vulnerability, please report it **privately**:
 - Avoid testing on production systems.  
 - No social engineering, spam, or denial-of-service testing.
 
---
+
 
  
  
