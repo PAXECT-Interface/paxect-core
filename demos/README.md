@@ -7,6 +7,8 @@
 [![Security](https://img.shields.io/badge/Security-responsible%20disclosure-informational)](../SECURITY.md)
 [![Python](https://img.shields.io/badge/Python-3.12+-informational)](#)
 
+> Supported Platforms: 🐧 Linux · 🍎 macOS · 🪟 Windows · 📱 Android (Termux) · 🍏 iOS (Pyto)
+
 ---
 
 # 🚀 **PAXECT Core — Deterministic Data Containers for Secure Pipelines**
