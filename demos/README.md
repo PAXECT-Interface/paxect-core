@@ -7,19 +7,18 @@
 [![Security](https://img.shields.io/badge/Security-responsible%20disclosure-informational)](../SECURITY.md)
 [![Python](https://img.shields.io/badge/Python-3.12+-informational)](#)
 
-> Supported Platforms: 🐧 Linux · 🍎 macOS · 🪟 Windows · 📱 Android (Termux) · 🍏 iOS (Pyto)
 
 ---
 
-# 🚀 **PAXECT Core — Deterministic Data Containers for Secure Pipelines**
+#  **PAXECT Core — Deterministic Data Containers for Secure Pipelines**
 
-> 🔒 Enterprise-grade container engine for reproducible, cross-platform pipelines.
+>  Enterprise-grade container engine for reproducible, cross-platform pipelines.
 > 100 % offline · Deterministic results · Built-in integrity verification (CRC32 + SHA-256).
 > Hardened for **Linux**, **macOS**, **Windows**, **Android (Termux)**, and **iOS (Pyto)**.
 
 ---
 
-## 🧭 Overview
+##  Overview
 
 **PAXECT Core** is the foundation of the PAXECT ecosystem — a deterministic, streaming container runtime
 designed for **data reproducibility**, **offline operation**, and **enterprise compliance**.
@@ -35,7 +34,7 @@ Key features:
 
 ---
 
-## ⚙️ Quick Setup
+##  Quick Setup
 
 ```bash
 git clone https://github.com/paxect/paxect-core.git
@@ -46,11 +45,11 @@ python -m pip install --upgrade pip
 pip install zstandard psutil
 ```
 
-> 🪟 **Windows tip:** Use `py -3` or `python` instead of `python3`.
+>  **Windows tip:** Use `py -3` or `python` instead of `python3`.
 
 ---
 
-## 🧩 Repository Layout
+##  Repository Layout
 
 ```text
 paxect-core/
@@ -73,7 +72,7 @@ paxect-core/
 
 ---
 
-## 🧪 Demo Overview
+##  Demo Overview
 
 |  #  | Script                        | Description / Proof                                 |
 | :-: | :---------------------------- | :-------------------------------------------------- |
@@ -144,7 +143,7 @@ foreach ($d in $Demos) {
 
 ---
 
-## 🔍 Verification Model
+##  Verification Model
 
 Each `.freq` container embeds:
 
@@ -156,7 +155,7 @@ Each `.freq` container embeds:
 
 ---
 
-## 📊 Reliability Summary
+##  Reliability Summary
 
 | Test                     | Duration |       Cycles      |         Errors        | Reliability |
 | :----------------------- | :------- | :---------------: | :-------------------: | :---------: |
