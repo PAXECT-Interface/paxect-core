@@ -364,48 +364,31 @@ In short: updates arrive when they are ready — verified, deterministic, and te
 
 
 ---
-
-## 📢 Key principles
-
-> Determinism · Privacy · Reproducibility · Cross-Platform · Transparency
-
 ---
 
+## Sponsorships & Enterprise Support
+
+PAXECT SelfTune is maintained as a verified plug-and-play enterprise module.  
+Sponsorships enable continuous validation, reproducibility testing, and deterministic compliance across Linux, Windows, and macOS platforms.
 
 
+ **Enterprise Sponsorship Options**
+- Infrastructure validation and cross-platform QA  
+- CI/CD and performance compliance testing  
+- Integration and OEM partnerships  
 
+ **How to get involved**
+- [Become a GitHub Sponsor](https://github.com/sponsors/PAXECT-Interface)  
+- For enterprise or OEM inquiries: **enterprise@PAXECT-Team@outlook.com**
 
-
-
-
-## Plugins (official)
-
-
-| Plugin                         | Scope                           | Highlights                                                                           | Repo                                                                                                                           |
-| ------------------------------ | ------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| **Core**                       | Deterministic container         | `.freq` v42 · multi-channel · CRC32+SHA-256 · cross-OS · offline · no-AI             | [https://github.com/PAXECT-Interface/paxect---core.git](https://github.com/PAXECT-Interface/paxect---core.git)                             |
-| **AEAD Hybrid**                | Confidentiality & integrity     | Hybrid AES-GCM/ChaCha20-Poly1305 — fast, zero-dep, cross-OS                          | [https://github.com/PAXECT-Interface/paxect-aead-hybrid-plugin](https://github.com/PAXECT-Interface/paxect-aead-hybrid-plugin) |
-| **Polyglot**                   | Language bindings               | Python · Node.js · Go — identical deterministic pipeline                             | [https://github.com/PAXECT-Interface/paxect-polyglot-plugin](https://github.com/PAXECT-Interface/paxect-polyglot-plugin)       |
-| **SelfTune 5-in-1**            | Runtime control & observability | No-AI guardrails, overhead caps, backpressure, jitter smoothing, lightweight metrics | [https://github.com/PAXECT-Interface/paxect-selftune-plugin](https://github.com/PAXECT-Interface/paxect-selftune-plugin)       |
-| **Link (Inbox/Outbox Bridge)** | Cross-OS file exchange          | Shared-folder relay: auto-encode non-`.freq` → `.freq`, auto-decode `.freq` → files  | [https://github.com/PAXECT-Interface/paxect-link-plugin](https://github.com/PAXECT-Interface/paxect-link-plugin)    
-
-**Plug-and-play:** Core runs without plugins. Enable per run via config/flag or through the binding API. Deterministic behavior remains identical.
-
- Have a bug or feature request? Please open an **Issue**.  
- General questions or ideas? Use **Discussions › Q&A**. We convert strong ideas to Issues so they can ship.
-
-
-⭐ If PAXECT helped you, please consider a star — it helps others discover the project and supports the maintainers.
-
-![PAXECT Block 6 — Soft Orange Bands v2](docs/paxect_block6_soft_orange_bands_v2.svg)
-![PAXECT Roadmap EN — Orange Bars (Fit)](docs/paxect_roadmap_EN_orange_bars_fit.svg)
-
-
-
-
-
-
-
+---
+## Governance & Ownership
+- **Ownership:** All PAXECT products and trademarks (PAXECT™ name + logo) remain the property of the Owner.
+- **License:** Source code is Apache-2.0; trademark rights are **not** granted by the code license.
+- **Core decisions:** Architectural decisions and **final merges** for Core and brand-sensitive repos require **Owner approval**.
+- **Contributions:** PRs are welcome and reviewed by maintainers; merges follow CODEOWNERS + branch protection.
+- **Naming/branding:** Do not use the PAXECT name/logo for derived projects without written permission; see `TRADEMARKS.md`.
+---
 #  Path to Paid
 
 **PAXECT** is built to stay free and open-source at its core.  
@@ -432,41 +415,7 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 - **Sustainability:** ensures continuous evolution without compromising openness.
 
 
-![PAXECT Block 7 — Soft Orange Bands v2](docs/paxect_block7_soft_orange_bands_v2.svg)
 
-
-
-
-
-![PAXECT Block 8 — Soft Orange](docs/paxect_block8_soft_orange.svg)
-
-
-
----
-
-## Sponsorships & Enterprise Support
-
-PAXECT SelfTune is maintained as a verified plug-and-play enterprise module.  
-Sponsorships enable continuous validation, reproducibility testing, and deterministic compliance across Linux, Windows, and macOS platforms.
-
-
- **Enterprise Sponsorship Options**
-- Infrastructure validation and cross-platform QA  
-- CI/CD and performance compliance testing  
-- Integration and OEM partnerships  
-
- **How to get involved**
-- [Become a GitHub Sponsor](https://github.com/sponsors/PAXECT-Interface)  
-- For enterprise or OEM inquiries: **enterprise@PAXECT-Team@outlook.com**
-
----
-## Governance & Ownership
-- **Ownership:** All PAXECT products and trademarks (PAXECT™ name + logo) remain the property of the Owner.
-- **License:** Source code is Apache-2.0; trademark rights are **not** granted by the code license.
-- **Core decisions:** Architectural decisions and **final merges** for Core and brand-sensitive repos require **Owner approval**.
-- **Contributions:** PRs are welcome and reviewed by maintainers; merges follow CODEOWNERS + branch protection.
-- **Naming/branding:** Do not use the PAXECT name/logo for derived projects without written permission; see `TRADEMARKS.md`.
----
 ### Contact
 
 PAXECT-Team@outlook.com  
@@ -478,9 +427,6 @@ PAXECT-Team@outlook.com
 
 ---
 Copyright © 2025 PAXECT 
-
-
-
 
 
 
