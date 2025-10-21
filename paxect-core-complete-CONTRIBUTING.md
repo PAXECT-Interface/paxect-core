@@ -123,7 +123,6 @@ Let’s build reproducible innovation — together.
 
 © 2025 **PAXECT Systems**. All rights reserved.
 
-```
 
 
 
