@@ -266,7 +266,7 @@ All test utilities and scripts are released under the same license as the core e
 
 
 
-#  Path to Paid
+#  Path to Paid : PAXECT Core 
 
 **PAXECT** is built to stay free and open-source at its core.  
 At the same time, we recognize the need for a sustainable model to fund long-term maintenance and enterprise adoption.
@@ -545,13 +545,28 @@ PAXECT Core Complete follows an **open contribution model**.
 In short: updates arrive when they are ready — verified, deterministic, and tested across platforms.
 
 
----
----
+
 
 ## Sponsorships & Enterprise Support
 
-PAXECT SelfTune is maintained as a verified plug-and-play enterprise module.  
-Sponsorships enable continuous validation, reproducibility testing, and deterministic compliance across Linux, Windows, and macOS platforms.
+**PAXECT Core Complete** is maintained as a verified, plug-and-play enterprise bundle that unifies all official PAXECT modules.  
+Sponsorships directly support ongoing cross-platform validation, reproducibility testing, and deterministic compliance across **Linux**, **Windows**, and **macOS** — ensuring that the entire PAXECT ecosystem remains stable, auditable, and openly accessible for everyone.
+
+### Enterprise Sponsorship Options
+- Infrastructure validation and multi-OS QA
+- CI/CD and deterministic performance compliance testing
+- Integration, OEM, and observability partnerships
+- Extended reproducibility assurance for regulated environments
+
+### How to Get Involved
+- 💠 [Become a GitHub Sponsor](https://github.com/sponsors/PAXECT-Interface)  
+- 📧 For enterprise or OEM inquiries: **enterprise@paxect-team.outlook.com**
+
+> Sponsorships help sustain open innovation — keeping PAXECT free, verifiable, and enterprise-ready.
+
+
+
+
 
 
  **Enterprise Sponsorship Options**
