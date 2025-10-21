@@ -266,7 +266,7 @@ All test utilities and scripts are released under the same license as the core e
 
 
 
-#  Path to Paid : PAXECT Core 
+## Path to Paid — PAXECT Core
 
 **PAXECT** is built to stay free and open-source at its core.  
 At the same time, we recognize the need for a sustainable model to fund long-term maintenance and enterprise adoption.
