@@ -1,12 +1,6 @@
-
-
-
 <p align="center">
   <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
-
-
-
 
 # Contributing Guidelines — PAXECT Core Complete
 
@@ -36,7 +30,11 @@ All contributions must follow the same key principles that define PAXECT:
    ```bash
    git clone https://github.com/PAXECT-Interface/paxect-core-complete.git
    cd paxect-core-complete
-````
+
+
+
+
+
 
 2. **Create a virtual environment**
 
@@ -120,8 +118,6 @@ For collaboration, questions, or feature ideas:
 
 ---
 
-
-
 ### Thank You!
 
 Your contribution helps keep **PAXECT** deterministic, open, and enterprise-grade.
@@ -129,25 +125,9 @@ Let’s build reproducible innovation — together.
 
 © 2025 **PAXECT Systems**. All rights reserved.
 
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 
 
