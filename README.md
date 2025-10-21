@@ -4,7 +4,7 @@
 
 
 
-[![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)
+[![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](../../stargazers)
 [![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](../../actions)
 [![CodeQL](https://img.shields.io/badge/CodeQL-active-lightgrey.svg)](../../actions)
 [![Issues](https://img.shields.io/badge/Issues-open-blue)](../../issues)
