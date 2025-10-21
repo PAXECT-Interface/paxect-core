@@ -19,7 +19,7 @@ The **open-source foundation** remains permanently free under the Apache-2.0 lic
 - `paxect-polyglot-plugin` (cross-language data pipelines)  
 - `paxect-selftune-plugin` (adaptive runtime control)  
 - `paxect-link-plugin` (relay + inbox/outbox policy layer)  
-- Demo suite (01–10) and continuous CI validation  
+- Demo suite (01–15) and continuous CI validation  
 
 The **Enterprise Pack** introduces optional capabilities for regulated industries and large-scale adopters —  
 focusing on reliability, compliance, and observability at production scale.
