@@ -27,7 +27,9 @@ In short: clean code, transparent logic, reproducible results.
    ```bash
    git clone https://github.com/PAXECT-Interface/paxect-core.git
    cd paxect-core
-````
+
+
+
 
 3. **Create a virtual environment** (recommended):
 
