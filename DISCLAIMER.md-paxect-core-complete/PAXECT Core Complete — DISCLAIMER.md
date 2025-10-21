@@ -2,6 +2,7 @@
   <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
 
+
 # DISCLAIMER — PAXECT Core Complete
 
 This software and all related modules — including **Core**, **AEAD Hybrid**, **Polyglot**, **SelfTune**, and **Link** —  
