@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
+</p>
+
 # NOTICE — PAXECT Core Complete
 
 Copyright (c) 2025 PAXECT Interface
