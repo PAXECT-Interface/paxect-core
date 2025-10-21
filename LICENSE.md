@@ -1,7 +1,7 @@
 
 
 
-```markdown
+
 <p align="center">
   <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
@@ -75,7 +75,6 @@ For license, attribution, or OEM-related questions:
   <sub>Released under the Apache License, Version 2.0 — October 2025</sub><br/>
   <sub>© 2025 PAXECT Systems. All rights reserved.</sub>
 </p>
-```
 
 
 
