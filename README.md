@@ -12,6 +12,11 @@
 [![Security](https://img.shields.io/badge/Security-responsible%20disclosure-informational)](./SECURITY.md)
 
 
+- [![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](../../stargazers)
++ [![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](https://github.com/PAXECT-Interface/paxect-core/stargazers)
+
+- [![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](../../actions)
++ [![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](https://github.com/PAXECT-Interface/paxect-core/actions)
 
 
 
