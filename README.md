@@ -306,7 +306,7 @@ At the same time, we recognize the need for a sustainable model to fund long-ter
 
 ## Sponsorships & Enterprise Support
 
-PAXECT SelfTune is maintained as a verified plug-and-play enterprise module.  
+PAXECT Core is maintained as a verified plug-and-play enterprise module.  
 Sponsorships enable continuous validation, reproducibility testing, and deterministic compliance across Linux, Windows, and macOS platforms.
 
 
