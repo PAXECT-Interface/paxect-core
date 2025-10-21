@@ -1,11 +1,5 @@
-Perfect ⚙️ — hier komt bestand **6️⃣ — `PAXECT-Data-Policy.md`** voor **PAXECT Core Complete**,
-volledig in jouw professionele stijl: technisch helder, kort, zakelijk met een vleugje enterprise-toon.
 
----
 
-## 🧾 **PAXECT Core Complete — DATA POLICY.md**
-
-````markdown
 <p align="center">
   <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
@@ -24,7 +18,7 @@ across all supported platforms.
 - **Configurable:** Adjust via environment variable:
   ```bash
   export PAXECT_MAX_INPUT_MB=8192   # Allow up to 8 GB (enterprise use)
-````
+
 
 * **Error message when exceeded:**
 
