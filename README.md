@@ -355,29 +355,27 @@ Copyright © 2025 PAXECT
 
 
 
+# PAXECT Core Complete
+
 **Deterministic, offline-first runtime for secure, reproducible data pipelines.**  
 Cross-platform, self-tuning, and fully auditable — built for real-world enterprise and open-source innovation.
 
 ---
 
-##  Overview
+## Overview
 
-# PAXECT Core Complete is the reference implementation of the PAXECT ecosystem.  
-It unifies the verified modules — Core, AEAD Hybrid, Polyglot, SelfTune, and Link —  
-into one reproducible, cross-OS runtime with **10 integrated demos** and full observability.
+**PAXECT Core Complete** is the official reference implementation of the PAXECT ecosystem.  
+It unifies the verified modules — **Core**, **AEAD Hybrid**, **Polyglot**, **SelfTune**, and **Link** —  
+into one reproducible, cross-OS runtime featuring **10 integrated demos**, full observability, and deterministic performance across environments.
 
----
+### Key Highlights
+- **Unified Ecosystem:** Combines Core, AEAD Hybrid, SelfTune, Polyglot, and Link into one verified bundle  
+- **Reproducible Pipelines:** Bit-identical behavior across Linux, macOS, Windows, FreeBSD, Android, and iOS  
+- **Offline-First:** No telemetry, no network dependencies — privacy by design  
+- **Enterprise-Grade Validation:** 10 deterministic demos with automated verification and observability endpoints  
+- **Zero-AI Runtime:** SelfTune plugin provides adaptive control without any AI or heuristic behavior  
+- **Open Source Forever:** Apache-2.0 licensed, transparent governance, and fair “Path to Paid” model
 
-
----
-
-### Core principles
-- **Determinism first** — bit-identical results across systems  
-- **Offline-first** — no network or telemetry unless explicitly enabled  
-- **Audit-ready** — human summaries + machine-readable JSON logs  
-- **Cross-platform** — Linux · macOS · Windows · FreeBSD · OpenBSD · Android · iOS  
-- **Zero-dependency security** — Hybrid AES-GCM / ChaCha20-Poly1305  
-- **Adaptive control** — SelfTune 5-in-1 plugin with ε-greedy logic  
 
 ---
 
