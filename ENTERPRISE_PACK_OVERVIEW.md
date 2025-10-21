@@ -61,6 +61,8 @@ At this stage:
 The goal is to provide a trustworthy foundation for both community users and enterprises —  
 a system that remains deterministic, private, and reproducible across all environments.
 
+📧 PAXECT-Team@outlook.com
+
 ---
 
 *Document version: 1.0 (draft)*  
