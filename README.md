@@ -362,9 +362,10 @@ Cross-platform, self-tuning, and fully auditable — built for real-world enterp
 
 ##  Overview
 
-**PAXECT Core Complete** is the reference implementation of the PAXECT ecosystem.  
+# PAXECT Core Complete is the reference implementation of the PAXECT ecosystem.  
 It unifies the verified modules — Core, AEAD Hybrid, Polyglot, SelfTune, and Link —  
 into one reproducible, cross-OS runtime with **10 integrated demos** and full observability.
+
 ---
 
 
