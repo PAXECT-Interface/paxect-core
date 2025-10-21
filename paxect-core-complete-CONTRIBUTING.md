@@ -115,6 +115,7 @@ For collaboration, questions, or feature ideas:
 
 ---
 
+
 ### Thank You!
 
 Your contribution helps keep **PAXECT** deterministic, open, and enterprise-grade.
@@ -122,5 +123,5 @@ Let’s build reproducible innovation — together.
 
 © 2025 **PAXECT Systems**. All rights reserved.
 
-```
+
 
