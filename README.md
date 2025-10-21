@@ -560,7 +560,7 @@ Sponsorships directly support ongoing cross-platform validation, reproducibility
 
 ### How to Get Involved
 - 💠 [Become a GitHub Sponsor](https://github.com/sponsors/PAXECT-Interface)  
-- 📧 For enterprise or OEM inquiries: **enterprise@paxect-team.outlook.com**
+- 📧 For enterprise or OEM inquiries: **enterprise@PAXECT-Team@outlook.com  **
 
 > Sponsorships help sustain open innovation — keeping PAXECT free, verifiable, and enterprise-ready.
 
