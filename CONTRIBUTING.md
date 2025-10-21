@@ -102,7 +102,4 @@ Your time and expertise are truly appreciated.
 
 > Together we keep PAXECT deterministic, fair, and open for everyone.
 
-```
-
----
 
