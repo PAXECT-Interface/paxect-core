@@ -127,7 +127,6 @@ Let’s build reproducible innovation — together.
 
 ---
 
-```
 
 
 
