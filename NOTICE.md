@@ -3,13 +3,13 @@
 </p>
 
 
-# NOTICE — PAXECT Core Complete
+# NOTICE — PAXECT Core
 
 Copyright (c) 2025 PAXECT Interface
 
-This product constitutes the **PAXECT Core Complete** runtime,  
-the reference implementation of the **PAXECT ecosystem**,  
-developed and maintained by **PAXECT Interface** and verified community contributors.
+This software constitutes the **PAXECT Core** runtime —  
+the deterministic, offline-first container engine of the **PAXECT ecosystem**.  
+It is developed and maintained by **PAXECT Interface** and verified community contributors.
 
 Licensed under the **Apache License, Version 2.0** (the “License”).  
 You may not use this file except in compliance with the License.  
@@ -26,10 +26,10 @@ and limitations under the License.
 
 ## Trademark Notice
 
-**PAXECT™**, the **PAXECT Core Complete** name, and the **PAXECT Interface** logo  
+**PAXECT™**, **PAXECT Core**, and the **PAXECT Interface** logo  
 are trademarks of **PAXECT Interface**.  
-Use of these names, marks, or logos without prior written permission is strictly prohibited.  
-Trademark rights are **not** granted by the Apache-2.0 License.
+Use of these names, marks, or logos without prior written permission  
+is strictly prohibited. Trademark rights are **not** granted by the Apache-2.0 License.
 
 ---
 
