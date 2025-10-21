@@ -3,20 +3,16 @@
 </p>
 
 
-[![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](../../stargazers)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
+
+[![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](../../stargazers
 [![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](../../actions)
 [![CodeQL](https://img.shields.io/badge/CodeQL-active-lightgrey.svg)](../../actions)
 [![Issues](https://img.shields.io/badge/Issues-open-blue)](../../issues)
 [![Discussions](https://img.shields.io/badge/Discuss-join-blue)](../../discussions)
 [![Security](https://img.shields.io/badge/Security-responsible%20disclosure-informational)](./SECURITY.md)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
 
 
-- [![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](../../stargazers)
-+ [![Star this repo](https://img.shields.io/badge/⭐%20Star-this%20repo-orange)](https://github.com/PAXECT-Interface/paxect-core/stargazers)
-
-- [![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](../../actions)
-+ [![CI](https://img.shields.io/badge/CI-passing-brightgreen.svg)](https://github.com/PAXECT-Interface/paxect-core/actions)
 
 
 
