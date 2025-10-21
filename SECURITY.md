@@ -28,8 +28,7 @@ Older versions are provided as-is without any security guarantee.
 
 If you discover a security vulnerability, please report it **privately**:
 
-- Email: enterprise@PAXECT-Team@outlook.com
-**(preferred)
+- Email: enterprise@PAXECT-Team@outlook.com (preferred)
 - GitHub: use the “Private vulnerability report” option under *Security → Advisories*
 - Do **not** create public issues or pull requests for unresolved vulnerabilities.
 
