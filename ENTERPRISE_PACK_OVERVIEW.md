@@ -50,8 +50,8 @@ At this stage:
 - We **welcome volunteers and partners** interested in helping define or test enterprise extensions.
 - If you’re exploring integration, reach out via 
 
-[Issues](https://github.com/PAXECT-Interface/PAXECT-Core/issues)  
- [Discussions](https://github.com/PAXECT-Interface/PAXECT-Core/discussions)  
+[Issues](https://github.com/PAXECT-Interface/paxect-core/issues)  
+ [Discussions](https://github.com/PAXECT-Interface/paxect-core/discussions)  
 
 ---
 
