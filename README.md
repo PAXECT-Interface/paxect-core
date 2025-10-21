@@ -14,6 +14,9 @@
 <a href="https://github.com/PAXECT-Interface/paxect-core/releases/latest">
   <img alt="Release" src="https://img.shields.io/github/v/release/PAXECT-Interface/paxect-core?label=core">
 </a>
+<a href="https://github.com/PAXECT-Interface/paxect-core/releases/latest">
+  <img alt="Release" src="https://img.shields.io/github/v/release/PAXECT-Interface/paxect-core?label=core">
+</a>
 
 
 
