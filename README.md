@@ -317,7 +317,7 @@ Sponsorships enable continuous validation, reproducibility testing, and determin
 
  **How to get involved**
 - [Become a GitHub Sponsor](https://github.com/sponsors/PAXECT-Interface)  
-- For enterprise or OEM inquiries: PAXECT-Team@outlook.com
+- For enterprise or OEM inquiries: enterprise@PAXECT-Team@outlook.com
 
 ---
 ## Governance & Ownership
@@ -565,19 +565,6 @@ Sponsorships directly support ongoing cross-platform validation, reproducibility
 > Sponsorships help sustain open innovation — keeping PAXECT free, verifiable, and enterprise-ready.
 
 
-
-
-
-
- **Enterprise Sponsorship Options**
-- Infrastructure validation and cross-platform QA  
-- CI/CD and performance compliance testing  
-- Integration and OEM partnerships  
-
- **How to get involved**
-- [Become a GitHub Sponsor](https://github.com/sponsors/PAXECT-Interface)  
-- For enterprise or OEM inquiries: **enterprise@PAXECT-Team@outlook.**
-
 ---
 ## Governance & Ownership
 - **Ownership:** All PAXECT products and trademarks (PAXECT™ name + logo) remain the property of the Owner.
@@ -586,30 +573,27 @@ Sponsorships directly support ongoing cross-platform validation, reproducibility
 - **Contributions:** PRs are welcome and reviewed by maintainers; merges follow CODEOWNERS + branch protection.
 - **Naming/branding:** Do not use the PAXECT name/logo for derived projects without written permission; see `TRADEMARKS.md`.
 ---
-#  Path to Paid
+## Path to Paid — PAXECT Core Complete
 
-**PAXECT** is built to stay free and open-source at its core.  
-At the same time, we recognize the need for a sustainable model to fund long-term maintenance and enterprise adoption.
+**PAXECT Core Complete** is designed to remain free and open-source at its foundation.  
+At the same time, sustainable funding ensures long-term maintenance, reproducibility validation, and enterprise adoption.
 
 ### Principles
-
-- **Core stays free forever** — no lock-in, no hidden fees.  
-- **Volunteers and researchers**: always free access to source, builds, and discussions.  
-- **Transparency**: clear dates, no surprises.  
-- **Fairness**: individuals stay free; organizations that rely on enterprise features contribute financially.
+- **Core stays free forever** — no lock-in, no hidden fees  
+- **Volunteers and researchers:** always free access to source, builds, and community discussions  
+- **Transparency:** clear public timelines and change announcements  
+- **Fairness:** individuals stay free; organizations that rely on enterprise-grade integrations contribute financially  
 
 ### Timeline
-
-- **Launch phase:** starting from the official **PAXECT product release date**, all modules — including enterprise — will be free for **6 months**.  
-- This free enterprise period applies **globally**, not per individual user or download.  
-- **30 days before renewal:** a decision will be made whether the free enterprise phase is extended for another 6 months.  
-- **Core/baseline model:** always free with updates. The exact definition of this baseline model is still under discussion.
+- **Launch phase:** Beginning with the official PAXECT product release, all modules — including enterprise — are free for the first **6 months**  
+- The free-enterprise period applies **globally**, not per user or organization  
+- **30 days before renewal:** the team and community will decide whether to extend or conclude the free-enterprise phase  
+- **Baseline Core model:** permanently open-source, continuously updated  
 
 ### Why This Matters
-
-- **Motivation:** volunteers know their work has impact and will remain accessible.  
-- **Stability:** enterprises get predictable guarantees and funded maintenance.  
-- **Sustainability:** ensures continuous evolution without compromising openness.
+- **Motivation:** contributors know their work remains valuable and accessible  
+- **Stability:** enterprises gain predictable, verified, and funded support  
+- **Sustainability:** secures continuous innovation without compromising openness
 
 
 
