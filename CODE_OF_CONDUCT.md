@@ -3,7 +3,8 @@
 </p>
 
 
-# Contributor Code of Conduct
+## Contributor Code of Conduct
+
 
 ## Our Standards
 
