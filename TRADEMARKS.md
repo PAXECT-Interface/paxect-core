@@ -12,4 +12,4 @@ or as part of your own commercial product or organization name.
 All forks, derivatives, or redistributions must use **distinct names and visual branding**.
 
 For written permissions or trademark-related inquiries:  
-📧 **contact@PAXECT-team.outlook.com**
+📧 **contact@PAXECT-team@outlook.com**
