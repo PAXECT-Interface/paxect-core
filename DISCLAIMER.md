@@ -42,6 +42,8 @@ The software must not be used for activities that violate privacy laws, export r
 © PAXECT — All rights reserved under applicable trademark and intellectual property laws.  
 This disclaimer applies to all PAXECT repositories and derived works.
 
+
+
 **SPDX-FileCopyrightText:** © 2025 PAXECT Systems  
 **SPDX-License-Identifier:** Apache-2.0
 
