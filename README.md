@@ -366,6 +366,11 @@ Cross-platform, self-tuning, and fully auditable — built for real-world enterp
 It unifies the verified modules — Core, AEAD Hybrid, Polyglot, SelfTune, and Link —  
 into one reproducible, cross-OS runtime with **10 integrated demos** and full observability.
 
+---
+*(Integrated bundle of all official modules — AEAD Hybrid, Polyglot, SelfTune, Link)*
+
+---
+
 ### Core principles
 - **Determinism first** — bit-identical results across systems  
 - **Offline-first** — no network or telemetry unless explicitly enabled  
