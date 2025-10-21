@@ -73,10 +73,7 @@ Questions or requests regarding data limits or enterprise compliance:
 
 ```
 
----
 
-Wil je dat ik nu doorga met het laatste bestand **7️⃣ — `ENTERPRISE_PACK_OVERVIEW.md`** voor **PAXECT Core Complete**?
-```
 
 
 
