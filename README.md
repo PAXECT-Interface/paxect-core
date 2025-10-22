@@ -465,7 +465,7 @@ paxect-core-complete/
 | **paxect_selftune_plugin.py**    | Adaptive ε-greedy self-tuning · resource-aware control · no AI    |
 | **paxect_link_plugin.py**        | Secure inbox/outbox relay · policy validation · offline file sync |
 
-![PAXECT Architecture](paxect_architecture_brand_v18.svg)
+![PAXECT Architecture](docs/paxect_architecture_brand_v18.svg)
 
 
 
