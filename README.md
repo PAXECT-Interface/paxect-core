@@ -624,38 +624,28 @@ Sustainable sponsorship ensures long-term maintenance, reproducibility, and ente
 Copyright © 2025 **PAXECT Systems** — All rights reserved.
 
 
----
-
-
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_33_51.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
 
 
----
-
-
-<p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_33_51.png" alt="PAXECT logo" width="200"/>
-</p>
-
 
 ---
 
-
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_33_51.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
 
 
 
 
 ---
-
-
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_33_51.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
+
+
+
 
 
 
@@ -663,8 +653,9 @@ Copyright © 2025 **PAXECT Systems** — All rights reserved.
 
 
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_33_51.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
+
 
 
 
@@ -672,26 +663,29 @@ Copyright © 2025 **PAXECT Systems** — All rights reserved.
 
 
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_33_51.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
+
 
 
 
 ---
 
-
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_33_51.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
+
 
 
 
 ---
 
-
 <p align="center">
-  <img src="ChatGPT%20Image%202%20okt%202025,%2022_33_51.png" alt="PAXECT logo" width="200"/>
+  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
 </p>
+
+
+
 
 
 ## Keywords & Topics — PAXECT Core Complete v1.0
@@ -746,45 +740,7 @@ paxect-core-complete, deterministic-runtime, reproducible-pipelines, secure-data
 
 
 
----
-<p align="center">
-  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
-</p>
 
-
----
-
-<p align="center">
-  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
-</p>
-
----
-
-<p align="center">
-  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
-</p>
-
----
-
-<p align="center">
-  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
-</p>
-
----
-
-<p align="center">
-  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
-</p>
-
----
-<p align="center">
-  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
-</p>
-
----
-<p align="center">
-  <img src="docs/ChatGPT%20Image%202%20okt%202025,%2022_22_22.png" alt="PAXECT logo" width="200"/>
-</p>
 
 ---
 ## Keywords & Topics
