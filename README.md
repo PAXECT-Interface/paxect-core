@@ -22,6 +22,8 @@
 
 **Status:** v1.0.0 — Initial Public Release — October 22, 2025
 
+" Deterministic, offline-first, and reproducible — built for secure data pipelines and NIS2-ready digital hygiene.”
+
 **Deterministic data container for modern systems:**
 PAXECT Core is a cross-platform, reproducible **`.freq` v42** container with **CRC32 per frame + SHA-256 footer** integrity, plug-and-play with zero dependencies and no vendor lock-in, **streaming Zstandard**, **multi-channel (1–8)** I/O, and full **stdin/stdout** support. Built for **offline**, auditable pipelines and **byte-identical** outcomes across OSes. 
 
