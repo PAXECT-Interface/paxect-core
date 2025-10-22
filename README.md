@@ -18,24 +18,44 @@
 
 
 
-## PAXECT Core
+
+---
+
+#  PAXECT Core — Deterministic Data Container for Modern Systems
 
 **Status:** v1.0.0 — Initial Public Release — October 22, 2025
 
-" Deterministic, offline-first, and reproducible — built for secure data pipelines and NIS2-ready digital hygiene.”
+**“Deterministic, offline-first, and reproducible — built for secure data pipelines and NIS2-ready digital hygiene.”**
 
-**Deterministic data container for modern systems:**
-PAXECT Core is a cross-platform, reproducible **`.freq` v42** container with **CRC32 per frame + SHA-256 footer** integrity, plug-and-play with zero dependencies and no vendor lock-in, **streaming Zstandard**, **multi-channel (1–8)** I/O, and full **stdin/stdout** support. Built for **offline**, auditable pipelines and **byte-identical** outcomes across OSes. 
+**PAXECT Core** is the foundation of the PAXECT ecosystem — a **cross-platform, deterministic, and reproducible data container** built for modern pipelines, research, and enterprise automation.
 
-It pairs cleanly with the wider PAXECT-Core Complete  ecosystem: **AEAD Hybrid** (optional encryption), **Link** (inbox/outbox relay), **Polyglot** (language bridges), and **SelfTune** (runtime guardrails). **Zero telemetry.**
+It implements the **.freq v42 container format**, offering **bit-identical reproducibility** across Linux, macOS, and Windows.
+Each frame is validated using **CRC32 checksums** and finalized with a **SHA-256 footer**, guaranteeing complete end-to-end integrity.
 
-*No AI heuristics, just stable, predictable, and verifiable data handling.*
+Designed for **offline-first environments**, PAXECT Core requires **zero dependencies**, performs **streaming compression via Zstandard**, and supports **multi-channel (1–8) I/O** for parallel deterministic operations.
+It integrates seamlessly with **stdin/stdout**, enabling reproducible automation in both local and distributed systems.
 
-Update — The internal "aes" plugin has been removed. Use the public "AEAD Hybrid" plugin (Hybrid AES‑GCM / ChaCha20‑Poly1305 — fast, zero‑dependencies, cross‑OS). Any screenshots or references to "aes" are outdated.
-## Supported Platforms & Languages
+Built for **secure, auditable, and privacy-preserving pipelines**, PAXECT Core enforces deterministic data flow without telemetry, analytics, or external calls — ensuring true reproducibility and full compliance with **NIS2** and **digital hygiene** principles.
 
-**Operating systems:** Linux (Ubuntu, Debian, Fedora), macOS 13+, Windows 10/11, Android (Termux), iOS (Pyto), FreeBSD/OpenBSD (experimental).
-**Languages:** Official: Python. Via CLI/Polyglot: Node.js, Go. Also tested: Rust, Java, C/C++, C#, Swift, Kotlin, PHP, Ruby, R, Julia, MATLAB, Bash, PowerShell.
+It pairs natively with the **PAXECT Core Complete** ecosystem:
+
+*  **AEAD Hybrid** — for hybrid AES-GCM / ChaCha20-Poly1305 encryption
+*  **Link** — for inbox/outbox deterministic file relay
+*  **Polyglot** — for cross-language interoperability (Python, Node.js, Go)
+*  **SelfTune** — for adaptive runtime guardrails and offline observability
+
+No AI heuristics, no vendor lock-in — just **stable, predictable, and verifiable** data handling.
+
+---
+
+###  Update Notice
+
+The internal “aes” plugin has been deprecated.
+Use the standalone **PAXECT AEAD Hybrid Plugin** instead (Hybrid AES-GCM / ChaCha20-Poly1305 — fast, zero dependencies, and cross-OS).
+Any screenshots or references to “aes” are now obsolete and maintained only for historical context.
+
+---
+
 
 
 **Operating Systems:**  
