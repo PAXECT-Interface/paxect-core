@@ -16,11 +16,9 @@
 </a>
 
 
-
-> 🌐 Learn more about the ecosystem: [PAXECT Universal Bridge](https://github.com/PAXECT-Interface/paxect-universal-bridge)
-
-# 🌐 PAXECT — The Universal Deterministic Bridge
+#  PAXECT — The Universal Deterministic Bridge
 Build once, run anywhere. Connect all operating systems and programming languages through one reproducible, offline-first runtime.
+🌐 Learn more about the ecosystem: [PAXECT Universal Bridge](https://github.com/PAXECT-Interface/paxect-universal-bridge)
 
 ---
 
