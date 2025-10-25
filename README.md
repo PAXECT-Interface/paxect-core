@@ -17,6 +17,7 @@
 
 
 
+> 🌐 Learn more about the ecosystem: [PAXECT Universal Bridge](https://github.com/PAXECT-Interface/paxect-universal-bridge)
 
 
 ---
