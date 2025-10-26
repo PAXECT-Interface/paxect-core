@@ -39,6 +39,15 @@ No cloud, no heuristics — just deterministic precision across bridges.
 
 This is the **engine beneath the PAXECT ecosystem**, powering plugins like **AEAD**, **Polyglot**, **SelfTune**, and **Link** — extending encryption, translation, optimization, and policy layers **without breaking determinism**.
 
+
+## Relationship
+
+- **PAXECT Core** is a **stand-alone** OS-level deterministic bridge (plugin-capable).  
+- **PAXECT Core Complete** is the **curated bundle** that includes Core **plus** the official plugins and demo suite.  
+Use **Core** when you want a minimal, plug-and-play bridge.  
+Use **Core Complete** when you want the full experience (plugins + demos) out of the box.
+
+
 ---
 
 ## Plugins (Built on Core)
