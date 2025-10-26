@@ -34,8 +34,8 @@ Connect all operating systems and programming languages through one reproducible
 
 **PAXECT Core** is the foundation of the PAXECT ecosystem — a **cross-platform, deterministic, and reproducible data container** built for modern pipelines, research, and enterprise automation.
 
-It implements the **.freq v42 container format**, offering **bit-identical reproducibility** across Linux, macOS, and Windows.
-Each frame is validated using **CRC32 checksums** and finalized with a **SHA-256 footer**, guaranteeing complete end-to-end integrity.
+It implements the **.freq v42** container format — a **multi-OS bridge** enabling **in-freq multi-channel (1–8)** execution with **bit-identical reproducibility** across Linux, macOS, and Windows. Each channel frame is verified with **CRC32** and sealed with a **SHA-256** footer, ensuring complete end-to-end integrity.
+
 
 Designed for **offline-first environments**, PAXECT Core requires **zero dependencies**, performs **streaming compression via Zstandard**, and supports **multi-channel (1–8) I/O** for parallel deterministic operations.
 It integrates seamlessly with **stdin/stdout**, enabling reproducible automation in both local and distributed systems.
