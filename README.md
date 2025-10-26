@@ -403,7 +403,7 @@ Copyright © 2025 PAXECT
 </a>
 
 
-# PAXECT Core Complete
+# PAXECT Core Complete 
 **Status:** v1.0.0 — Initial Public Release — October 22, 2025
 
 **The curated PAXECT bundle:** Core + AEAD Hybrid + Polyglot + SelfTune + Link — with **10 integrated demos**, observability, and deterministic performance across OSes.
