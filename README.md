@@ -37,7 +37,6 @@ Through **in-freq multi-channel architecture (1–8)**, it runs parallel data st
 Built on the **.freq v42** container format, each frame is validated by **CRC32** and sealed with **SHA-256**, ensuring mathematical reproducibility at the system level.  
 No cloud, no heuristics — just deterministic precision across bridges.
 
-This is the **engine beneath the PAXECT ecosystem**, powering plugins like **AEAD**, **Polyglot**, **SelfTune**, and **Link** — extending encryption, translation, optimization, and policy layers **without breaking determinism**.
 
 
 ## Relationship
