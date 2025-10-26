@@ -20,9 +20,8 @@
 **Build once, run anywhere.**  
 Connect all operating systems and programming languages through one reproducible, offline-first runtime.  
 
-🔗 Learn more about the ecosystem:  
-👉 [**PAXECT Universal Bridge ›**](https://github.com/PAXECT-Interface/paxect-universal-bridge)
-
+🔗 Explore the ecosystem:  
+👉 [**PAXECT Universal Bridge →**](https://github.com/PAXECT-Interface/paxect-universal-bridge)
 
 ---
 
@@ -38,45 +37,50 @@ Through **in-freq multi-channel architecture (1–8)**, it runs parallel data st
 Built on the **.freq v42** container format, each frame is validated by **CRC32** and sealed with **SHA-256**, ensuring mathematical reproducibility at the system level.  
 No cloud, no heuristics — just deterministic precision across bridges.
 
-This is the **engine beneath the PAXECT ecosystem**, powering plugins like **AEAD**, **Polyglot**, **SelfTune**, and **Link** — extending encryption, translation, optimization, and policy layers without breaking determinism.
-
-
-It pairs natively with the **PAXECT Core Complete** ecosystem:
-
-*  **AEAD Hybrid** — for hybrid AES-GCM / ChaCha20-Poly1305 encryption
-*  **Link** — for inbox/outbox deterministic file relay
-*  **Polyglot** — for cross-language interoperability (Python, Node.js, Go)
-*  **SelfTune** — for adaptive runtime guardrails and offline observability
-
-No AI heuristics, no vendor lock-in — just **stable, predictable, and verifiable** data handling.
+This is the **engine beneath the PAXECT ecosystem**, powering plugins like **AEAD**, **Polyglot**, **SelfTune**, and **Link** — extending encryption, translation, optimization, and policy layers **without breaking determinism**.
 
 ---
 
-###  Update Notice
+## Plugins (Built on Core)
 
-The internal “aes” plugin has been deprecated.
-Use the standalone **PAXECT AEAD Hybrid Plugin** instead (Hybrid AES-GCM / ChaCha20-Poly1305 — fast, zero dependencies, and cross-OS).
-Any screenshots or references to “aes” are now obsolete and maintained only for historical context.
+- **AEAD Hybrid** — hybrid **AES-GCM / ChaCha20-Poly1305** encryption  
+- **Link** — deterministic inbox/outbox file relay  
+- **Polyglot** — cross-language interoperability (Python, Node.js, Go)  
+- **SelfTune** — adaptive runtime guardrails & offline observability
+
+> All plugins preserve the Core’s deterministic guarantees and multi-OS bridge semantics.
 
 ---
 
+## System Support
 
-
-**Operating Systems:**  
+**Operating Systems**  
 - Windows 10/11 (x86_64)  
 - Linux (x86_64)  
 - macOS (Intel & Apple Silicon)  
 - Best-effort: FreeBSD, OpenBSD  
 - Edge devices: ARMv7 (experimental), ARM64 (planned), RISC-V (optional)  
 
-**Languages (via Polyglot Bridge):**  
+**Languages (via Polyglot Bridge)**  
 - Official: Python, Node.js, Go  
 - Also tested: Rust, Java, C#, C/C++, Swift, Kotlin, Ruby, PHP, R, Julia, MATLAB, Bash/PowerShell  
 - Any language that can spawn a process and read/write stdin/stdout
-- 
+
+---
+
+## Docs & Resources
 - [Demo Suite](demos/README.md) — 10 deterministic cross-OS examples  
 - [Test Framework](README_TESTS.md) — validation, coverage, and CI integration  
 - [Security & Compliance](SECURITY.md) — conduct, license, and data policy
+
+---
+
+### Update Notice
+
+The internal **“aes”** plugin has been deprecated.  
+Use the standalone **PAXECT AEAD Hybrid Plugin** instead (Hybrid AES-GCM / ChaCha20-Poly1305 — fast, zero dependencies, cross-OS).  
+Any screenshots or references to **“aes”** are now obsolete and kept only for historical context.
+
 
 ![PAXECT Block 2](docs/paxect_block2_EN_why_orange_bars_fit.svg)
 
